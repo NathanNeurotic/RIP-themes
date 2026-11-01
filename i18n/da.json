@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Udseende | Kræver RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Lav dit eget"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Temaerne"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Gør hvert billede til en 8-bit palet-PNG: RIPPS2 holder dem som 8-bit teksturer, en fjerdedel af VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) er hele motoren, som i RIPPS2 build 100**, det hele inden for rækkevidde fra en temamappe:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### På konsollen"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Lyd** | En `sound/`-mappe med en hvilken som helst af de 15 hændelser (opstart, markør, bekræft, side ind og ud, start, disk...) og `sound/bgm.ogg` til egen musik. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(bygget ind i RIPPS2 fra build 91: vælg det under Indstillinger > Brugerflade > Tema)* | Adapts frostede skærm og sidebjælke med spillene som et centreret 4x2-gitter af omslag; valget ånder med et blødt skær og vipper med højre pind, spil uden omslag viser deres serienummer i pixelskrift, og Cirkel skifter mellem kilderne. Et hold på højre pind i 0,42 s vender den valgte æske om på bagsiden (build 97; den bliver vendt), sider glider ind og ud med L2 / R2 eller ved kanten af en række, spillets disk popper ind, når det starter, og det valgte spils navn står under gitteret i RIPPS2 Sleek Bold. Det ligger i ELF’en, så det er ikke længere i denne pakke. | indbygget |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (indbygget): retningsknappen bevæger sig rundt i gitteret, kanten af en række vender siden; **Cirkel** skifter mellem kilderne (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Højre pind** vipper grafikken: hele infosiden som ét plan, Adapts æske og disk, RIPGRIDs valgte omslag."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Alt hvad RIPPS2s motor gør for et tema: nøgler, elementer, skrifttyper, effekter, billeder, lyde. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Hold SELECT i 4,2 sekunder** på spillisten for at skifte til næste tema (et kort tryk opdaterer stadig listen)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2-temaer</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Hver `conf_theme.cfg` her begynder med sit oprettelseshoved (navn, skaber, oprettelses- og opdateringsdato, krediteringer), så **nøgleordlisten** ([docs/key_glossary.cfg](docs/key_glossary.cfg): hver nøgle et tema kan bruge, som kommentarer), og så temaet. Kopiér ordlisten ind i dit eget temas konfiguration for at have den ved hånden."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Reglerne: læs dem først. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Bevægelse** | Vip med højre pind, der flytter en hel side som ét ark (eller ét omslag), overgange mellem listen og infosiden, grafik der glider ind, beskrivelser der ruller, diasshow på infosiden, kildens navn som besked. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Udseende** | Frostede glaspaneler over hvert spils grafik, et frostet lag over hele skærmen, sidebjælker, klart glas, et omslags-**gitter**, RIPPS2s æske med spejling, 4:3-skærmbilleder på 16:9, bredt beskårne baggrunde, tårne til eller fra. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Hvert udseende i RIPPS2 er én temamappe væk: en <code>conf_theme.cfg</code>, 8-bit PNG’er, skrifttyper og lyde.<br>\nIngen ELF at bygge om. Stol på buildet, giv det et tema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Giv RIPPS2 et tema uden at røre koden.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Skrifttyper** | 16 skriftpladser, din egen `.ttf` eller RIPPS2s indbyggede skrifter, med versaler eller ej; de pladser RIPPS2 tegner sine egne sider med, så et tema også giver menuer, kategoribjælken og visningsordet ny stil. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47s Adapt (RiptOPL): hvert spils grafik under frostet glas (zoomet, ikke strakt, i 16:9) med Adapts sidebjælke som en frostet stribe til venstre, spillets omslag i RIPPS2s æske med sin spejling og disken i den ene side, listen på klart glas i den anden (Rx bytter listen og æsken om og sætter LAUNCH DISC til højre i bjælken, over sin disk). Disken sidder altid lige under LAUNCH DISC. Infoside på klart glas med 4:3-skærmbilleder, der vipper med højre pind som ét ark; sideovergange, Indstillinger over søjlerne, ingen tårne på spilsiderne. Ingen egne lyde (fra 12-10-2026): dine rips i AUDIO-mappen spiller. Kildens navn popper ind (fra build 81 som en besked: ALL GAMES, HDD GAMES...). Fra udgave 113 er de tre kategorier glyffer i den frostede sidebjælke (`category_layout=sidebar`, build 113): Venstre på listen åbner hver enkelts skuffe ved siden af. Fra udgave 115 er hvert tema sin `conf_theme.cfg` og sin `SCR43.png`. Listens æske viser forsiden og så bagsiden, med overtoning; infosiden sætter sin tekst i modsat side af listen (Adapt til højre, Adapt Rx til venstre). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Motoren nedenunder (RiptOPLs reference). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3 med Pillow og numpy (`pip install pillow numpy`) til `png8.py`. Se det så for alvor: i PCSX2 (System > Start File, RIPPS2.elf) med temaet på dets virtuelle drev, eller på en PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Billeder** | Ethvert af RIPPS2s egne billeder (knapglyffer, mærker, indlæsningstegn, det flyvende mærke, PS1- / PS2-logoerne) udskiftet ved at levere en PNG med samme navn. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Vil det indlæses? Nummerering, typer, manglende filer, nøgler på forkert sted, værdier RIPPS2 kender, 8-bit billeder. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Hent temaerne](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; udgave 128, 01-11-2026: infosidens bedømmelsesstjerner i RIPFLOWs størrelse, 143 x 18; to filer pr. tema, `conf_theme.cfg` og `SCR43.png`, alt andet er RIPPS2s eget; én udgivelse, altid den nyeste) | kræver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller nyere (dens indbyggede skrift, mærker, æske og ventetegn) | **RIPGRID** og **RIPFLOW** er bygget ind i RIPPS2: intet at kopiere | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | vis dit tema eller spørg om et i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Skitserer et temas spejlvendte layout. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Farve** | Temaets farver og dets eget **Colors and More**: farvetema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategoribjælke, hints, glyffer, kategoriernes rækkefølge. Brugeren har altid det sidste ord. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Installation: kopiér en `thm_...`-mappe ind i en `THM`-mappe på dit drev (USB, HDD, MMCE, memorycard), som med ethvert OPL-tema, og vælg det så i RIPPS2 under Indstillinger > Brugerflade > Tema, eller hold SELECT på spillisten i 4,2 sekunder for at skifte mellem temaerne. RIPGRID og RIPFLOW er der allerede."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Skriver Adapt og Adapt Rx ud fra ét layout, hver med sit hoved og ordlisten (redigér den, ikke deres `conf_theme.cfg`; sæt dens `EDITION_DATE`, når de ændres). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Hvad et tema kan |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Sættet"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Skrevet til både mennesker og kodeagenter: <a href=\"AGENTS.md\">AGENTS.md</a> rummer reglerne (<code>CLAUDE.md</code>, <code>GEMINI.md</code> og <code>.github/copilot-instructions.md</code> peger på den), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> alt hvad motoren gør, og værktøjerne tjekker et tema, før det kommer i nærheden af en PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Hver nøgle på én side, som `#`-kommentarer: ordlisten øverst i hver `conf_theme.cfg` her. |"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Theme | Look | Braucht RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Mach dein eigenes"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Die Themes"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Macht jedes Bild zu einem 8-Bit-Paletten-PNG: RIPPS2 hält sie als 8-Bit-Texturen, ein Viertel des VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) ist die ganze Engine, Stand RIPPS2 Build 100**, alles aus einem Theme-Ordner erreichbar:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Auf der Konsole"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Sound** | Ein `sound/`-Ordner mit beliebigen der 15 Ereignisse (Start, Cursor, Bestätigen, Seite rein und raus, Spielstart, Disc...) und `sound/bgm.ogg` für eigene Musik. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(seit Build 91 in RIPPS2 eingebaut: wähle es unter Einstellungen > Oberfläche > Theme)* | Adapts Milchglasbildschirm und Seitenleiste mit den Spielen als zentriertes 4x2-Cover-Raster; die Auswahl atmet mit sanftem Leuchten und kippt mit dem rechten Stick, Spiele ohne Cover zeigen ihre Seriennummer in Pixelschrift, und Kreis schaltet durch die Quellen. Hältst du den rechten Stick 0,42 s, dreht sich die gewählte Hülle auf ihre Rückseite (Build 97; sie bleibt gedreht), Seiten gleiten mit L2 / R2 oder am Rand einer Reihe hinein und hinaus, die Disc des Spiels springt beim Start herein, und der Name des gewählten Spiels steht in RIPPS2 Sleek Bold unter dem Raster. Es steckt im ELF und ist deshalb nicht mehr in diesem Paket. | eingebaut |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (eingebaut): das Steuerkreuz bewegt sich durch das Raster, der Rand einer Reihe blättert die Seite um; **Kreis** schaltet durch die Quellen (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Der rechte Stick** kippt die Grafik: die ganze Infoseite als eine Ebene, Adapts Hülle und Disc, RIPGRIDs gewähltes Cover."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Alles, was RIPPS2s Engine für ein Theme tut: Schlüssel, Elemente, Schriften, Effekte, Bilder, Sounds. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Halte SELECT 4,2 Sekunden** auf der Spieleliste, um zum nächsten Theme zu wechseln (ein kurzer Druck aktualisiert weiterhin die Liste)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2-Themes</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Jede `conf_theme.cfg` hier beginnt mit ihrem Erstellungskopf (Name, Autor, Erstell- und Änderungsdatum, Credits), dann dem **Schlüssel-Glossar** ([docs/key_glossary.cfg](docs/key_glossary.cfg): jeder Schlüssel, den ein Theme nutzen kann, als Kommentar), dann dem Theme. Kopiere das Glossar in die Konfiguration deines eigenen Themes, um es griffbereit zu haben."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Die Regeln: zuerst lesen. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Bewegung** | Kippen mit dem rechten Stick, das eine ganze Seite als ein Blatt bewegt (oder ein Cover), Übergänge zwischen Liste und Infoseite, sanft einblendende Grafik, laufende Beschreibungen, Diashows auf der Infoseite, der Quellenname als Toast. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Look** | Milchglasflächen über der Grafik jedes Spiels, eine bildschirmfüllende Milchglasebene, Seitenleisten, klares Glas, ein Cover-**Raster**, RIPPS2s Hülle mit Spiegelung, 4:3-Screenshots auf 16:9, breit beschnittene Hintergründe, Türme an oder aus. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Jeder Look in RIPPS2 ist nur einen Theme-Ordner entfernt: eine <code>conf_theme.cfg</code>, 8-Bit-PNGs, Schriften und Sounds.<br>\nKein ELF neu bauen. Verlass dich auf den Build, gib ihm ein Theme.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Gestalte RIPPS2, ohne seinen Code anzufassen.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Schriften** | 16 Schriftplätze, deine `.ttf` oder RIPPS2s eingebaute Schriften, in Großbuchstaben oder nicht; die Plätze, mit denen RIPPS2 seine eigenen Seiten zeichnet, sodass ein Theme auch Menüs, Kategorieleiste und Ansichtswort umgestaltet. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47s Adapt (RiptOPL): die Grafik jedes Spiels unter Milchglas (vergrößert, nicht gestreckt, in 16:9) mit Adapts Seitenleiste als Milchglasstreifen links, das Cover des Spiels in RIPPS2s Hülle mit Spiegelung und die Disc auf der einen Seite, die Liste auf klarem Glas auf der anderen (Rx tauscht Liste und Hülle und setzt LAUNCH DISC rechts an die Leiste, über ihre Disc). Die Disc sitzt immer direkt unter LAUNCH DISC. Infoseite auf klarem Glas mit 4:3-Screenshots, die mit dem rechten Stick als ein Blatt kippt; Seitenübergänge, Einstellungen über den Säulen, keine Türme auf den Spielseiten. Keine eigenen Sounds (seit 12.10.2026): es spielen die Rips aus deinem AUDIO-Ordner. Der Quellenname springt herein (ab Build 81 als Toast: ALL GAMES, HDD GAMES...). Ab Edition 113 sind die drei Kategorien Glyphen in der Milchglas-Seitenleiste (`category_layout=sidebar`, Build 113): Links auf der Liste öffnet die Schublade jeder Kategorie daneben. Ab Edition 115 ist jedes Theme seine `conf_theme.cfg` und seine `SCR43.png`. Die Hülle der Liste zeigt das Cover, dann die Rückseite, überblendend; die Infoseite setzt ihren Text auf die andere Seite als die Liste (Adapt rechts, Adapt Rx links). | Build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Die Engine darunter (RiptOPLs Referenz). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, mit Pillow und numpy (`pip install pillow numpy`) für `png8.py`. Dann sieh es dir echt an: in PCSX2 (System > Start File, RIPPS2.elf) mit dem Theme auf seinem virtuellen Laufwerk, oder auf einer PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Bilder** | Jedes von RIPPS2s eigenen Bildern (Tastenglyphen, Abzeichen, Ladeanzeigen, das fliegende Zeichen, die PS1- / PS2-Logos), ersetzt durch ein mitgeliefertes PNG gleichen Namens. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Lädt es? Nummerierung, Typen, fehlende Dateien, falsch platzierte Schlüssel, Werte, die RIPPS2 kennt, 8-Bit-Bilder. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Die Themes herunterladen](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; Edition 128, 01.11.2026: die Bewertungssterne der Infoseite in RIPFLOW-Größe, 143 x 18; zwei Dateien pro Theme, `conf_theme.cfg` und `SCR43.png`, alles andere ist RIPPS2s eigenes; ein Release, immer das neueste) | braucht [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) oder neuer (seine eingebaute Schrift, Abzeichen, Hülle und Ladezeichen) | **RIPGRID** und **RIPFLOW** sind in RIPPS2 eingebaut: nichts zu kopieren | [RIPPS2](https://github.com/akilluminati47/RIPPS2), das PS2-Frontend | zeig dein Theme oder frag nach einem im [RIPPS2-Thread auf psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Entwirft das spiegelverkehrte Layout eines Themes. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Farbe** | Die Farben des Themes und sein eigenes **Colors and More**: Farbthema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), Kategorieleiste, Hinweise, Glyphen, Reihenfolge der Kategorien. Das letzte Wort hat immer der Nutzer. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Installation: kopiere einen `thm_...`-Ordner in einen `THM`-Ordner auf deinem Laufwerk (USB, HDD, MMCE, Memory Card), wie bei jedem OPL-Theme, und wähle es dann in RIPPS2 unter Einstellungen > Oberfläche > Theme, oder halte SELECT auf der Spieleliste 4,2 Sekunden, um durch die Themes zu schalten. RIPGRID und RIPFLOW sind schon da."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Schreibt Adapt und Adapt Rx aus einem Layout, jedes mit seinem Kopf und dem Glossar (bearbeite dieses, nicht ihre `conf_theme.cfg`; setze sein `EDITION_DATE`, wenn sie sich ändern). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Was ein Theme kann |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Das Kit"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Geschrieben für Menschen und Coding-Agenten gleichermaßen: <a href=\"AGENTS.md\">AGENTS.md</a> enthält die Regeln (<code>CLAUDE.md</code>, <code>GEMINI.md</code> und <code>.github/copilot-instructions.md</code> verweisen darauf), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> alles, was die Engine tut, und die Werkzeuge prüfen ein Theme, bevor es einer PS2 nahekommt.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Jeder Schlüssel auf einer Seite, als `#`-Kommentare: das Glossar oben in jeder `conf_theme.cfg` hier. |"
+ }
+}

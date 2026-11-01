@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Izgled | Treba RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Napravite svoju"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Teme"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Pretvara svaku sliku u 8-bitni PNG s paletom: RIPPS2 ih drži kao 8-bitne teksture, četvrtinu VRAM-a. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) je cijeli pogon, prema RIPPS2 buildu 100**, sve dostupno iz mape teme:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Na konzoli"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Zvuk** | Mapa `sound/` s bilo kojim od 15 događaja (pokretanje, pokazivač, potvrda, ulaz i izlaz stranice, pokretanje igre, disk...) i `sound/bgm.ogg` za vlastitu glazbu. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(ugrađen u RIPPS2 od builda 91: odaberite ga u Postavke > Sučelje > Tema)* | Adaptov mutni zaslon i bočna traka s igrama u centriranoj mreži omota 4x2; odabir diše blagim sjajem i naginje se desnom palicom, igre bez omota pokazuju serijski broj pikselnim slovima, a Krug izmjenjuje izvore. Držanje desne palice 0,42 s okreće odabranu kutiju na poleđinu (build 97; ostaje okrenuta), stranice klize unutra i van s L2 / R2 ili na rubu reda, disk igre iskoči pri pokretanju, a ime odabrane igre stoji ispod mreže u RIPPS2 Sleek Bold. Dolazi u ELF-u, pa ga više nema u ovom paketu. | ugrađen |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (ugrađen): križ se kreće po mreži, rub reda okreće stranicu; **Krug** izmjenjuje izvore (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Desna palica** naginje sliku: cijelu stranicu informacija kao jednu ravninu, Adaptovu kutiju i disk, RIPGRID-ov odabrani omot."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Sve što RIPPS2-ov pogon radi za temu: ključevi, elementi, fontovi, efekti, slike, zvukovi. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Držite SELECT 4,2 sekunde** na popisu igara za prelazak na sljedeću temu (kratki pritisak i dalje osvježava popis)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2 teme</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Svaki `conf_theme.cfg` ovdje počinje zaglavljem nastanka (ime, autor, datumi nastanka i ažuriranja, zasluge), zatim **pojmovnikom ključeva** ([docs/key_glossary.cfg](docs/key_glossary.cfg): svaki ključ koji tema može koristiti, kao komentari), zatim temom. Kopirajte pojmovnik u konfiguraciju svoje teme da vam bude pri ruci."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Pravila: pročitajte prvo. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Pokret** | Naginjanje desnom palicom koje pomiče cijelu stranicu kao jedan list (ili jedan omot), prijelazi između popisa i stranice informacija, slike koje ulaze glatko, opisi koji se pomiču, dijaprojekcije na stranici informacija, ime izvora kao obavijest. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Izgled** | Ploče od mutnog stakla preko slike svake igre, mutni sloj preko cijelog zaslona, bočne trake, prozirno staklo, **mreža** omota, RIPPS2 kutija s odrazom, snimke 4:3 na 16:9, široko obrezane pozadine, tornjevi uključeni ili ne. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Svaki izgled RIPPS2 udaljen je jednu mapu teme: <code>conf_theme.cfg</code>, 8-bitni PNG-ovi, fontovi i zvukovi.<br>\nNema ponovne izrade ELF-a. Pouzdajte se u build, dajte mu temu.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Uredite RIPPS2 bez diranja u njegov kod.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Fontovi** | 16 mjesta za fontove, vaš `.ttf` ili RIPPS2-ova ugrađena pisma, velikim slovima ili ne; mjesta kojima RIPPS2 crta svoje stranice, pa tema mijenja i stil izbornika, trake kategorija i riječi prikaza. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Adapt autora akilluminati47 (RiptOPL): slika svake igre pod mutnim staklom (uvećana, ne razvučena, u 16:9) s Adaptovom bočnom trakom kao mutnom prugom lijevo, omot igre u RIPPS2 kutiji s odrazom i disk s jedne strane, popis na prozirnom staklu s druge (Rx zamijeni popis i kutiju i stavi LAUNCH DISC desno u traku, iznad diska). Disk je uvijek odmah ispod LAUNCH DISC. Stranica informacija na prozirnom staklu sa snimkama 4:3, koja se naginje desnom palicom kao jedan list; prijelazi između stranica, Postavke iznad stupova, bez tornjeva na stranicama igara. Bez vlastitih zvukova (od 12. 10. 2026.): sviraju vaši zvukovi izvučeni u mapu AUDIO. Ime izvora iskoči (od builda 81 kao obavijest: ALL GAMES, HDD GAMES...). Od izdanja 113 tri su kategorije glifovi u mutnoj bočnoj traci (`category_layout=sidebar`, build 113): Lijevo na popisu otvara ladicu svake pokraj nje. Od izdanja 115 svaka je tema njezin `conf_theme.cfg` i njezin `SCR43.png`. Kutija na popisu pokazuje prednju pa stražnju stranu, s pretapanjem; stranica informacija stavlja tekst na suprotnu stranu od popisa (Adapt desno, Adapt Rx lijevo). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Pogon ispod (RiptOPL-ova referenca). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3 s Pillowom i numpyjem (`pip install pillow numpy`) za `png8.py`. Zatim ga pogledajte uživo: u PCSX2 (System > Start File, RIPPS2.elf) s temom na virtualnom disku, ili na PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Slike** | Bilo koja RIPPS2-ova slika (glifovi tipki, značke, pokazatelji učitavanja, leteći znak, logotipi PS1 / PS2) zamijenjena prilaganjem PNG-a istog imena. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Hoće li se učitati? Numeriranje, tipovi, datoteke koje nedostaju, ključevi na krivom mjestu, vrijednosti koje RIPPS2 zna, 8-bitne slike. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Preuzmi teme](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; izdanje 128, 1. 11. 2026.: zvjezdice ocjene na stranici informacija u veličini RIPFLOW-a, 143 x 18; dvije datoteke po temi, `conf_theme.cfg` i `SCR43.png`, sve ostalo je RIPPS2-ovo; jedno izdanje, uvijek najnovije) | treba [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ili noviji (njegov ugrađeni font, značke, kutiju i oznaku čekanja) | **RIPGRID** i **RIPFLOW** ugrađeni su u RIPPS2: ništa za kopirati | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end za PS2 | pokažite svoju temu ili pitajte o nekoj u [RIPPS2 temi na psx-placeu](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Skicira zrcalni raspored teme. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Boja** | Boje teme i njezin vlastiti **Colors and More**: tema boja (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), traka kategorija, savjeti, glifovi, redoslijed kategorija. Posljednju riječ uvijek ima korisnik. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Instalacija: kopirajte mapu `thm_...` u mapu `THM` na svom uređaju (USB, HDD, MMCE, memorijska kartica), kao za svaku OPL temu, pa je odaberite u RIPPS2 u Postavke > Sučelje > Tema, ili držite SELECT na popisu igara 4,2 sekunde za prolaz kroz teme. RIPGRID i RIPFLOW već su ondje."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Zapisuje Adapt i Adapt Rx iz jednog rasporeda, svaki sa zaglavljem i pojmovnikom (uređujte njega, ne njihov `conf_theme.cfg`; postavite njegov `EDITION_DATE` kad se mijenjaju). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Što tema može |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Komplet"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Napisano i za ljude i za programske agente: <a href=\"AGENTS.md\">AGENTS.md</a> sadrži pravila (<code>CLAUDE.md</code>, <code>GEMINI.md</code> i <code>.github/copilot-instructions.md</code> upućuju na njega), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> sve što pogon radi, a alati provjere temu prije nego što se približi PS2-u.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Svaki ključ na jednoj stranici, kao komentari `#`: pojmovnik na vrhu svakog `conf_theme.cfg` ovdje. |"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Aspecto | Require RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Fai o teu"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Os temas"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Converte cada imaxe nun PNG de paleta de 8 bits: RIPPS2 gárdaas coma texturas de 8 bits, un cuarto da VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) é o motor enteiro, á data da build 100 de RIPPS2**, todo accesible dende un cartafol de tema:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Na consola"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Son** | Un cartafol `sound/` con calquera dos 15 eventos (arranque, cursor, confirmar, entrar e saír de páxina, lanzamento, disco...) e `sound/bgm.ogg` para a súa propia música. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(integrado en RIPPS2 dende a build 91: escóllelo en Axustes > Interface > Tema)* | A pantalla esmerilada e a barra lateral de Adapt cos xogos nunha grella de portadas 4x2, centrada; a selección respira cun brillo suave e inclínase co stick dereito, os xogos sen portada amosan o seu número de serie en letra pixelada, e Círculo percorre as orixes. Manter o stick dereito 0,42 s dálle a volta á carcasa escollida ata a contraportada (build 97; queda virada), as páxinas entran e saen con L2 / R2 ou no bordo dunha fila, o disco do xogo aparece ao lanzalo, e o nome do xogo escollido vai baixo a grella en RIPPS2 Sleek Bold. Vén dentro do ELF, así que xa non está neste paquete. | integrado |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (integrado): a cruceta móvese pola grella, o bordo dunha fila pasa a páxina; **Círculo** percorre as orixes (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **O stick dereito** inclina a arte: toda a páxina de información coma un só plano, a carcasa e o disco de Adapt, a portada escollida de RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Todo o que fai o motor de RIPPS2 por un tema: claves, elementos, fontes, efectos, imaxes, sons. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Mantén SELECT 4,2 segundos** na lista de xogos para pasar ao seguinte tema (unha pulsación rápida segue a refrescar a lista)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Temas de RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Cada `conf_theme.cfg` de aquí comeza coa súa cabeceira de creación (nome, autor, datas de creación e actualización, créditos), logo o **glosario de claves** ([docs/key_glossary.cfg](docs/key_glossary.cfg): cada clave que pode usar un tema, coma comentarios), e logo o tema. Copia o glosario na configuración do teu propio tema para telo a man."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | As regras: leas primeiro. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Movemento** | Inclinación co stick dereito que move unha páxina enteira coma unha folla (ou unha portada), transicións entre a lista e a páxina de información, arte que entra suave, descricións que se desprazan, presentacións na páxina de información, o nome da orixe coma aviso. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Aspecto** | Paneis de vidro esmerilado sobre a arte de cada xogo, unha capa esmerilada a pantalla completa, barras laterais, vidro transparente, unha **grella** de portadas, a carcasa de RIPPS2 con reflexo, capturas 4:3 en 16:9, fondos recortados en largo, torres si ou non. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Cada aspecto de RIPPS2 está a un cartafol de tema: un <code>conf_theme.cfg</code>, PNG de 8 bits, fontes e sons.<br>\nNada de recompilar o ELF. Confía na compilación, dálle tema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Dálle o teu estilo a RIPPS2 sen tocar o seu código.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Fontes** | 16 rañuras de fonte, o teu `.ttf` ou as fontes integradas de RIPPS2, en maiúsculas ou non; as rañuras coas que RIPPS2 debuxa as súas propias páxinas, así que un tema tamén reestiliza os menús, a barra de categorías e a palabra de vista. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | O Adapt de akilluminati47 (RiptOPL): a arte de cada xogo baixo vidro esmerilado (ampliada, non estirada, en 16:9) coa barra lateral de Adapt como franxa esmerilada á esquerda, a portada do xogo na carcasa de RIPPS2 co seu reflexo e o disco nun lado, e a lista sobre vidro transparente no outro (Rx intercambia a lista e a carcasa, e pon LAUNCH DISC á dereita da barra, sobre o seu disco). O disco queda sempre xusto debaixo de LAUNCH DISC. Páxina de información sobre vidro transparente con capturas 4:3, que se inclina co stick dereito coma unha soa folla; transicións entre páxinas, Axustes sobre os piares, sen torres nas páxinas de xogos. Sen sons propios (dende o 12/10/2026): soan os que ripeaches no teu cartafol AUDIO. O nome da orixe aparece de golpe (dende a build 81 coma aviso: ALL GAMES, HDD GAMES...). Dende a edición 113 as tres categorías son glifos na barra lateral esmerilada (`category_layout=sidebar`, build 113): Esquerda na lista abre o caixón de cada unha ao seu carón. Dende a edición 115 cada tema é o seu `conf_theme.cfg` e o seu `SCR43.png`. A carcasa da lista amosa a portada e logo a contraportada, en esvaecemento; a páxina de información pon o texto no lado contrario ao da lista (Adapt á dereita, Adapt Rx á esquerda). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | O motor de debaixo (a referencia de RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, con Pillow e numpy (`pip install pillow numpy`) para `png8.py`. Despois mírao de verdade: en PCSX2 (System > Start File, RIPPS2.elf) co tema na súa unidade virtual, ou nunha PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Imaxes** | Calquera imaxe propia de RIPPS2 (glifos de botóns, insignias, indicadores de carga, a marca voadora, os logotipos de PS1 / PS2) substituída incluíndo un PNG co mesmo nome. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Cargará? Numeración, tipos, ficheiros que faltan, claves fóra de sitio, valores que RIPPS2 coñece, imaxes de 8 bits. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Descarga os temas](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edición 128, 01/11/2026: as estrelas de valoración da páxina de información ao tamaño de RIPFLOW, 143 x 18; dous ficheiros por tema, `conf_theme.cfg` e `SCR43.png`, o resto é de RIPPS2; unha soa versión, sempre a máis nova) | require [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ou posterior (a súa fonte integrada, insignias, carcasa e marca de espera) | **RIPGRID** e **RIPFLOW** veñen dentro de RIPPS2: nada que copiar | [RIPPS2](https://github.com/akilluminati47/RIPPS2), o front end de PS2 | amosa o teu tema ou pregunta por un no [fío de RIPPS2 en psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Esboza a disposición ao outro lado dun tema. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Cor** | As cores do tema e o seu propio **Colors and More**: tema de cor (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), barra de categorías, pistas, glifos, orde das categorías. A última palabra tena sempre o usuario. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Instalación: copia un cartafol `thm_...` dentro dun cartafol `THM` na túa unidade (USB, HDD, MMCE, tarxeta de memoria), coma con calquera tema de OPL, e logo escóllelo en Axustes > Interface > Tema de RIPPS2, ou mantén SELECT na lista de xogos 4,2 segundos para ir pasando polos temas. RIPGRID e RIPFLOW xa están aí."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Escribe Adapt e Adapt Rx a partir dunha disposición, cada un coa súa cabeceira e o glosario (edita este, non os seus `conf_theme.cfg`; pon o seu `EDITION_DATE` cando cambien). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | O que pode facer un tema |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## O kit"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Escrito tanto para persoas coma para axentes de programación: <a href=\"AGENTS.md\">AGENTS.md</a> ten as regras (<code>CLAUDE.md</code>, <code>GEMINI.md</code> e <code>.github/copilot-instructions.md</code> remiten a el), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> todo o que fai o motor, e as ferramentas revisan un tema antes de que se achegue a unha PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Todas as claves nunha páxina, coma comentarios `#`: o glosario ao principio de cada `conf_theme.cfg` de aquí. |"
+ }
+}

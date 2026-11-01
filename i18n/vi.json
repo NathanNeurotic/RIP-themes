@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Giao diện | Diện mạo | Cần RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Tự làm giao diện"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Các giao diện"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Biến mọi ảnh thành PNG bảng màu 8 bit: RIPPS2 giữ chúng như texture 8 bit, một phần tư VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) là toàn bộ engine, tính đến RIPPS2 build 100**, tất cả đều dùng được từ một thư mục giao diện:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Trên máy"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Âm thanh** | Thư mục `sound/` với bất kỳ sự kiện nào trong 15 sự kiện (khởi động, con trỏ, xác nhận, vào và ra trang, khởi chạy, đĩa...) và `sound/bgm.ogg` cho nhạc riêng. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(có sẵn trong RIPPS2 từ build 91: chọn ở Cài đặt > Giao diện > Chủ đề)* | Màn hình kính mờ và thanh bên của Adapt với các trò chơi trong lưới bìa 4x2, căn giữa; mục chọn \"thở\" với ánh sáng dịu và nghiêng bằng cần phải, trò chơi không có bìa hiện số sê-ri bằng chữ pixel, và Tròn chuyển nguồn. Giữ cần phải 0,42 giây sẽ lật hộp đã chọn sang bìa sau (build 97; giữ nguyên trạng thái lật), các trang trượt vào ra bằng L2 / R2 hoặc ở mép một hàng, đĩa trò chơi bật ra khi khởi chạy, và tên trò chơi đã chọn nằm dưới lưới bằng RIPPS2 Sleek Bold. Nó có sẵn trong ELF, nên không còn trong gói này. | có sẵn |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (có sẵn): phím điều hướng di chuyển trong lưới, mép một hàng sẽ lật trang; **Tròn** chuyển nguồn (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Cần phải** làm nghiêng hình: cả trang thông tin như một mặt phẳng, hộp và đĩa của Adapt, bìa đã chọn của RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Mọi thứ engine của RIPPS2 làm cho một giao diện: khóa, thành phần, phông chữ, hiệu ứng, hình ảnh, âm thanh. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Giữ SELECT 4,2 giây** trên danh sách trò chơi để chuyển sang giao diện tiếp theo (bấm nhanh vẫn làm mới danh sách)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Giao diện RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Mỗi `conf_theme.cfg` ở đây mở đầu bằng phần đầu tạo (tên, người làm, ngày tạo và ngày cập nhật, lời cảm ơn), sau đó là **bảng thuật ngữ khóa** ([docs/key_glossary.cfg](docs/key_glossary.cfg): mọi khóa mà một giao diện có thể dùng, dưới dạng chú thích), rồi đến giao diện. Hãy chép bảng thuật ngữ vào cấu hình giao diện của bạn để luôn có sẵn."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Các quy tắc: đọc trước tiên. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Chuyển động** | Nghiêng bằng cần phải để di chuyển cả trang như một tờ giấy (hoặc một bìa), chuyển cảnh giữa danh sách và trang thông tin, ảnh hiện vào nhẹ nhàng, mô tả cuộn, trình chiếu trên trang thông tin, tên nguồn dưới dạng thông báo. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Diện mạo** | Các tấm kính mờ trên ảnh của mỗi trò chơi, một lớp mờ toàn màn hình, thanh bên, kính trong, một **lưới** bìa, hộp RIPPS2 có phản chiếu, ảnh chụp 4:3 trên 16:9, nền cắt rộng, có hay không có tháp. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Mọi diện mạo của RIPPS2 chỉ cách một thư mục giao diện: một <code>conf_theme.cfg</code>, ảnh PNG 8 bit, phông chữ và âm thanh.<br>\nKhông phải dựng lại ELF. Tin vào bản dựng, khoác giao diện cho nó.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Đổi giao diện RIPPS2 mà không đụng đến mã nguồn.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Phông chữ** | 16 vị trí phông, `.ttf` của bạn hoặc phông tích hợp của RIPPS2, viết hoa hay không; chính các vị trí RIPPS2 dùng để vẽ trang của nó, nên một giao diện cũng đổi kiểu cho menu, thanh danh mục và từ chế độ xem. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Adapt của akilluminati47 (RiptOPL): ảnh của từng trò chơi dưới kính mờ (phóng to, không kéo giãn, ở 16:9) với thanh bên của Adapt là một dải mờ bên trái, bìa trò chơi trong hộp RIPPS2 kèm bóng phản chiếu và đĩa ở một bên, danh sách trên kính trong ở bên kia (Rx đổi chỗ danh sách và hộp, và đặt LAUNCH DISC bên phải thanh, phía trên đĩa). Đĩa luôn nằm ngay dưới LAUNCH DISC. Trang thông tin trên kính trong với ảnh chụp 4:3, nghiêng bằng cần phải như một tờ giấy; chuyển cảnh giữa các trang, Cài đặt phía trên các cột, không có tháp ở trang trò chơi. Không có âm thanh riêng (từ 12/10/2026): âm thanh bạn trích vào thư mục AUDIO sẽ phát. Tên nguồn bật ra (từ build 81 dưới dạng thông báo: ALL GAMES, HDD GAMES...). Từ phiên bản 113, ba danh mục là các glyph trên thanh bên kính mờ (`category_layout=sidebar`, build 113): bấm Trái trong danh sách sẽ mở ngăn kéo của từng mục bên cạnh. Từ phiên bản 115, mỗi giao diện chỉ là `conf_theme.cfg` và `SCR43.png` của nó. Hộp đĩa trong danh sách hiện bìa trước rồi bìa sau, chuyển mờ; trang thông tin đặt chữ ở phía đối diện với danh sách (Adapt bên phải, Adapt Rx bên trái). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Engine bên dưới (tài liệu tham khảo của RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, có Pillow và numpy (`pip install pillow numpy`) cho `png8.py`. Rồi xem thật: trong PCSX2 (System > Start File, RIPPS2.elf) với giao diện trên ổ ảo của nó, hoặc trên một chiếc PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Hình ảnh** | Bất kỳ hình nào của RIPPS2 (glyph nút, huy hiệu, chỉ báo tải, dấu bay, logo PS1 / PS2) đều thay được bằng cách kèm một PNG cùng tên. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Có tải được không? Đánh số, kiểu, tệp thiếu, khóa đặt sai chỗ, giá trị RIPPS2 biết, ảnh 8 bit. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Tải các giao diện](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; phiên bản 128, 01/11/2026: sao đánh giá ở trang thông tin theo cỡ của RIPFLOW, 143 x 18; hai tệp mỗi giao diện, `conf_theme.cfg` và `SCR43.png`, mọi thứ khác là của RIPPS2; chỉ một bản phát hành, luôn là bản mới nhất) | cần [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) trở lên (phông chữ tích hợp, huy hiệu, hộp đĩa và dấu chờ của nó) | **RIPGRID** và **RIPFLOW** có sẵn trong RIPPS2: không cần sao chép | [RIPPS2](https://github.com/akilluminati47/RIPPS2), giao diện mặt trước cho PS2 | khoe giao diện của bạn hoặc hỏi về một giao diện trong [chủ đề RIPPS2 trên psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Phác thảo bố cục đối xứng của một giao diện. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Màu sắc** | Màu của giao diện và **Colors and More** riêng của nó: chủ đề màu (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), thanh danh mục, gợi ý, glyph, thứ tự danh mục. Người dùng luôn có tiếng nói cuối cùng. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Cài đặt: chép một thư mục `thm_...` vào thư mục `THM` trên ổ của bạn (USB, HDD, MMCE, thẻ nhớ), như với mọi giao diện OPL, rồi chọn nó ở Cài đặt > Giao diện > Chủ đề của RIPPS2, hoặc giữ SELECT trên danh sách trò chơi 4,2 giây để chuyển lần lượt các giao diện. RIPGRID và RIPFLOW đã có sẵn ở đó."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Viết Adapt và Adapt Rx từ một bố cục, mỗi cái kèm phần đầu và bảng thuật ngữ (sửa tệp này, không sửa `conf_theme.cfg` của chúng; đặt `EDITION_DATE` khi chúng thay đổi). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Một giao diện làm được gì |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Bộ công cụ"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Viết cho cả người và tác tử lập trình: <a href=\"AGENTS.md\">AGENTS.md</a> chứa các quy tắc (<code>CLAUDE.md</code>, <code>GEMINI.md</code> và <code>.github/copilot-instructions.md</code> đều trỏ đến nó), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> mọi thứ engine làm, và các công cụ kiểm tra giao diện trước khi nó đến gần một chiếc PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Mọi khóa trên một trang, dưới dạng chú thích `#`: bảng thuật ngữ ở đầu mỗi `conf_theme.cfg` tại đây. |"
+ }
+}

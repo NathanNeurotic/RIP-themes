@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Itsura | Kailangang RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Gumawa ng sarili mo"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Ang mga tema"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Ginagawang 8-bit na palette PNG ang bawat larawan: iniingatan ng RIPPS2 ang mga ito bilang 8-bit na texture, sangkapat ng VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**Ang [docs/THEME_KEYS.md](docs/THEME_KEYS.md) ang buong engine, ayon sa RIPPS2 build 100**, lahat ay maaabot mula sa isang theme folder:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Sa console"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Tunog** | Isang `sound/` folder na may alinman sa 15 kaganapan (boot, cursor, confirm, pagpasok at paglabas ng pahina, launch, disc...) at `sound/bgm.ogg` para sa sarili nitong musika. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(nakapaloob sa RIPPS2 mula build 91: piliin sa Settings > Interface > Theme)* | Ang frosted na screen at sidebar ng Adapt, ang mga laro ay nasa nakagitnang 4x2 na grid ng mga cover; humihinga ang napili nang may malambot na liwanag at tumatagilid sa kanang stick, ipinapakita ng mga larong walang cover ang serial nila sa pixel na letra, at pinapalitan ng Bilog ang mga source. Ang pagpindot sa kanang stick nang 0.42 s ay binabaligtad ang napiling case sa likod na cover nito (build 97; nananatili itong baligtad), pumapasok at lumalabas ang mga pahina sa L2 / R2 o sa gilid ng isang hanay, lumilitaw ang disc ng laro pagsisimula nito, at nasa ilalim ng grid ang pangalan ng napiling laro sa RIPPS2 Sleek Bold. Kasama na ito sa ELF, kaya wala na ito sa pack na ito. | built-in |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (built-in): gumagalaw ang D-pad sa grid, binubuklat ng gilid ng hanay ang pahina; pinapalitan ng **Bilog** ang mga source (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Ang kanang stick** ang nagpapatagilid sa larawan: ang buong info page bilang iisang patag, ang case at disc ng Adapt, ang napiling cover ng RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Lahat ng ginagawa ng engine ng RIPPS2 para sa isang tema: mga key, elemento, font, epekto, larawan, tunog. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Pindutin nang matagal ang SELECT nang 4.2 segundo** sa listahan ng laro para lumipat sa susunod na tema (nire-refresh pa rin ng mabilis na pindot ang listahan)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Mga tema ng RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Bawat `conf_theme.cfg` dito ay nagsisimula sa header ng paglikha nito (pangalan, gumawa, petsa ng paglikha at pag-update, pasasalamat), saka ang **glosaryo ng mga key** ([docs/key_glossary.cfg](docs/key_glossary.cfg): bawat key na magagamit ng tema, bilang mga komento), saka ang tema. Kopyahin ang glosaryo sa config ng sarili mong tema para laging nasa kamay."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Ang mga patakaran: basahin muna. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Galaw** | Pagtagilid sa kanang stick na gumagalaw sa buong pahina bilang iisang sheet (o iisang cover), transisyon sa pagitan ng listahan at info page, larawang dahan-dahang pumapasok, deskripsiyong gumugulong, slideshow sa info page, ang pangalan ng source bilang abiso. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Itsura** | Mga panel ng frosted glass sa ibabaw ng larawan ng bawat laro, isang full-screen na frosted na layer, mga sidebar, malinaw na salamin, isang **grid** ng mga cover, ang case ng RIPPS2 na may repleksiyon, 4:3 na screenshot sa 16:9, malapad na ginupit na background, may tore o wala. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Bawat itsura ng RIPPS2 ay isang theme folder lang ang layo: isang <code>conf_theme.cfg</code>, mga 8-bit na PNG, mga font at mga tunog.<br>\nWalang ELF na kailangang i-build ulit. Umasa sa build, bigyan ito ng tema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Bihisan ang RIPPS2 nang hindi ginagalaw ang code nito.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Mga font** | 16 na slot ng font, ang iyong `.ttf` o ang mga built-in na font ng RIPPS2, naka-capital o hindi; ang mga slot na ginagamit ng RIPPS2 sa pagguhit ng sarili nitong mga pahina, kaya binabago rin ng tema ang estilo ng mga menu, ng category bar at ng salita ng view. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Ang Adapt ni akilluminati47 (RiptOPL): ang larawan ng bawat laro sa ilalim ng frosted glass (pinalaki, hindi binanat, sa 16:9) na may sidebar ng Adapt bilang frosted na guhit sa kaliwa, ang cover ng laro sa case ng RIPPS2 kasama ang repleksiyon nito at ang disc sa isang gilid, ang listahan sa malinaw na salamin sa kabila (pinagpapalit ng Rx ang listahan at ang case, at inilalagay ang LAUNCH DISC sa kanan ng bar, sa ibabaw ng disc nito). Laging nasa ilalim mismo ng LAUNCH DISC ang disc. Info page sa malinaw na salamin na may 4:3 na screenshot, na tumatagilid sa kanang stick bilang iisang pahina; transisyon sa pagitan ng mga pahina, Settings sa ibabaw ng mga haligi, walang tore sa mga pahina ng laro. Walang sariling tunog (mula 12/10/2026): ang mga tunog na ni-rip mo sa AUDIO folder ang tumutugtog. Biglang lumilitaw ang pangalan ng source (mula build 81 bilang abiso: ALL GAMES, HDD GAMES...). Mula edisyon 113, glyph sa frosted na sidebar ang tatlong kategorya (`category_layout=sidebar`, build 113): binubuksan ng Kaliwa sa listahan ang drawer ng bawat isa sa tabi nito. Mula edisyon 115, ang bawat tema ay ang `conf_theme.cfg` at `SCR43.png` nito. Ipinapakita ng case sa listahan ang harapang cover, saka ang likod, na may crossfade; inilalagay ng info page ang teksto nito sa kabilang gilid ng listahan (Adapt sa kanan, Adapt Rx sa kaliwa). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Ang engine sa ilalim (ang sanggunian ng RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, kasama ang Pillow at numpy (`pip install pillow numpy`) para sa `png8.py`. Saka tingnan ito nang totoo: sa PCSX2 (System > Start File, RIPPS2.elf) na nasa virtual drive nito ang tema, o sa isang PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Mga larawan** | Alinman sa mga sariling larawan ng RIPPS2 (mga glyph ng button, badge, loader, ang lumilipad na marka, ang logo ng PS1 / PS2) ay napapalitan sa pagsama ng PNG na may parehong pangalan. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Maglo-load ba? Pagnunumero, mga uri, nawawalang file, maling lugar na key, mga value na kilala ng RIPPS2, mga 8-bit na larawan. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 128, 01/11/2026: ang mga bituin ng rating sa info page ay kasinlaki ng sa RIPFLOW, 143 x 18; dalawang file bawat tema, `conf_theme.cfg` at `SCR43.png`, ang iba ay sariling gamit ng RIPPS2; iisang release, laging pinakabago) | kailangan ang [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bago (ang built-in na font, badge, case at palatandaan ng paghihintay nito) | nakapaloob na sa RIPPS2 ang **RIPGRID** at **RIPFLOW**: walang kokopyahin | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end ng PS2 | ipakita ang iyong tema o magtanong tungkol sa isa sa [thread ng RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Gumagawa ng burador ng nakasalaming layout ng isang tema. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Kulay** | Ang mga kulay ng tema at ang sarili nitong **Colors and More**: color theme (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), category bar, mga hint, mga glyph, ayos ng mga kategorya. Laging nasa user ang huling salita. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Pag-install: kopyahin ang isang `thm_...` folder sa isang `THM` folder sa iyong drive (USB, HDD, MMCE, memory card), gaya ng anumang tema ng OPL, saka piliin ito sa Settings > Interface > Theme ng RIPPS2, o pindutin nang matagal ang SELECT sa listahan ng laro nang 4.2 segundo para lumipat-lipat ng tema. Naroon na ang RIPGRID at RIPFLOW."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Isinusulat ang Adapt at Adapt Rx mula sa iisang layout, bawat isa may header at glosaryo (ito ang i-edit, hindi ang `conf_theme.cfg` nila; itakda ang `EDITION_DATE` nito kapag nagbago sila). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Ang kayang gawin ng tema |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Ang kit"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Isinulat para sa mga tao at sa mga coding agent: nasa <a href=\"AGENTS.md\">AGENTS.md</a> ang mga patakaran (tumuturo rito ang <code>CLAUDE.md</code>, <code>GEMINI.md</code> at <code>.github/copilot-instructions.md</code>), nasa <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> ang lahat ng ginagawa ng engine, at sinusuri ng mga tool ang tema bago pa ito lumapit sa isang PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Bawat key sa iisang pahina, bilang mga komentong `#`: ang glosaryo sa itaas ng bawat `conf_theme.cfg` dito. |"
+ }
+}

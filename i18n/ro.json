@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Temă | Aspect | Necesită RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Fă-ți propria temă"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Temele"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Face din fiecare imagine un PNG cu paletă pe 8 biți: RIPPS2 le ține ca texturi pe 8 biți, un sfert din VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) e tot motorul, ca în build-ul 100 al RIPPS2**, totul accesibil dintr-un folder de temă:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Pe consolă"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Sunet** | Un folder `sound/` cu oricare dintre cele 15 evenimente (pornire, cursor, confirmare, intrare și ieșire de pagină, lansare, disc...) și `sound/bgm.ogg` pentru propria muzică. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(integrat în RIPPS2 din build 91: alege-l din Setări > Interfață > Temă)* | Ecranul mat și bara laterală Adapt, cu jocurile într-o grilă de coperte 4x2, centrată; selecția respiră cu o strălucire blândă și se înclină cu stick-ul drept, jocurile fără copertă își arată numărul de serie cu litere pixelate, iar Cerc schimbă sursele. Ținerea stick-ului drept 0,42 s întoarce carcasa aleasă pe spate (build 97; rămâne întoarsă), paginile intră și ies cu L2 / R2 sau la marginea unui rând, discul jocului apare la pornire, iar numele jocului ales stă sub grilă în RIPPS2 Sleek Bold. Vine în ELF, așa că nu mai e în acest pachet. | integrat |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (integrat): crucea direcțională se mișcă prin grilă, marginea unui rând întoarce pagina; **Cerc** schimbă sursele (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Stick-ul drept** înclină imaginea: toată pagina de informații ca un singur plan, carcasa și discul Adapt, coperta aleasă în RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Tot ce face motorul RIPPS2 pentru o temă: chei, elemente, fonturi, efecte, imagini, sunete. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Ține apăsat SELECT 4,2 secunde** pe lista de jocuri ca să treci la tema următoare (o apăsare scurtă reîmprospătează în continuare lista)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Teme RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Fiecare `conf_theme.cfg` de aici începe cu antetul de creare (nume, autor, datele creării și actualizării, mulțumiri), apoi **glosarul de chei** ([docs/key_glossary.cfg](docs/key_glossary.cfg): fiecare cheie pe care o poate folosi o temă, ca comentarii), apoi tema. Copiază glosarul în configurația temei tale ca să-l ai la îndemână."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Regulile: citește-le întâi. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Mișcare** | Înclinare cu stick-ul drept care mută o pagină întreagă ca o foaie (sau o copertă), tranziții între listă și pagina de informații, imagini care intră lin, descrieri care derulează, prezentări pe pagina de informații, numele sursei ca notificare. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Aspect** | Panouri de sticlă mată peste imaginea fiecărui joc, un strat mat pe tot ecranul, bare laterale, sticlă transparentă, o **grilă** de coperte, carcasa RIPPS2 cu reflexie, capturi 4:3 pe 16:9, fundaluri decupate lat, turnuri da sau nu. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Fiecare aspect al RIPPS2 e la un folder de temă distanță: un <code>conf_theme.cfg</code>, PNG-uri pe 8 biți, fonturi și sunete.<br>\nFără recompilarea ELF-ului. Bazează-te pe build, dă-i o temă.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Dă-i o temă lui RIPPS2 fără să-i atingi codul.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Fonturi** | 16 locuri pentru fonturi, `.ttf`-ul tău sau fonturile integrate ale RIPPS2, cu majuscule sau nu; locurile cu care RIPPS2 își desenează propriile pagini, așa că o temă schimbă și stilul meniurilor, al barei de categorii și al cuvântului de vizualizare. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Adapt de la akilluminati47 (RiptOPL): imaginea fiecărui joc sub sticlă mată (mărită, nu întinsă, în 16:9) cu bara laterală Adapt ca fâșie mată în stânga, coperta jocului în carcasa RIPPS2 cu reflexia ei și discul pe o parte, lista pe sticlă transparentă pe cealaltă (Rx inversează lista și carcasa și pune LAUNCH DISC în dreapta barei, deasupra discului). Discul stă mereu chiar sub LAUNCH DISC. Pagina de informații pe sticlă transparentă cu capturi 4:3, care se înclină cu stick-ul drept ca o singură foaie; tranziții între pagini, Setări deasupra stâlpilor, fără turnuri pe paginile jocurilor. Fără sunete proprii (din 12.10.2026): se aud sunetele extrase în folderul AUDIO. Numele sursei apare brusc (din build 81 ca notificare: ALL GAMES, HDD GAMES...). Din ediția 113 cele trei categorii sunt glife în bara laterală mată (`category_layout=sidebar`, build 113): Stânga pe listă deschide sertarul fiecăreia alături. Din ediția 115 fiecare temă este `conf_theme.cfg`-ul și `SCR43.png`-ul ei. Carcasa din listă arată coperta, apoi spatele, cu tranziție; pagina de informații își pune textul pe partea opusă listei (Adapt în dreapta, Adapt Rx în stânga). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Motorul de dedesubt (referința RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, cu Pillow și numpy (`pip install pillow numpy`) pentru `png8.py`. Apoi vezi-o pe bune: în PCSX2 (System > Start File, RIPPS2.elf) cu tema pe unitatea virtuală, sau pe un PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Imagini** | Oricare dintre imaginile RIPPS2 (glifele butoanelor, insigne, indicatori de încărcare, semnul zburător, siglele PS1 / PS2) înlocuită incluzând un PNG cu același nume. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Se va încărca? Numerotare, tipuri, fișiere lipsă, chei puse greșit, valori pe care RIPPS2 le cunoaște, imagini pe 8 biți. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Descarcă temele](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; ediția 128, 01.11.2026: stelele de rating de pe pagina de informații la mărimea din RIPFLOW, 143 x 18; două fișiere pe temă, `conf_theme.cfg` și `SCR43.png`, restul e al RIPPS2; o singură versiune, mereu cea mai nouă) | necesită [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) sau mai nou (fontul integrat, insignele, carcasa și semnul de așteptare) | **RIPGRID** și **RIPFLOW** sunt integrate în RIPPS2: nimic de copiat | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-ul pentru PS2 | arată-ți tema sau întreabă de una în [firul RIPPS2 de pe psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Schițează aranjamentul în oglindă al unei teme. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Culoare** | Culorile temei și propriul **Colors and More**: temă de culoare (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), bara de categorii, indicii, glife, ordinea categoriilor. Ultimul cuvânt îl are mereu utilizatorul. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Instalare: copiază un folder `thm_...` într-un folder `THM` de pe unitatea ta (USB, HDD, MMCE, card de memorie), ca pentru orice temă OPL, apoi alege-l în Setări > Interfață > Temă din RIPPS2, sau ține apăsat SELECT pe lista de jocuri 4,2 secunde ca să treci prin teme. RIPGRID și RIPFLOW sunt deja acolo."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Scrie Adapt și Adapt Rx dintr-un singur aranjament, fiecare cu antetul și glosarul (editează-l pe acesta, nu `conf_theme.cfg`-urile lor; setează-i `EDITION_DATE` când se schimbă). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Ce poate face o temă |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Trusa"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Scris deopotrivă pentru oameni și pentru agenți de programare: <a href=\"AGENTS.md\">AGENTS.md</a> conține regulile (<code>CLAUDE.md</code>, <code>GEMINI.md</code> și <code>.github/copilot-instructions.md</code> trimit la el), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> tot ce face motorul, iar instrumentele verifică o temă înainte să ajungă lângă un PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Toate cheile pe o pagină, ca comentarii `#`: glosarul din capul fiecărui `conf_theme.cfg` de aici. |"
+ }
+}

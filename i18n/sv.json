@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Utseende | Kräver RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Gör ditt eget"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Temana"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Gör varje bild till en 8-bitars palett-PNG: RIPPS2 behåller dem som 8-bitars texturer, en fjärdedel av VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) är hela motorn, enligt RIPPS2 build 100**, allt nåbart från en temamapp:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### På konsolen"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Ljud** | En `sound/`-mapp med vilken som helst av de 15 händelserna (start, markör, bekräfta, sida in och ut, start av spel, skiva...) och `sound/bgm.ogg` för egen musik. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(inbyggt i RIPPS2 från build 91: välj det under Inställningar > Gränssnitt > Tema)* | Adapts frostade skärm och sidofält med spelen i ett centrerat rutnät av omslag, 4x2; markeringen andas med ett mjukt sken och lutar med höger spak, spel utan omslag visar sitt serienummer i pixeltext, och Cirkel växlar mellan källorna. Att hålla höger spak i 0,42 s vänder det valda fodralet till baksidan (build 97; det förblir vänt), sidor glider in och ut med L2 / R2 eller vid kanten av en rad, spelets skiva dyker upp när det startar, och det valda spelets namn står under rutnätet i RIPPS2 Sleek Bold. Det följer med i ELF-filen och finns därför inte längre i det här paketet. | inbyggt |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (inbyggt): styrkorset rör sig i rutnätet, en rads kant bläddrar sidan; **Cirkel** växlar mellan källorna (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Höger spak** lutar bilden: hela infosidan som ett plan, Adapts fodral och skiva, RIPGRIDs valda omslag."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Allt RIPPS2:s motor gör för ett tema: nycklar, element, typsnitt, effekter, bilder, ljud. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Håll SELECT i 4,2 sekunder** på spellistan för att byta till nästa tema (ett snabbt tryck uppdaterar fortfarande listan)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2-teman</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Varje `conf_theme.cfg` här börjar med sitt skaparhuvud (namn, skapare, skapelse- och uppdateringsdatum, tack), sedan **nyckelordlistan** ([docs/key_glossary.cfg](docs/key_glossary.cfg): varje nyckel ett tema kan använda, som kommentarer), sedan temat. Kopiera ordlistan till ditt eget temas konfiguration för att ha den till hands."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Reglerna: läs dem först. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Rörelse** | Lutning med höger spak som flyttar en hel sida som ett ark (eller ett omslag), övergångar mellan listan och infosidan, bilder som glider in, beskrivningar som rullar, bildspel på infosidan, källans namn som notis. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Utseende** | Paneler av frostat glas över varje spels bild, ett frostat lager över hela skärmen, sidofält, klart glas, ett omslags-**rutnät**, RIPPS2:s fodral med spegling, 4:3-skärmbilder på 16:9, brett beskurna bakgrunder, torn av eller på. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Varje utseende i RIPPS2 är en temamapp bort: en <code>conf_theme.cfg</code>, 8-bitars PNG, typsnitt och ljud.<br>\nIngen ELF att bygga om. Lita på bygget, ge det ett tema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Ge RIPPS2 ett tema utan att röra koden.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Typsnitt** | 16 typsnittsplatser, din egen `.ttf` eller RIPPS2:s inbyggda typsnitt, med versaler eller inte; platserna RIPPS2 ritar sina egna sidor med, så ett tema ger även menyer, kategorifältet och visningsordet ny stil. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47s Adapt (RiptOPL): varje spels bild under frostat glas (inzoomad, inte utdragen, i 16:9) med Adapts sidofält som en frostad remsa till vänster, spelets omslag i RIPPS2:s fodral med sin spegling och skivan på ena sidan, listan på klart glas på den andra (Rx byter plats på listan och fodralet och lägger LAUNCH DISC till höger i fältet, över sin skiva). Skivan sitter alltid precis under LAUNCH DISC. Infosida på klart glas med 4:3-skärmbilder, som lutar med höger spak som ett enda ark; sidövergångar, Inställningar över pelarna, inga torn på spelsidorna. Inga egna ljud (från 2026-10-12): dina rippade ljud i AUDIO-mappen spelas. Källans namn dyker upp (från build 81 som en notis: ALL GAMES, HDD GAMES...). Från utgåva 113 är de tre kategorierna glyfer i det frostade sidofältet (`category_layout=sidebar`, build 113): Vänster på listan öppnar varje kategoris låda bredvid. Från utgåva 115 är varje tema sin `conf_theme.cfg` och sin `SCR43.png`. Listans fodral visar framsidan och sedan baksidan, med övertoning; infosidan lägger sin text på motsatt sida mot listan (Adapt till höger, Adapt Rx till vänster). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Motorn därunder (RiptOPLs referens). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3 med Pillow och numpy (`pip install pillow numpy`) för `png8.py`. Titta sedan på det på riktigt: i PCSX2 (System > Start File, RIPPS2.elf) med temat på dess virtuella enhet, eller på en PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Bilder** | Vilken som helst av RIPPS2:s egna bilder (knappglyfer, märken, laddningstecken, det flygande märket, PS1- / PS2-logotyperna) ersatt genom att skicka med en PNG med samma namn. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Kommer det att laddas? Numrering, typer, saknade filer, felplacerade nycklar, värden RIPPS2 känner till, 8-bitarsbilder. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Ladda ner temana](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; utgåva 128, 2026-11-01: infosidans betygsstjärnor i RIPFLOWs storlek, 143 x 18; två filer per tema, `conf_theme.cfg` och `SCR43.png`, allt annat är RIPPS2:s eget; en utgåva, alltid den nyaste) | kräver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller senare (dess inbyggda typsnitt, märken, fodral och vänttecken) | **RIPGRID** och **RIPFLOW** är inbyggda i RIPPS2: inget att kopiera | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | visa ditt tema eller fråga om ett i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Skissar ett temas spegelvända layout. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Färg** | Temats färger och dess eget **Colors and More**: färgtema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategorifält, tips, glyfer, kategoriernas ordning. Användaren har alltid sista ordet. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Installation: kopiera en `thm_...`-mapp till en `THM`-mapp på din enhet (USB, HDD, MMCE, minneskort), som för vilket OPL-tema som helst, och välj det sedan i RIPPS2 under Inställningar > Gränssnitt > Tema, eller håll SELECT i 4,2 sekunder på spellistan för att stega mellan temana. RIPGRID och RIPFLOW finns redan där."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Skriver Adapt och Adapt Rx från en layout, var och en med sitt huvud och ordlistan (redigera den, inte deras `conf_theme.cfg`; sätt dess `EDITION_DATE` när de ändras). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Vad ett tema kan göra |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Verktygslådan"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Skrivet för både människor och kodagenter: <a href=\"AGENTS.md\">AGENTS.md</a> innehåller reglerna (<code>CLAUDE.md</code>, <code>GEMINI.md</code> och <code>.github/copilot-instructions.md</code> pekar dit), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> allt som motorn gör, och verktygen kontrollerar ett tema innan det kommer i närheten av en PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Varje nyckel på en sida, som `#`-kommentarer: ordlistan överst i varje `conf_theme.cfg` här. |"
+ }
+}

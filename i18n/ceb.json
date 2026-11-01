@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Dagway | Kinahanglan nga RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Paghimo og imo"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Ang mga tema"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Himoon nga 8-bit nga palette PNG ang matag hulagway: gitipigan kini sa RIPPS2 isip 8-bit nga texture, usa ka ikaupat sa VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**Ang [docs/THEME_KEYS.md](docs/THEME_KEYS.md) mao ang tibuok engine, sumala sa RIPPS2 build 100**, tanan maabot gikan sa usa ka theme folder:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Sa console"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Tingog** | Usa ka `sound/` folder nga adunay bisan unsa sa 15 ka panghitabo (boot, cursor, confirm, pagsulod ug paggawas sa panid, launch, disc...) ug `sound/bgm.ogg` para sa kaugalingon niining musika. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(naa na sa sulod sa RIPPS2 sukad build 91: pilia sa Settings > Interface > Theme)* | Ang frosted nga screen ug sidebar sa Adapt, ang mga dula anaa sa nakasentro nga 4x2 nga grid sa mga cover; ang napili moginhawa nga may humok nga kahayag ug mohapay sa tuo nga stick, ang mga dula nga walay cover magpakita sa ilang serial sa pixel nga letra, ug ang Lingin mag-ilis sa mga source. Ang pagkupot sa tuo nga stick sulod sa 0.42 s mobali sa napiling case ngadto sa likod nga cover (build 97; magpabilin kini nga balit-ad), ang mga panid mosulod ug mogawas sa L2 / R2 o sa ngilit sa usa ka laray, ang disc sa dula motungha inig sugod niini, ug ang ngalan sa napiling dula anaa ilalom sa grid sa RIPPS2 Sleek Bold. Kauban na kini sa ELF, mao nga wala na kini niining pack. | built-in |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (built-in): molihok ang D-pad sa grid, ang ngilit sa laray mobuklat sa panid; ang **Lingin** mag-ilis sa mga source (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Ang tuo nga stick** mohapay sa hulagway: ang tibuok info page isip usa ka patag, ang case ug disc sa Adapt, ang napiling cover sa RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Tanan nga gibuhat sa engine sa RIPPS2 para sa usa ka tema: mga key, elemento, font, epekto, hulagway, tingog. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Kupti ang SELECT sulod sa 4.2 segundos** sa lista sa dula aron mobalhin sa sunod nga tema (ang dali nga pagpindot mo-refresh gihapon sa lista)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Mga tema sa RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Ang matag `conf_theme.cfg` dinhi magsugod sa header sa paghimo niini (ngalan, naghimo, petsa sa paghimo ug pag-update, pasalamat), dayon ang **glosaryo sa mga key** ([docs/key_glossary.cfg](docs/key_glossary.cfg): matag key nga magamit sa tema, isip mga komento), dayon ang tema. Kopyaha ang glosaryo ngadto sa config sa imong kaugalingong tema aron kanunay nga anaa sa kamot."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Ang mga lagda: basaha una. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Lihok** | Paghapay sa tuo nga stick nga molihok sa tibuok panid isip usa ka sheet (o usa ka cover), mga transisyon tali sa lista ug info page, hulagway nga hinay nga mosulod, mga paghulagway nga moligid, slideshow sa info page, ang ngalan sa source isip pahibalo. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Dagway** | Mga panel sa frosted glass ibabaw sa hulagway sa matag dula, usa ka full-screen nga frosted nga layer, mga sidebar, klaro nga bildo, usa ka **grid** sa mga cover, ang case sa RIPPS2 nga may repleksiyon, 4:3 nga screenshot sa 16:9, lapad nga giputol nga background, may tore o wala. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Ang matag dagway sa RIPPS2 usa ra ka theme folder ang gilay-on: usa ka <code>conf_theme.cfg</code>, mga 8-bit nga PNG, mga font ug mga tingog.<br>\nWalay ELF nga i-build pag-usab. Salig sa build, hatagi kini og tema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Bisti-i ang RIPPS2 nga dili hikapon ang code niini.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Mga font** | 16 ka slot sa font, ang imong `.ttf` o ang mga built-in nga font sa RIPPS2, dagkong letra o dili; ang mga slot nga gigamit sa RIPPS2 sa pagdrowing sa kaugalingon niining mga panid, mao nga usbon usab sa tema ang estilo sa mga menu, sa category bar ug sa pulong sa view. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Ang Adapt ni akilluminati47 (RiptOPL): ang hulagway sa matag dula ilalom sa frosted glass (gipadako, dili gibanat, sa 16:9) nga ang sidebar sa Adapt usa ka frosted nga labod sa wala, ang cover sa dula sa case sa RIPPS2 uban ang repleksiyon niini ug ang disc sa usa ka kilid, ang lista sa klaro nga bildo sa pikas (giilisan sa Rx ang lista ug ang case, ug gibutang ang LAUNCH DISC sa tuo sa bar, ibabaw sa disc niini). Kanunay nga anaa ang disc ilalom mismo sa LAUNCH DISC. Info page sa klaro nga bildo nga adunay 4:3 nga screenshot, nga mohapay sa tuo nga stick isip usa ka panid; mga transisyon tali sa mga panid, Settings ibabaw sa mga haligi, walay tore sa mga panid sa dula. Walay kaugalingong tingog (sukad 12/10/2026): ang mga tingog nga imong gi-rip sa AUDIO folder ang motingog. Kalit nga motungha ang ngalan sa source (sukad build 81 isip pahibalo: ALL GAMES, HDD GAMES...). Sukad edisyon 113, ang tulo ka kategorya mga glyph sa frosted nga sidebar (`category_layout=sidebar`, build 113): ang Wala sa lista moabli sa drawer sa matag usa tupad niini. Sukad edisyon 115, ang matag tema mao ra ang `conf_theme.cfg` ug `SCR43.png` niini. Ang case sa lista nagpakita sa atubangang cover, dayon sa likod, nga may crossfade; gibutang sa info page ang teksto niini sa atbang nga kilid sa lista (Adapt sa tuo, Adapt Rx sa wala). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Ang engine sa ilalom (ang reperensiya sa RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, uban ang Pillow ug numpy (`pip install pillow numpy`) para sa `png8.py`. Dayon tan-awa kini sa tinuod: sa PCSX2 (System > Start File, RIPPS2.elf) nga ang tema anaa sa virtual drive niini, o sa usa ka PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Mga hulagway** | Bisan unsa sa kaugalingong mga hulagway sa RIPPS2 (mga glyph sa button, badge, loader, ang naglupad nga marka, ang logo sa PS1 / PS2) mailisan pinaagi sa pag-apil og PNG nga parehas og ngalan. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Mo-load ba? Pag-numero, mga matang, nawala nga file, sayop nga dapit sa key, mga value nga nailhan sa RIPPS2, mga 8-bit nga hulagway. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 128, 01/11/2026: ang mga bituon sa rating sa info page kadako sa RIPFLOW, 143 x 18; duha ka file matag tema, `conf_theme.cfg` ug `SCR43.png`, ang uban iya sa RIPPS2 mismo; usa ra ka release, kanunay ang pinakabag-o) | nagkinahanglan og [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bag-o (ang built-in nga font, mga badge, case ug timaan sa paghulat niini) | ang **RIPGRID** ug **RIPFLOW** naa na sa sulod sa RIPPS2: walay kopyahon | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end sa PS2 | ipakita ang imong tema o pangutana bahin sa usa sa [thread sa RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Naghimo og burador sa salamin nga layout sa usa ka tema. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Kolor** | Ang mga kolor sa tema ug ang kaugalingon niining **Colors and More**: color theme (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), category bar, mga hint, mga glyph, han-ay sa mga kategorya. Kanunay nga ang user ang adunay katapusang pulong. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Pag-install: kopyaha ang usa ka `thm_...` folder ngadto sa usa ka `THM` folder sa imong drive (USB, HDD, MMCE, memory card), sama sa bisan unsang tema sa OPL, dayon pilia kini sa Settings > Interface > Theme sa RIPPS2, o kupti ang SELECT sa lista sa dula sulod sa 4.2 segundos aron magbalhin-balhin og tema. Anaa na didto ang RIPGRID ug RIPFLOW."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Isulat ang Adapt ug Adapt Rx gikan sa usa ka layout, matag usa uban ang header ug glosaryo (kini ang usba, dili ang ilang `conf_theme.cfg`; ibutang ang `EDITION_DATE` niini kung mausab sila). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Ang mahimo sa usa ka tema |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Ang kit"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Gisulat para sa mga tawo ug sa mga coding agent: anaa sa <a href=\"AGENTS.md\">AGENTS.md</a> ang mga lagda (ang <code>CLAUDE.md</code>, <code>GEMINI.md</code> ug <code>.github/copilot-instructions.md</code> mitudlo niini), anaa sa <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> ang tanan nga gibuhat sa engine, ug gisusi sa mga himan ang tema sa dili pa kini moduol sa usa ka PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Matag key sa usa ka panid, isip mga komento nga `#`: ang glosaryo sa ibabaw sa matag `conf_theme.cfg` dinhi. |"
+ }
+}

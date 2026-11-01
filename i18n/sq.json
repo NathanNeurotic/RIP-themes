@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Pamja | Kërkon RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Bëje tënden"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Temat"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | E bën çdo imazh PNG me paletë 8-bitëshe: RIPPS2 i mban si tekstura 8-bitëshe, një të katërtën e VRAM-it. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) është i gjithë motori, sipas build 100 të RIPPS2**, i gjithi i arritshëm nga një dosje teme:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Në konsolë"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Tingulli** | Një dosje `sound/` me cilëndo nga 15 ngjarjet (nisja, kursori, konfirmimi, hyrja dhe dalja e faqes, nisja e lojës, disku...) dhe `sound/bgm.ogg` për muzikën e vet. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(i integruar në RIPPS2 që nga build 91: zgjidhe te Cilësimet > Ndërfaqja > Tema)* | Ekrani i mjegulluar dhe shiriti anësor i Adapt me lojërat në një rrjetë kopertinash 4x2, në qendër; përzgjedhja merr frymë me një shkëlqim të butë dhe anon me levën e djathtë, lojërat pa kopertinë tregojnë numrin serial me shkronja pikselësh, dhe Rrethi ndërron burimet. Mbajtja e levës së djathtë për 0,42 s e kthen kutinë e zgjedhur në anën e pasme (build 97; mbetet e kthyer), faqet hyjnë e dalin me L2 / R2 ose në skajin e një rreshti, disku i lojës shfaqet kur nis, dhe emri i lojës së zgjedhur qëndron poshtë rrjetës me RIPPS2 Sleek Bold. Vjen brenda ELF-it, ndaj nuk është më në këtë paketë. | i integruar |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (i integruar): kryqi lëviz nëpër rrjetë, skaji i një rreshti kthen faqen; **Rrethi** ndërron burimet (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Leva e djathtë** anon imazhin: gjithë faqen e informacionit si një rrafsh, kutinë dhe diskun e Adapt, kopertinën e zgjedhur të RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Gjithçka që bën motori i RIPPS2 për një temë: çelësa, elemente, shkronja, efekte, imazhe, tinguj. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Mbaj SELECT për 4,2 sekonda** në listën e lojërave për të kaluar te tema tjetër (një shtypje e shkurtër ende e rifreskon listën)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">Temat e RIPPS2</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Çdo `conf_theme.cfg` këtu nis me kokën e krijimit (emri, autori, datat e krijimit dhe përditësimit, falënderime), pastaj **fjalorthin e çelësave** ([docs/key_glossary.cfg](docs/key_glossary.cfg): çdo çelës që mund të përdorë një temë, si komente), pastaj temën. Kopjoje fjalorthin në konfigurimin e temës sate që ta kesh pranë."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Rregullat: lexoji të parat. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Lëvizja** | Anim me levën e djathtë që lëviz një faqe të tërë si një fletë (ose një kopertinë), kalime mes listës dhe faqes së informacionit, imazhe që hyjnë butë, përshkrime që rrotullohen, shfaqje sllajdesh në faqen e informacionit, emri i burimit si njoftim. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Pamja** | Panele xhami të mjegulluar mbi imazhin e çdo loje, një shtresë e mjegulluar në gjithë ekranin, shirita anësorë, xham i tejdukshëm, një **rrjetë** kopertinash, kutia e RIPPS2 me pasqyrim, pamje 4:3 në 16:9, sfonde të prera gjerë, kulla po ose jo. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Çdo pamje e RIPPS2 është një dosje teme larg: një <code>conf_theme.cfg</code>, PNG 8-bitëshe, shkronja dhe tinguj.<br>\nPa rindërtuar ELF-in. Mbështetu te build-i, jepi një temë.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Jepi RIPPS2 një temë pa e prekur kodin.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Shkronjat** | 16 vende për shkronja, `.ttf` jote ose shkronjat e integruara të RIPPS2, me të mëdha ose jo; vendet me të cilat RIPPS2 vizaton faqet e veta, ndaj një temë ndryshon edhe stilin e menyve, shiritit të kategorive dhe fjalës së pamjes. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | Adapt i akilluminati47 (RiptOPL): imazhi i çdo loje nën xham të mjegulluar (i zmadhuar, jo i tendosur, në 16:9) me shiritin anësor të Adapt si rrip i mjegulluar në të majtë, kopertina e lojës në kutinë e RIPPS2 me pasqyrimin e saj dhe disku në njërën anë, lista mbi xham të tejdukshëm në anën tjetër (Rx i ndërron vendet listës dhe kutisë dhe e vendos LAUNCH DISC në të djathtë të shiritit, mbi diskun e saj). Disku qëndron gjithmonë menjëherë poshtë LAUNCH DISC. Faqja e informacionit mbi xham të tejdukshëm me pamje 4:3, që anon me levën e djathtë si një fletë e vetme; kalime mes faqeve, Cilësimet mbi shtyllat, pa kulla në faqet e lojërave. Pa tinguj të vetët (që nga 12.10.2026): luajnë tingujt që ke nxjerrë në dosjen AUDIO. Emri i burimit shfaqet befas (që nga build 81 si njoftim: ALL GAMES, HDD GAMES...). Që nga botimi 113 tri kategoritë janë glife në shiritin anësor të mjegulluar (`category_layout=sidebar`, build 113): Majtas në listë hap sirtarin e secilës pranë saj. Që nga botimi 115 çdo temë është `conf_theme.cfg` dhe `SCR43.png` e vet. Kutia e listës tregon kopertinën, pastaj pjesën e pasme, me shkrirje; faqja e informacionit e vendos tekstin në anën e kundërt nga lista (Adapt djathtas, Adapt Rx majtas). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Motori poshtë (referenca e RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, me Pillow dhe numpy (`pip install pillow numpy`) për `png8.py`. Pastaj shiko si duket vërtet: në PCSX2 (System > Start File, RIPPS2.elf) me temën në diskun virtual, ose në një PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Imazhet** | Cilido nga imazhet e RIPPS2 (glifet e butonave, distinktivët, treguesit e ngarkimit, shenja fluturuese, logot PS1 / PS2) zëvendësohet duke përfshirë një PNG me të njëjtin emër. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | A do të ngarkohet? Numërimi, llojet, skedarët që mungojnë, çelësat në vend të gabuar, vlerat që njeh RIPPS2, imazhet 8-bitëshe. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Shkarko temat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; botimi 128, 01.11.2026: yjet e vlerësimit në faqen e informacionit në madhësinë e RIPFLOW, 143 x 18; dy skedarë për temë, `conf_theme.cfg` dhe `SCR43.png`, gjithçka tjetër është e RIPPS2; një botim, gjithmonë më i riu) | kërkon [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ose më të ri (shkronjën e integruar, distinktivët, kutinë dhe shenjën e pritjes) | **RIPGRID** dhe **RIPFLOW** janë të integruara në RIPPS2: asgjë për të kopjuar | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-i i PS2 | trego temën tënde ose pyet për një në [temën e RIPPS2 në psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Skicon paraqitjen e pasqyruar të një teme. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Ngjyra** | Ngjyrat e temës dhe **Colors and More** e saj: tema e ngjyrave (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), shiriti i kategorive, këshillat, glifet, rendi i kategorive. Fjalën e fundit e ka gjithmonë përdoruesi. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Instalimi: kopjo një dosje `thm_...` në një dosje `THM` në diskun tënd (USB, HDD, MMCE, kartë memorieje), si për çdo temë OPL, pastaj zgjidhe te Cilësimet > Ndërfaqja > Tema e RIPPS2, ose mbaj SELECT në listën e lojërave për 4,2 sekonda për të kaluar nëpër tema. RIPGRID dhe RIPFLOW janë tashmë aty."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Shkruan Adapt dhe Adapt Rx nga një paraqitje, secilën me kokën dhe fjalorthin e vet (ndrysho këtë, jo `conf_theme.cfg` e tyre; vendos `EDITION_DATE` kur ndryshojnë). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Çfarë mund të bëjë një temë |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Paketa"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Shkruar si për njerëz ashtu edhe për agjentë programimi: <a href=\"AGENTS.md\">AGENTS.md</a> mban rregullat (<code>CLAUDE.md</code>, <code>GEMINI.md</code> dhe <code>.github/copilot-instructions.md</code> të çojnë aty), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> gjithçka që bën motori, dhe mjetet e kontrollojnë një temë para se t’i afrohet një PS2.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Çdo çelës në një faqe, si komente `#`: fjalorthi në krye të çdo `conf_theme.cfg` këtu. |"
+ }
+}

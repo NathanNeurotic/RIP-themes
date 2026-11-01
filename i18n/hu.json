@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Téma | Kinézet | RIPPS2 kell |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Készítsd el a sajátodat"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## A témák"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Minden képből 8 bites palettás PNG-t készít: a RIPPS2 8 bites textúraként tartja őket, a VRAM negyedében. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**A [docs/THEME_KEYS.md](docs/THEME_KEYS.md) a teljes motor, a RIPPS2 100-as buildje szerint**, mind elérhető egy témamappából:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### A konzolon"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Hang** | Egy `sound/` mappa a 15 esemény bármelyikével (indulás, kurzor, megerősítés, oldal be és ki, játékindítás, lemez...) és `sound/bgm.ogg` a saját zenéhez. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(a 91-es buildtől be van építve a RIPPS2-be: válaszd a Beállítások > Felület > Téma menüben)* | Az Adapt matt képernyője és oldalsávja, a játékok középre igazított 4x2-es borítórácsban; a kijelölés lágy fénnyel lélegzik és a jobb karral billen, a borító nélküli játékok pixelbetűkkel mutatják a sorozatszámukat, a Kör pedig a források között vált. A jobb kar 0,42 mp-es tartása a hátlapjára fordítja a kiválasztott tokot (97-es build; úgy is marad), az oldalak L2 / R2-vel vagy egy sor szélén csúsznak be és ki, a játék lemeze indításkor felugrik, a kiválasztott játék neve pedig a rács alatt áll RIPPS2 Sleek Bold betűvel. Az ELF-ben van, ezért már nincs ebben a csomagban. | beépített |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (beépített): az iránygomb a rácsban mozog, egy sor széle lapoz; a **Kör** a források között vált (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **A jobb kar** billenti a képet: az egész infóoldalt egy síkként, az Adapt tokját és lemezét, a RIPGRID kiválasztott borítóját."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Minden, amit a RIPPS2 motorja egy témáért tesz: kulcsok, elemek, betűtípusok, effektek, képek, hangok. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Tartsd lenyomva a SELECT-et 4,2 másodpercig** a játéklistán, hogy a következő témára lépj (egy rövid nyomás továbbra is frissíti a listát)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2-témák</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Minden `conf_theme.cfg` itt a létrehozási fejlécével kezdődik (név, készítő, létrehozás és frissítés dátuma, köszönet), aztán jön a **kulcsszótár** ([docs/key_glossary.cfg](docs/key_glossary.cfg): minden kulcs, amit egy téma használhat, megjegyzésként), aztán a téma. Másold a szótárat a saját témád konfigurációjába, hogy kéznél legyen."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | A szabályok: először ezt olvasd el. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Mozgás** | Jobb karos billentés, amely egy egész oldalt egy lapként mozgat (vagy egy borítót), átmenetek a lista és az infóoldal között, lágyan beúszó képek, gördülő leírások, diavetítés az infóoldalon, a forrás neve értesítésként. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Kinézet** | Matt üvegpanelek minden játék képe fölött, teljes képernyős matt réteg, oldalsávok, átlátszó üveg, borító-**rács**, a RIPPS2 tokja tükörképpel, 4:3-as képernyőképek 16:9-en, szélesen vágott hátterek, tornyok be vagy ki. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "A RIPPS2 minden kinézete egy témamappányira van: egy <code>conf_theme.cfg</code>, 8 bites PNG-k, betűtípusok és hangok.<br>\nNem kell újrafordítani az ELF-et. Bízz a buildben, adj neki témát.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Adj témát a RIPPS2-nek anélkül, hogy a kódjához nyúlnál.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Betűtípusok** | 16 betűtípushely, a saját `.ttf` fájlod vagy a RIPPS2 beépített betűi, nagybetűvel vagy anélkül; azok a helyek, amelyekkel a RIPPS2 a saját oldalait rajzolja, így egy téma a menük, a kategóriasáv és a nézetszó stílusát is megváltoztatja. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47 Adaptja (RiptOPL): minden játék képe matt üveg alatt (nagyítva, nem nyújtva, 16:9-ben), bal oldalon az Adapt oldalsávja matt csíkként, az egyik oldalon a játék borítója a RIPPS2 tokjában a tükörképével és a lemezzel, a másikon a lista átlátszó üvegen (az Rx megcseréli a listát és a tokot, és a LAUNCH DISC-et a sáv jobb oldalára, a lemeze fölé teszi). A lemez mindig közvetlenül a LAUNCH DISC alatt van. Infóoldal átlátszó üvegen 4:3-as képernyőképekkel, amely a jobb karral egy lapként billen; átmenetek az oldalak között, Beállítások az oszlopok fölött, a játékoldalakon nincsenek tornyok. Nincsenek saját hangjai (2026. 10. 12. óta): az AUDIO mappádba rippelt hangok szólnak. A forrás neve felugrik (a 81-es buildtől értesítésként: ALL GAMES, HDD GAMES...). A 113. kiadástól a három kategória jelek a matt oldalsávban (`category_layout=sidebar`, 113-as build): a listán a Balra mellette kinyitja mindegyik fiókját. A 115. kiadástól minden téma a saját `conf_theme.cfg` és `SCR43.png` fájlja. A lista tokja az előlapot, majd a hátlapot mutatja áttűnéssel; az infóoldal a listával ellentétes oldalra teszi a szövegét (Adapt jobbra, Adapt Rx balra). | 80-as build |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Az alatta lévő motor (a RiptOPL leírása). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, Pillow-val és numpy-val (`pip install pillow numpy`) a `png8.py`-hoz. Aztán nézd meg élőben: PCSX2-ben (System > Start File, RIPPS2.elf) a témával a virtuális meghajtón, vagy egy PS2-n."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Képek** | A RIPPS2 bármely saját képe (gombjelek, jelvények, töltésjelzők, a repülő jel, a PS1 / PS2 logók) lecserélhető egy azonos nevű PNG mellékelésével. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Betöltődik? Számozás, típusok, hiányzó fájlok, rossz helyen lévő kulcsok, a RIPPS2 által ismert értékek, 8 bites képek. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Töltsd le a témákat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 128. kiadás, 2026. 11. 01.: az infóoldal értékelőcsillagai RIPFLOW méretben, 143 x 18; témánként két fájl, `conf_theme.cfg` és `SCR43.png`, minden más a RIPPS2 saját része; egy kiadás, mindig a legújabb) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) vagy újabb kell (a beépített betűtípusa, jelvényei, tokja és várakozásjele miatt) | a **RIPGRID** és a **RIPFLOW** be van építve a RIPPS2-be: nincs mit másolni | [RIPPS2](https://github.com/akilluminati47/RIPPS2), a PS2 front end | mutasd meg a témádat, vagy kérdezz egyről [a RIPPS2-szálban a psx-place-en](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Felvázolja egy téma tükrözött elrendezését. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Szín** | A téma színei és saját **Colors and More** beállítása: színtéma (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategóriasáv, tippek, jelek, a kategóriák sorrendje. Az utolsó szó mindig a felhasználóé. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Telepítés: másolj egy `thm_...` mappát egy `THM` mappába a meghajtódon (USB, HDD, MMCE, memóriakártya), mint bármely OPL-témát, majd válaszd ki a RIPPS2 Beállítások > Felület > Téma menüjében, vagy tartsd lenyomva a SELECT-et a játéklistán 4,2 másodpercig, hogy végiglépj a témákon. A RIPGRID és a RIPFLOW már ott van."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Egy elrendezésből írja meg az Adaptot és az Adapt Rx-et, mindkettőt a fejlécével és a szótárral (ezt szerkeszd, ne a `conf_theme.cfg` fájljaikat; állítsd be az `EDITION_DATE` értékét, ha változnak). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Mire képes egy téma |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## A készlet"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Embereknek és kódoló ügynököknek egyaránt írva: az <a href=\"AGENTS.md\">AGENTS.md</a> tartalmazza a szabályokat (a <code>CLAUDE.md</code>, a <code>GEMINI.md</code> és a <code>.github/copilot-instructions.md</code> erre mutat), a <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> mindent, amit a motor tud, az eszközök pedig ellenőrzik a témát, mielőtt PS2 közelébe kerülne.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Minden kulcs egy oldalon, `#` megjegyzésként: a szótár minden itteni `conf_theme.cfg` elején. |"
+ }
+}

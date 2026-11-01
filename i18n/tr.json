@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Tema | Görünüm | Gereken RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Kendi temanızı yapın"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## Temalar"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Her görseli 8 bitlik paletli PNG yapar: RIPPS2 bunları 8 bitlik doku olarak, VRAM’in dörtte birinde tutar. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) RIPPS2 100. derleme itibarıyla motorun tamamıdır**, hepsi bir tema klasöründen erişilebilir:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Konsolda"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Ses** | 15 olaydan herhangi birini içeren bir `sound/` klasörü (açılış, imleç, onay, sayfaya giriş ve çıkış, oyun başlatma, disk...) ve kendi müziği için `sound/bgm.ogg`. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(91. derlemeden beri RIPPS2’ye yerleşik: Ayarlar > Arayüz > Tema’dan seçin)* | Adapt’in buzlu ekranı ve kenar çubuğu, oyunlar ortalanmış 4x2 kapak ızgarasında; seçim yumuşak bir parıltıyla nefes alır ve sağ çubukla eğilir, kapağı olmayan oyunlar seri numaralarını piksel yazıyla gösterir, Daire ise kaynaklar arasında geçiş yapar. Sağ çubuğu 0,42 sn tutmak seçili kutuyu arka kapağına çevirir (97. derleme; öyle kalır), sayfalar L2 / R2 ile ya da bir satırın kenarında girip çıkar, oyunun diski başlarken belirir, seçili oyunun adı da ızgaranın altında RIPPS2 Sleek Bold ile durur. ELF’in içinde gelir, bu yüzden artık bu pakette değildir. | yerleşik |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (yerleşik): yön tuşları ızgarada gezinir, bir satırın kenarı sayfayı çevirir; **Daire** kaynaklar arasında geçer (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **Sağ çubuk** görseli eğer: bütün bilgi sayfasını tek bir düzlem olarak, Adapt’in kutusunu ve diskini, RIPGRID’in seçili kapağını."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | RIPPS2 motorunun bir tema için yaptığı her şey: anahtarlar, öğeler, yazı tipleri, efektler, görseller, sesler. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- Sonraki temaya geçmek için oyun listesinde **SELECT’i 4,2 saniye basılı tutun** (kısa bir basış listeyi yine yeniler)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2 temaları</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Buradaki her `conf_theme.cfg` oluşturma başlığıyla (ad, yapan, oluşturma ve güncelleme tarihleri, teşekkürler), ardından **anahtar sözlüğüyle** ([docs/key_glossary.cfg](docs/key_glossary.cfg): bir temanın kullanabileceği her anahtar, yorum olarak), ardından temayla başlar. Sözlüğü elinizin altında olsun diye kendi temanızın yapılandırmasına kopyalayın."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | Kurallar: önce bunu okuyun. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Hareket** | Bütün bir sayfayı tek yaprak (ya da tek kapak) gibi oynatan sağ çubuk eğimi, liste ile bilgi sayfası arasında geçişler, yumuşakça giren görseller, kayan açıklamalar, bilgi sayfasında slayt gösterileri, bildirim olarak kaynağın adı. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Görünüm** | Her oyunun görselinin üstünde buzlu cam paneller, tam ekran buzlu katman, kenar çubukları, şeffaf cam, bir kapak **ızgarası**, yansımalı RIPPS2 kutusu, 16:9’da 4:3 ekran görüntüleri, geniş kırpılmış arka planlar, kuleler açık ya da kapalı. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "RIPPS2’deki her görünüm bir tema klasörü ötede: bir <code>conf_theme.cfg</code>, 8 bitlik PNG’ler, yazı tipleri ve sesler.<br>\nELF’i yeniden derlemek yok. Derlemeye güvenin, temasını verin.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>RIPPS2’yi koduna dokunmadan temalandırın.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Yazı tipleri** | 16 yazı tipi yuvası, kendi `.ttf` dosyanız ya da RIPPS2’nin yerleşik yazıları, büyük harfle ya da değil; RIPPS2’nin kendi sayfalarını çizdiği yuvalar, böylece bir tema menüleri, kategori çubuğunu ve görünüm sözcüğünü de yeniden biçimlendirir. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47’nin Adapt’i (RiptOPL): her oyunun görseli buzlu cam altında (16:9’da büyütülmüş, gerilmemiş), solda buzlu bir şerit olarak Adapt’in kenar çubuğu, bir yanda oyunun kapağı yansımasıyla RIPPS2 kutusunda ve disk, diğer yanda şeffaf cam üzerinde liste (Rx listeyle kutunun yerini değiştirir ve LAUNCH DISC’i çubuğun sağına, diskinin üstüne koyar). Disk her zaman LAUNCH DISC’in hemen altındadır. Şeffaf cam üzerinde 4:3 ekran görüntülü bilgi sayfası, sağ çubukla tek bir yaprak gibi eğilir; sayfalar arası geçişler, sütunların üstünde Ayarlar, oyun sayfalarında kule yok. Kendi sesleri yok (12.10.2026’dan beri): AUDIO klasörünüze çıkardığınız sesler çalar. Kaynağın adı belirir (81. derlemeden beri bildirim olarak: ALL GAMES, HDD GAMES...). 113. sürümden beri üç kategori buzlu kenar çubuğunda gliflerdir (`category_layout=sidebar`, 113. derleme): listede Sol, her birinin çekmecesini yanında açar. 115. sürümden beri her tema kendi `conf_theme.cfg` ve `SCR43.png` dosyasıdır. Listedeki kutu önce ön kapağı, sonra arka kapağı geçişle gösterir; bilgi sayfası metnini listenin karşı tarafına koyar (Adapt sağda, Adapt Rx solda). | 80. derleme |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | Alttaki motor (RiptOPL’un başvuru belgesi). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "`png8.py` için Pillow ve numpy ile (`pip install pillow numpy`) Python 3. Sonra gerçekten bakın: PCSX2’de (System > Start File, RIPPS2.elf) tema sanal sürücüsündeyken ya da bir PS2’de."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Görseller** | RIPPS2’nin kendi görsellerinden herhangi biri (düğme glifleri, rozetler, yükleme göstergeleri, uçan işaret, PS1 / PS2 logoları) aynı adlı bir PNG eklenerek değiştirilir. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Yüklenecek mi? Numaralandırma, türler, eksik dosyalar, yanlış yerdeki anahtarlar, RIPPS2’nin bildiği değerler, 8 bitlik görseller. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Temaları indirin](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 128. sürüm, 01.11.2026: bilgi sayfasının puan yıldızları RIPFLOW boyutunda, 143 x 18; tema başına iki dosya, `conf_theme.cfg` ve `SCR43.png`, geri kalan her şey RIPPS2’nin kendisi; tek sürüm, her zaman en yenisi) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) veya daha yenisi gerekir (yerleşik yazı tipi, rozetleri, kutusu ve bekleme işareti için) | **RIPGRID** ve **RIPFLOW** RIPPS2’ye yerleşiktir: kopyalanacak bir şey yok | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 ön ucu | temanızı gösterin ya da bir tema hakkında [psx-place’teki RIPPS2 konusunda](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/) sorun"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Bir temanın ayna düzeninin taslağını çıkarır. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Renk** | Temanın renkleri ve kendi **Colors and More** ayarı: renk teması (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategori çubuğu, ipuçları, glifler, kategori sırası. Son söz her zaman kullanıcınındır. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Kurulum: bir `thm_...` klasörünü sürücünüzdeki bir `THM` klasörüne kopyalayın (USB, HDD, MMCE, hafıza kartı), her OPL temasında olduğu gibi; sonra RIPPS2’de Ayarlar > Arayüz > Tema’dan seçin ya da temalar arasında geçmek için oyun listesinde SELECT’i 4,2 saniye basılı tutun. RIPGRID ve RIPFLOW zaten orada."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Adapt ve Adapt Rx’i tek bir düzenden, her birini başlığı ve sözlüğüyle yazar (bunu düzenleyin, onların `conf_theme.cfg` dosyalarını değil; değiştiklerinde `EDITION_DATE` değerini ayarlayın). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Bir tema neler yapabilir |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## Takım"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Hem insanlar hem de kodlama ajanları için yazıldı: <a href=\"AGENTS.md\">AGENTS.md</a> kuralları içerir (<code>CLAUDE.md</code>, <code>GEMINI.md</code> ve <code>.github/copilot-instructions.md</code> ona yönlendirir), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> motorun yaptığı her şeyi, araçlar da bir temayı PS2’ye yaklaşmadan önce denetler.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Her anahtar tek sayfada, `#` yorumları olarak: buradaki her `conf_theme.cfg` dosyasının başındaki sözlük. |"
+ }
+}

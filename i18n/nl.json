@@ -1,0 +1,138 @@
+{
+ "080d84e71605": {
+  "en": "080d84e71605",
+  "t": "| Thema | Look | Vereist RIPPS2 |"
+ },
+ "0c45826c8579": {
+  "en": "0c45826c8579",
+  "t": "## Maak je eigen"
+ },
+ "1144ffa53adf": {
+  "en": "1144ffa53adf",
+  "t": "## De thema’s"
+ },
+ "1a94fa398820": {
+  "en": "1a94fa398820",
+  "t": "| `tools/png8.py` | Maakt van elke afbeelding een 8-bit palet-PNG: RIPPS2 houdt ze als 8-bit textures, een kwart van het VRAM. |"
+ },
+ "2652c582cb93": {
+  "en": "2652c582cb93",
+  "t": "**[docs/THEME_KEYS.md](docs/THEME_KEYS.md) is de hele engine, per RIPPS2 build 100**, allemaal bereikbaar vanuit een themamap:"
+ },
+ "31f5de43d56f": {
+  "en": "31f5de43d56f",
+  "t": "### Op de console"
+ },
+ "3e0cae90dd36": {
+  "en": "3e0cae90dd36",
+  "t": "| **Geluid** | Een map `sound/` met een van de 15 gebeurtenissen (opstarten, cursor, bevestigen, pagina in en uit, starten, schijf...) en `sound/bgm.ogg` voor eigen muziek. |"
+ },
+ "446021ba8a7b": {
+  "en": "446021ba8a7b",
+  "t": "| **RIPGRID** *(ingebouwd in RIPPS2 vanaf build 91: kies het in Instellingen > Interface > Thema)* | Het matglazen scherm en de zijbalk van Adapt met de spellen als gecentreerd 4x2-hoesraster; de selectie ademt met een zachte gloed en kantelt met de rechterstick, spellen zonder hoes tonen hun serienummer in pixelletters, en Cirkel wisselt de bronnen. De rechterstick 0,42 s vasthouden draait het gekozen doosje om naar de achterkant (build 97; het blijft omgedraaid), pagina’s schuiven in en uit met L2 / R2 of aan de rand van een rij, de schijf van het spel springt erin bij het starten, en de naam van het gekozen spel staat onder het raster in RIPPS2 Sleek Bold. Het zit in de ELF, dus het staat niet meer in dit pakket. | ingebouwd |"
+ },
+ "4e08d416026d": {
+  "en": "4e08d416026d",
+  "t": "- **RIPGRID** (ingebouwd): het D-pad beweegt door het raster, de rand van een rij slaat de pagina om; **Cirkel** wisselt de bronnen (USB, HDD, ALL GAMES...)."
+ },
+ "5049fe844957": {
+  "en": "5049fe844957",
+  "t": "- **De rechterstick** kantelt de afbeelding: de hele infopagina als één vlak, het doosje en de schijf van Adapt, de gekozen hoes van RIPGRID."
+ },
+ "5259c83257ab": {
+  "en": "5259c83257ab",
+  "t": "| [docs/THEME_KEYS.md](docs/THEME_KEYS.md) | Alles wat de engine van RIPPS2 voor een thema doet: sleutels, elementen, lettertypen, effecten, afbeeldingen, geluiden. |"
+ },
+ "53285e51ab94": {
+  "en": "53285e51ab94",
+  "t": "- **Houd SELECT 4,2 seconden ingedrukt** op de spellijst om naar het volgende thema te gaan (kort drukken ververst nog steeds de lijst)."
+ },
+ "619d902079f1": {
+  "en": "619d902079f1",
+  "t": "<h1 align=\"center\">RIPPS2-thema’s</h1>"
+ },
+ "679a2187fbce": {
+  "en": "679a2187fbce",
+  "t": "Elke `conf_theme.cfg` hier begint met zijn aanmaakkop (naam, maker, aanmaak- en wijzigingsdatum, credits), dan de **sleutelwoordenlijst** ([docs/key_glossary.cfg](docs/key_glossary.cfg): elke sleutel die een thema kan gebruiken, als commentaar), dan het thema. Kopieer de woordenlijst naar de configuratie van je eigen thema om hem bij de hand te hebben."
+ },
+ "6c11c02cd8ed": {
+  "en": "6c11c02cd8ed",
+  "t": "| [AGENTS.md](AGENTS.md) | De regels: eerst lezen. |"
+ },
+ "7051ebfe012c": {
+  "en": "7051ebfe012c",
+  "t": "| **Beweging** | Kantelen met de rechterstick dat een hele pagina als één vel beweegt (of één hoes), overgangen tussen de lijst en de infopagina, afbeeldingen die zacht binnenkomen, beschrijvingen die rollen, diavoorstellingen op de infopagina, de bronnaam als melding. |"
+ },
+ "731008b29b9b": {
+  "en": "731008b29b9b",
+  "t": "| **Look** | Matglazen panelen over de afbeelding van elk spel, een matte laag over het hele scherm, zijbalken, helder glas, een hoes-**raster**, het doosje van RIPPS2 met weerspiegeling, 4:3-screenshots op 16:9, breed bijgesneden achtergronden, torens aan of uit. |"
+ },
+ "7c8d89712946": {
+  "en": "7c8d89712946",
+  "t": "Elke look in RIPPS2 is één themamap ver: een <code>conf_theme.cfg</code>, 8-bit PNG’s, lettertypen en geluiden.<br>\nGeen ELF opnieuw bouwen. Vertrouw op de build, geef hem een thema.</p>"
+ },
+ "8ba7b65b6d68": {
+  "en": "8ba7b65b6d68",
+  "t": "<p align=\"center\"><b>Geef RIPPS2 een thema zonder de code aan te raken.</b><br>"
+ },
+ "8dbe599dc284": {
+  "en": "8dbe599dc284",
+  "t": "| **Lettertypen** | 16 lettertypeplekken, je eigen `.ttf` of de ingebouwde letters van RIPPS2, in hoofdletters of niet; de plekken waarmee RIPPS2 zijn eigen pagina’s tekent, dus een thema geeft ook menu’s, de categoriebalk en het weergavewoord een nieuwe stijl. |"
+ },
+ "8e9c8a7f0e1e": {
+  "en": "8e9c8a7f0e1e",
+  "t": "| **Adapt** / **Adapt Rx** | akilluminati47’s Adapt (RiptOPL): de afbeelding van elk spel onder matglas (ingezoomd, niet uitgerekt, in 16:9) met de zijbalk van Adapt als matte strook links, de hoes van het spel in het doosje van RIPPS2 met weerspiegeling en de schijf aan de ene kant, de lijst op helder glas aan de andere (Rx wisselt lijst en doosje om, en zet LAUNCH DISC rechts in de balk, boven de schijf). De schijf staat altijd direct onder LAUNCH DISC. Infopagina op helder glas met 4:3-screenshots, die met de rechterstick als één vel kantelt; overgangen tussen pagina’s, Instellingen boven de pilaren, geen torens op de spelpagina’s. Geen eigen geluiden (sinds 12-10-2026): je rips in de map AUDIO spelen. De bronnaam springt erin (vanaf build 81 als melding: ALL GAMES, HDD GAMES...). Vanaf editie 113 zijn de drie categorieën glyphs in de matglazen zijbalk (`category_layout=sidebar`, build 113): Links op de lijst opent de lade van elke categorie ernaast. Vanaf editie 115 is elk thema zijn `conf_theme.cfg` en zijn `SCR43.png`. Het doosje van de lijst toont de voorkant en dan de achterkant, overvloeiend; de infopagina zet de tekst aan de andere kant dan de lijst (Adapt rechts, Adapt Rx links). | build 80 |"
+ },
+ "92c67cd0325f": {
+  "en": "92c67cd0325f",
+  "t": "| [docs/THEME_ENGINE_RiptOPL.md](docs/THEME_ENGINE_RiptOPL.md) | De engine eronder (de referentie van RiptOPL). |"
+ },
+ "9806e647a059": {
+  "en": "9806e647a059",
+  "t": "Python 3, met Pillow en numpy (`pip install pillow numpy`) voor `png8.py`. Bekijk het daarna echt: in PCSX2 (System > Start File, RIPPS2.elf) met het thema op zijn virtuele schijf, of op een PS2."
+ },
+ "a0b2021bd698": {
+  "en": "a0b2021bd698",
+  "t": "| **Afbeeldingen** | Elke eigen afbeelding van RIPPS2 (knopglyphs, badges, laadtekens, het vliegende merkteken, de PS1- / PS2-logo’s) vervangen door een PNG met dezelfde naam mee te leveren. |"
+ },
+ "a291b4bf9674": {
+  "en": "a291b4bf9674",
+  "t": "| `tools/check_theme.py` | Laadt het? Nummering, typen, ontbrekende bestanden, verkeerd geplaatste sleutels, waarden die RIPPS2 kent, 8-bit afbeeldingen. |"
+ },
+ "b9c2c6d6c8b5": {
+  "en": "b9c2c6d6c8b5",
+  "t": "> **[Download de thema’s](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; editie 128, 01-11-2026: de beoordelingssterren op de infopagina op RIPFLOW-formaat, 143 x 18; twee bestanden per thema, `conf_theme.cfg` en `SCR43.png`, al het andere is van RIPPS2 zelf; één release, altijd de nieuwste) | vereist [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) of nieuwer (het ingebouwde lettertype, badges, doosje en wachtteken) | **RIPGRID** en **RIPFLOW** zijn ingebouwd in RIPPS2: niets te kopiëren | [RIPPS2](https://github.com/akilluminati47/RIPPS2), de PS2-front end | laat je thema zien of vraag naar een thema in [de RIPPS2-thread op psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
+ "ba368be6605e": {
+  "en": "ba368be6605e",
+  "t": "| `tools/mirror_theme.py` | Schetst de gespiegelde indeling van een thema. |"
+ },
+ "ba4e6cde3c2e": {
+  "en": "ba4e6cde3c2e",
+  "t": "| **Kleur** | De kleuren van het thema en zijn eigen **Colors and More**: kleurthema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), categoriebalk, hints, glyphs, volgorde van categorieën. De gebruiker heeft altijd het laatste woord. |"
+ },
+ "cadea0c18980": {
+  "en": "cadea0c18980",
+  "t": "Installeren: kopieer een `thm_...`-map naar een `THM`-map op je schijf (USB, HDD, MMCE, geheugenkaart), zoals bij elk OPL-thema, en kies het daarna in Instellingen > Interface > Thema van RIPPS2, of houd SELECT 4,2 seconden ingedrukt op de spellijst om door de thema’s te gaan. RIPGRID en RIPFLOW staan er al."
+ },
+ "d57cf0047328": {
+  "en": "d57cf0047328",
+  "t": "| `tools/gen_adapt_family.py` | Schrijft Adapt en Adapt Rx vanuit één indeling, elk met zijn kop en de woordenlijst (bewerk dit, niet hun `conf_theme.cfg`; zet zijn `EDITION_DATE` als ze veranderen). |"
+ },
+ "e5e575c74786": {
+  "en": "e5e575c74786",
+  "t": "| | Wat een thema kan |"
+ },
+ "f318ec5e2455": {
+  "en": "f318ec5e2455",
+  "t": "## De kit"
+ },
+ "f554b8f66c75": {
+  "en": "f554b8f66c75",
+  "t": "<p align=\"center\"><sub>Geschreven voor mensen en codeeragenten: <a href=\"AGENTS.md\">AGENTS.md</a> bevat de regels (<code>CLAUDE.md</code>, <code>GEMINI.md</code> en <code>.github/copilot-instructions.md</code> verwijzen ernaar), <a href=\"docs/THEME_KEYS.md\">THEME_KEYS.md</a> alles wat de engine doet, en de hulpmiddelen controleren een thema voordat het in de buurt van een PS2 komt.</sub></p>"
+ },
+ "f81bd15c8d50": {
+  "en": "f81bd15c8d50",
+  "t": "| [docs/key_glossary.cfg](docs/key_glossary.cfg) | Elke sleutel op één pagina, als `#`-commentaar: de woordenlijst bovenaan elke `conf_theme.cfg` hier. |"
+ }
+}
