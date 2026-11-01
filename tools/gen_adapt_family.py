@@ -22,8 +22,8 @@ import os
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "themes")
 
-EDITION_DATE = "10/29/2026"  # the date the RIPPS2 edition last changed: the theme pack's release date
-EDITION_BUILD = 122          # the RIPPS2 build it was made and checked on
+EDITION_DATE = "11/01/2026"  # the date the RIPPS2 edition last changed: the theme pack's release date
+EDITION_BUILD = 128          # the RIPPS2 build it was made and checked on
 GLOSSARY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "key_glossary.cfg")
 
 RULE = "# " + "=" * 102
@@ -191,10 +191,12 @@ def info(rx):
         # however much clear space its image has round it
         block("info5", type="GameImage", pattern="LGO", x="POS_MID", y=95, aligned=1, width=300,
               height=125, valign="bottom", **INFO_TILT),
-        # edition 115: RIPPS2's badges (badge_set=ripps2), 64 x 32 drawn at 46 x 23 on Adapt's 50 px pitch, the stars
-        # (256 x 32) at 112 x 14; default= names RIPPS2's own no-stars picture
-        block("info6", type="AttributeImage", attribute="Rating", default="Rating_0", aligned=0, x=ax, y=181,
-              width=112, height=14, **INFO_TILT),
+        # edition 115: RIPPS2's badges (badge_set=ripps2), 64 x 32 drawn at 46 x 23 on Adapt's 50 px pitch; default=
+        # names RIPPS2's own no-stars picture. Edition 126 (the user, 10/31: "stars on info pages too small"): the stars
+        # (256 x 32) at RIPFLOW's 143 x 18, their right end where it was (ax + 112, short of Players) and on the same
+        # middle (188), so they grow to the left into the glass
+        block("info6", type="AttributeImage", attribute="Rating", default="Rating_0", aligned=0, x=ax - 31, y=179,
+              width=143, height=18, **INFO_TILT),
         block("info7", type="AttributeImage", attribute="Scan", aligned=0, x=ax + 172, y=176, **BADGE, **INFO_TILT),
         block("info8", type="AttributeImage", attribute="Players", aligned=0, x=ax + 122, y=176, **BADGE, **INFO_TILT),
         # line_height: a description longer than its box rolls through it instead of running on
