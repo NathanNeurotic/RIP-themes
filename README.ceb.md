@@ -65,6 +65,8 @@ Walay ELF nga i-build pag-usab. Salig sa build, hatagi kini og tema.</p>
 
 > **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 128, 01/11/2026: ang mga bituon sa rating sa info page kadako sa RIPFLOW, 143 x 18; duha ka file matag tema, `conf_theme.cfg` ug `SCR43.png`, ang uban iya sa RIPPS2 mismo; usa ra ka release, kanunay ang pinakabag-o) | nagkinahanglan og [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bag-o (ang built-in nga font, mga badge, case ug timaan sa paghulat niini) | ang **RIPGRID** ug **RIPFLOW** naa na sa sulod sa RIPPS2: walay kopyahon | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end sa PS2 | ipakita ang imong tema o pangutana bahin sa usa sa [thread sa RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Ang mga tema
 
 | Tema | Dagway | Kinahanglan nga RIPPS2 |
@@ -76,10 +78,14 @@ Pag-install: kopyaha ang usa ka `thm_...` folder ngadto sa usa ka `THM` folder s
 
 Ang matag `conf_theme.cfg` dinhi magsugod sa header sa paghimo niini (ngalan, naghimo, petsa sa paghimo ug pag-update, pasalamat), dayon ang **glosaryo sa mga key** ([docs/key_glossary.cfg](docs/key_glossary.cfg): matag key nga magamit sa tema, isip mga komento), dayon ang tema. Kopyaha ang glosaryo ngadto sa config sa imong kaugalingong tema aron kanunay nga anaa sa kamot.
 
+<a id="on-the-console"></a>
+
 ### Sa console
 - **Kupti ang SELECT sulod sa 4.2 segundos** sa lista sa dula aron mobalhin sa sunod nga tema (ang dali nga pagpindot mo-refresh gihapon sa lista).
 - **Ang tuo nga stick** mohapay sa hulagway: ang tibuok info page isip usa ka patag, ang case ug disc sa Adapt, ang napiling cover sa RIPGRID.
 - **RIPGRID** (built-in): molihok ang D-pad sa grid, ang ngilit sa laray mobuklat sa panid; ang **Lingin** mag-ilis sa mga source (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Paghimo og imo
 
@@ -93,6 +99,8 @@ Ang matag `conf_theme.cfg` dinhi magsugod sa header sa paghimo niini (ngalan, na
 | **Kolor** | Ang mga kolor sa tema ug ang kaugalingon niining **Colors and More**: color theme (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), category bar, mga hint, mga glyph, han-ay sa mga kategorya. Kanunay nga ang user ang adunay katapusang pulong. |
 | **Mga hulagway** | Bisan unsa sa kaugalingong mga hulagway sa RIPPS2 (mga glyph sa button, badge, loader, ang naglupad nga marka, ang logo sa PS1 / PS2) mailisan pinaagi sa pag-apil og PNG nga parehas og ngalan. |
 | **Tingog** | Usa ka `sound/` folder nga adunay bisan unsa sa 15 ka panghitabo (boot, cursor, confirm, pagsulod ug paggawas sa panid, launch, disc...) ug `sound/bgm.ogg` para sa kaugalingon niining musika. |
+
+<a id="the-kit"></a>
 
 ## Ang kit
 

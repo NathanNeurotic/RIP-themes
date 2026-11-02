@@ -65,6 +65,8 @@ Geen ELF opnieuw bouwen. Vertrouw op de build, geef hem een thema.</p>
 
 > **[Download de thema’s](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; editie 128, 01-11-2026: de beoordelingssterren op de infopagina op RIPFLOW-formaat, 143 x 18; twee bestanden per thema, `conf_theme.cfg` en `SCR43.png`, al het andere is van RIPPS2 zelf; één release, altijd de nieuwste) | vereist [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) of nieuwer (het ingebouwde lettertype, badges, doosje en wachtteken) | **RIPGRID** en **RIPFLOW** zijn ingebouwd in RIPPS2: niets te kopiëren | [RIPPS2](https://github.com/akilluminati47/RIPPS2), de PS2-front end | laat je thema zien of vraag naar een thema in [de RIPPS2-thread op psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## De thema’s
 
 | Thema | Look | Vereist RIPPS2 |
@@ -76,10 +78,14 @@ Installeren: kopieer een `thm_...`-map naar een `THM`-map op je schijf (USB, HDD
 
 Elke `conf_theme.cfg` hier begint met zijn aanmaakkop (naam, maker, aanmaak- en wijzigingsdatum, credits), dan de **sleutelwoordenlijst** ([docs/key_glossary.cfg](docs/key_glossary.cfg): elke sleutel die een thema kan gebruiken, als commentaar), dan het thema. Kopieer de woordenlijst naar de configuratie van je eigen thema om hem bij de hand te hebben.
 
+<a id="on-the-console"></a>
+
 ### Op de console
 - **Houd SELECT 4,2 seconden ingedrukt** op de spellijst om naar het volgende thema te gaan (kort drukken ververst nog steeds de lijst).
 - **De rechterstick** kantelt de afbeelding: de hele infopagina als één vlak, het doosje en de schijf van Adapt, de gekozen hoes van RIPGRID.
 - **RIPGRID** (ingebouwd): het D-pad beweegt door het raster, de rand van een rij slaat de pagina om; **Cirkel** wisselt de bronnen (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Maak je eigen
 
@@ -93,6 +99,8 @@ Elke `conf_theme.cfg` hier begint met zijn aanmaakkop (naam, maker, aanmaak- en 
 | **Kleur** | De kleuren van het thema en zijn eigen **Colors and More**: kleurthema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), categoriebalk, hints, glyphs, volgorde van categorieën. De gebruiker heeft altijd het laatste woord. |
 | **Afbeeldingen** | Elke eigen afbeelding van RIPPS2 (knopglyphs, badges, laadtekens, het vliegende merkteken, de PS1- / PS2-logo’s) vervangen door een PNG met dezelfde naam mee te leveren. |
 | **Geluid** | Een map `sound/` met een van de 15 gebeurtenissen (opstarten, cursor, bevestigen, pagina in en uit, starten, schijf...) en `sound/bgm.ogg` voor eigen muziek. |
+
+<a id="the-kit"></a>
 
 ## De kit
 

@@ -65,6 +65,8 @@ Ingen ELF att bygga om. Lita på bygget, ge det ett tema.</p>
 
 > **[Ladda ner temana](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; utgåva 128, 2026-11-01: infosidans betygsstjärnor i RIPFLOWs storlek, 143 x 18; två filer per tema, `conf_theme.cfg` och `SCR43.png`, allt annat är RIPPS2:s eget; en utgåva, alltid den nyaste) | kräver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller senare (dess inbyggda typsnitt, märken, fodral och vänttecken) | **RIPGRID** och **RIPFLOW** är inbyggda i RIPPS2: inget att kopiera | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | visa ditt tema eller fråga om ett i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Temana
 
 | Tema | Utseende | Kräver RIPPS2 |
@@ -76,10 +78,14 @@ Installation: kopiera en `thm_...`-mapp till en `THM`-mapp på din enhet (USB, H
 
 Varje `conf_theme.cfg` här börjar med sitt skaparhuvud (namn, skapare, skapelse- och uppdateringsdatum, tack), sedan **nyckelordlistan** ([docs/key_glossary.cfg](docs/key_glossary.cfg): varje nyckel ett tema kan använda, som kommentarer), sedan temat. Kopiera ordlistan till ditt eget temas konfiguration för att ha den till hands.
 
+<a id="on-the-console"></a>
+
 ### På konsolen
 - **Håll SELECT i 4,2 sekunder** på spellistan för att byta till nästa tema (ett snabbt tryck uppdaterar fortfarande listan).
 - **Höger spak** lutar bilden: hela infosidan som ett plan, Adapts fodral och skiva, RIPGRIDs valda omslag.
 - **RIPGRID** (inbyggt): styrkorset rör sig i rutnätet, en rads kant bläddrar sidan; **Cirkel** växlar mellan källorna (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Gör ditt eget
 
@@ -93,6 +99,8 @@ Varje `conf_theme.cfg` här börjar med sitt skaparhuvud (namn, skapare, skapels
 | **Färg** | Temats färger och dess eget **Colors and More**: färgtema (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategorifält, tips, glyfer, kategoriernas ordning. Användaren har alltid sista ordet. |
 | **Bilder** | Vilken som helst av RIPPS2:s egna bilder (knappglyfer, märken, laddningstecken, det flygande märket, PS1- / PS2-logotyperna) ersatt genom att skicka med en PNG med samma namn. |
 | **Ljud** | En `sound/`-mapp med vilken som helst av de 15 händelserna (start, markör, bekräfta, sida in och ut, start av spel, skiva...) och `sound/bgm.ogg` för egen musik. |
+
+<a id="the-kit"></a>
 
 ## Verktygslådan
 

@@ -65,6 +65,8 @@ Bez przebudowy ELF. Zaufaj buildowi, nadaj mu motyw.</p>
 
 > **[Pobierz motywy](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edycja 128, 01.11.2026: gwiazdki oceny na stronie informacji w rozmiarze RIPFLOW, 143 x 18; dwa pliki na motyw, `conf_theme.cfg` i `SCR43.png`, wszystko inne pochodzi z RIPPS2; jedno wydanie, zawsze najnowsze) | wymaga [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) lub nowszego (jego wbudowanej czcionki, odznak, pudełka i znacznika oczekiwania) | **RIPGRID** i **RIPFLOW** są wbudowane w RIPPS2: nic do kopiowania | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end PS2 | pokaż swój motyw albo zapytaj o jakiś w [wątku RIPPS2 na psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Motywy
 
 | Motyw | Wygląd | Wymaga RIPPS2 |
@@ -76,10 +78,14 @@ Instalacja: skopiuj folder `thm_...` do folderu `THM` na swoim nośniku (USB, HD
 
 Każdy `conf_theme.cfg` tutaj zaczyna się od nagłówka utworzenia (nazwa, autor, daty utworzenia i aktualizacji, podziękowania), potem **słowniczek kluczy** ([docs/key_glossary.cfg](docs/key_glossary.cfg): każdy klucz, którego może użyć motyw, jako komentarze), potem motyw. Skopiuj słowniczek do konfiguracji własnego motywu, by mieć go pod ręką.
 
+<a id="on-the-console"></a>
+
 ### Na konsoli
 - **Przytrzymaj SELECT przez 4,2 sekundy** na liście gier, by przejść do następnego motywu (krótkie naciśnięcie nadal odświeża listę).
 - **Prawa gałka** przechyla grafikę: całą stronę informacji jako jedną płaszczyznę, pudełko i płytę Adapt, wybraną okładkę RIPGRID.
 - **RIPGRID** (wbudowany): krzyżak porusza się po siatce, krawędź rzędu przewraca stronę; **Kółko** przełącza źródła (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Zrób własny
 
@@ -93,6 +99,8 @@ Każdy `conf_theme.cfg` tutaj zaczyna się od nagłówka utworzenia (nazwa, auto
 | **Kolor** | Kolory motywu i jego własne **Colors and More**: motyw kolorów (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), pasek kategorii, podpowiedzi, glify, kolejność kategorii. Ostatnie słowo zawsze ma użytkownik. |
 | **Obrazy** | Dowolny z obrazów RIPPS2 (glify przycisków, odznaki, wskaźniki ładowania, latający znak, logo PS1 / PS2) zastąpiony przez dołączenie PNG o tej samej nazwie. |
 | **Dźwięk** | Folder `sound/` z dowolnym z 15 zdarzeń (start, kursor, potwierdzenie, wejście i wyjście ze strony, uruchomienie, płyta...) i `sound/bgm.ogg` z własną muzyką. |
+
+<a id="the-kit"></a>
 
 ## Zestaw
 

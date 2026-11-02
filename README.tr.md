@@ -65,6 +65,8 @@ ELF’i yeniden derlemek yok. Derlemeye güvenin, temasını verin.</p>
 
 > **[Temaları indirin](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 128. sürüm, 01.11.2026: bilgi sayfasının puan yıldızları RIPFLOW boyutunda, 143 x 18; tema başına iki dosya, `conf_theme.cfg` ve `SCR43.png`, geri kalan her şey RIPPS2’nin kendisi; tek sürüm, her zaman en yenisi) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) veya daha yenisi gerekir (yerleşik yazı tipi, rozetleri, kutusu ve bekleme işareti için) | **RIPGRID** ve **RIPFLOW** RIPPS2’ye yerleşiktir: kopyalanacak bir şey yok | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 ön ucu | temanızı gösterin ya da bir tema hakkında [psx-place’teki RIPPS2 konusunda](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/) sorun
 
+<a id="the-themes"></a>
+
 ## Temalar
 
 | Tema | Görünüm | Gereken RIPPS2 |
@@ -76,10 +78,14 @@ Kurulum: bir `thm_...` klasörünü sürücünüzdeki bir `THM` klasörüne kopy
 
 Buradaki her `conf_theme.cfg` oluşturma başlığıyla (ad, yapan, oluşturma ve güncelleme tarihleri, teşekkürler), ardından **anahtar sözlüğüyle** ([docs/key_glossary.cfg](docs/key_glossary.cfg): bir temanın kullanabileceği her anahtar, yorum olarak), ardından temayla başlar. Sözlüğü elinizin altında olsun diye kendi temanızın yapılandırmasına kopyalayın.
 
+<a id="on-the-console"></a>
+
 ### Konsolda
 - Sonraki temaya geçmek için oyun listesinde **SELECT’i 4,2 saniye basılı tutun** (kısa bir basış listeyi yine yeniler).
 - **Sağ çubuk** görseli eğer: bütün bilgi sayfasını tek bir düzlem olarak, Adapt’in kutusunu ve diskini, RIPGRID’in seçili kapağını.
 - **RIPGRID** (yerleşik): yön tuşları ızgarada gezinir, bir satırın kenarı sayfayı çevirir; **Daire** kaynaklar arasında geçer (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Kendi temanızı yapın
 
@@ -93,6 +99,8 @@ Buradaki her `conf_theme.cfg` oluşturma başlığıyla (ad, yapan, oluşturma v
 | **Renk** | Temanın renkleri ve kendi **Colors and More** ayarı: renk teması (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategori çubuğu, ipuçları, glifler, kategori sırası. Son söz her zaman kullanıcınındır. |
 | **Görseller** | RIPPS2’nin kendi görsellerinden herhangi biri (düğme glifleri, rozetler, yükleme göstergeleri, uçan işaret, PS1 / PS2 logoları) aynı adlı bir PNG eklenerek değiştirilir. |
 | **Ses** | 15 olaydan herhangi birini içeren bir `sound/` klasörü (açılış, imleç, onay, sayfaya giriş ve çıkış, oyun başlatma, disk...) ve kendi müziği için `sound/bgm.ogg`. |
+
+<a id="the-kit"></a>
 
 ## Takım
 

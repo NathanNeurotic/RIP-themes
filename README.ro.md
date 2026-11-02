@@ -65,6 +65,8 @@ Fără recompilarea ELF-ului. Bazează-te pe build, dă-i o temă.</p>
 
 > **[Descarcă temele](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; ediția 128, 01.11.2026: stelele de rating de pe pagina de informații la mărimea din RIPFLOW, 143 x 18; două fișiere pe temă, `conf_theme.cfg` și `SCR43.png`, restul e al RIPPS2; o singură versiune, mereu cea mai nouă) | necesită [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) sau mai nou (fontul integrat, insignele, carcasa și semnul de așteptare) | **RIPGRID** și **RIPFLOW** sunt integrate în RIPPS2: nimic de copiat | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-ul pentru PS2 | arată-ți tema sau întreabă de una în [firul RIPPS2 de pe psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Temele
 
 | Temă | Aspect | Necesită RIPPS2 |
@@ -76,10 +78,14 @@ Instalare: copiază un folder `thm_...` într-un folder `THM` de pe unitatea ta 
 
 Fiecare `conf_theme.cfg` de aici începe cu antetul de creare (nume, autor, datele creării și actualizării, mulțumiri), apoi **glosarul de chei** ([docs/key_glossary.cfg](docs/key_glossary.cfg): fiecare cheie pe care o poate folosi o temă, ca comentarii), apoi tema. Copiază glosarul în configurația temei tale ca să-l ai la îndemână.
 
+<a id="on-the-console"></a>
+
 ### Pe consolă
 - **Ține apăsat SELECT 4,2 secunde** pe lista de jocuri ca să treci la tema următoare (o apăsare scurtă reîmprospătează în continuare lista).
 - **Stick-ul drept** înclină imaginea: toată pagina de informații ca un singur plan, carcasa și discul Adapt, coperta aleasă în RIPGRID.
 - **RIPGRID** (integrat): crucea direcțională se mișcă prin grilă, marginea unui rând întoarce pagina; **Cerc** schimbă sursele (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Fă-ți propria temă
 
@@ -93,6 +99,8 @@ Fiecare `conf_theme.cfg` de aici începe cu antetul de creare (nume, autor, date
 | **Culoare** | Culorile temei și propriul **Colors and More**: temă de culoare (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), bara de categorii, indicii, glife, ordinea categoriilor. Ultimul cuvânt îl are mereu utilizatorul. |
 | **Imagini** | Oricare dintre imaginile RIPPS2 (glifele butoanelor, insigne, indicatori de încărcare, semnul zburător, siglele PS1 / PS2) înlocuită incluzând un PNG cu același nume. |
 | **Sunet** | Un folder `sound/` cu oricare dintre cele 15 evenimente (pornire, cursor, confirmare, intrare și ieșire de pagină, lansare, disc...) și `sound/bgm.ogg` pentru propria muzică. |
+
+<a id="the-kit"></a>
 
 ## Trusa
 

@@ -65,6 +65,8 @@ Walang ELF na kailangang i-build ulit. Umasa sa build, bigyan ito ng tema.</p>
 
 > **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 128, 01/11/2026: ang mga bituin ng rating sa info page ay kasinlaki ng sa RIPFLOW, 143 x 18; dalawang file bawat tema, `conf_theme.cfg` at `SCR43.png`, ang iba ay sariling gamit ng RIPPS2; iisang release, laging pinakabago) | kailangan ang [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bago (ang built-in na font, badge, case at palatandaan ng paghihintay nito) | nakapaloob na sa RIPPS2 ang **RIPGRID** at **RIPFLOW**: walang kokopyahin | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end ng PS2 | ipakita ang iyong tema o magtanong tungkol sa isa sa [thread ng RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Ang mga tema
 
 | Tema | Itsura | Kailangang RIPPS2 |
@@ -76,10 +78,14 @@ Pag-install: kopyahin ang isang `thm_...` folder sa isang `THM` folder sa iyong 
 
 Bawat `conf_theme.cfg` dito ay nagsisimula sa header ng paglikha nito (pangalan, gumawa, petsa ng paglikha at pag-update, pasasalamat), saka ang **glosaryo ng mga key** ([docs/key_glossary.cfg](docs/key_glossary.cfg): bawat key na magagamit ng tema, bilang mga komento), saka ang tema. Kopyahin ang glosaryo sa config ng sarili mong tema para laging nasa kamay.
 
+<a id="on-the-console"></a>
+
 ### Sa console
 - **Pindutin nang matagal ang SELECT nang 4.2 segundo** sa listahan ng laro para lumipat sa susunod na tema (nire-refresh pa rin ng mabilis na pindot ang listahan).
 - **Ang kanang stick** ang nagpapatagilid sa larawan: ang buong info page bilang iisang patag, ang case at disc ng Adapt, ang napiling cover ng RIPGRID.
 - **RIPGRID** (built-in): gumagalaw ang D-pad sa grid, binubuklat ng gilid ng hanay ang pahina; pinapalitan ng **Bilog** ang mga source (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Gumawa ng sarili mo
 
@@ -93,6 +99,8 @@ Bawat `conf_theme.cfg` dito ay nagsisimula sa header ng paglikha nito (pangalan,
 | **Kulay** | Ang mga kulay ng tema at ang sarili nitong **Colors and More**: color theme (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), category bar, mga hint, mga glyph, ayos ng mga kategorya. Laging nasa user ang huling salita. |
 | **Mga larawan** | Alinman sa mga sariling larawan ng RIPPS2 (mga glyph ng button, badge, loader, ang lumilipad na marka, ang logo ng PS1 / PS2) ay napapalitan sa pagsama ng PNG na may parehong pangalan. |
 | **Tunog** | Isang `sound/` folder na may alinman sa 15 kaganapan (boot, cursor, confirm, pagpasok at paglabas ng pahina, launch, disc...) at `sound/bgm.ogg` para sa sarili nitong musika. |
+
+<a id="the-kit"></a>
 
 ## Ang kit
 

@@ -65,6 +65,8 @@ Nem kell újrafordítani az ELF-et. Bízz a buildben, adj neki témát.</p>
 
 > **[Töltsd le a témákat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 128. kiadás, 2026. 11. 01.: az infóoldal értékelőcsillagai RIPFLOW méretben, 143 x 18; témánként két fájl, `conf_theme.cfg` és `SCR43.png`, minden más a RIPPS2 saját része; egy kiadás, mindig a legújabb) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) vagy újabb kell (a beépített betűtípusa, jelvényei, tokja és várakozásjele miatt) | a **RIPGRID** és a **RIPFLOW** be van építve a RIPPS2-be: nincs mit másolni | [RIPPS2](https://github.com/akilluminati47/RIPPS2), a PS2 front end | mutasd meg a témádat, vagy kérdezz egyről [a RIPPS2-szálban a psx-place-en](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## A témák
 
 | Téma | Kinézet | RIPPS2 kell |
@@ -76,10 +78,14 @@ Telepítés: másolj egy `thm_...` mappát egy `THM` mappába a meghajtódon (US
 
 Minden `conf_theme.cfg` itt a létrehozási fejlécével kezdődik (név, készítő, létrehozás és frissítés dátuma, köszönet), aztán jön a **kulcsszótár** ([docs/key_glossary.cfg](docs/key_glossary.cfg): minden kulcs, amit egy téma használhat, megjegyzésként), aztán a téma. Másold a szótárat a saját témád konfigurációjába, hogy kéznél legyen.
 
+<a id="on-the-console"></a>
+
 ### A konzolon
 - **Tartsd lenyomva a SELECT-et 4,2 másodpercig** a játéklistán, hogy a következő témára lépj (egy rövid nyomás továbbra is frissíti a listát).
 - **A jobb kar** billenti a képet: az egész infóoldalt egy síkként, az Adapt tokját és lemezét, a RIPGRID kiválasztott borítóját.
 - **RIPGRID** (beépített): az iránygomb a rácsban mozog, egy sor széle lapoz; a **Kör** a források között vált (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Készítsd el a sajátodat
 
@@ -93,6 +99,8 @@ Minden `conf_theme.cfg` itt a létrehozási fejlécével kezdődik (név, kész�
 | **Szín** | A téma színei és saját **Colors and More** beállítása: színtéma (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), kategóriasáv, tippek, jelek, a kategóriák sorrendje. Az utolsó szó mindig a felhasználóé. |
 | **Képek** | A RIPPS2 bármely saját képe (gombjelek, jelvények, töltésjelzők, a repülő jel, a PS1 / PS2 logók) lecserélhető egy azonos nevű PNG mellékelésével. |
 | **Hang** | Egy `sound/` mappa a 15 esemény bármelyikével (indulás, kurzor, megerősítés, oldal be és ki, játékindítás, lemez...) és `sound/bgm.ogg` a saját zenéhez. |
+
+<a id="the-kit"></a>
 
 ## A készlet
 

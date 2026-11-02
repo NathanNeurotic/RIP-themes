@@ -65,6 +65,8 @@ RIPPS2 的每种外观都只差一个主题文件夹：一个 <code>conf_theme.c
 
 > **[下载主题](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx；第 128 版，2026/11/01：信息页的评分星星改为 RIPFLOW 的尺寸 143 x 18；每个主题两个文件，`conf_theme.cfg` 和 `SCR43.png`，其余都是 RIPPS2 自带；只有一个发布，始终是最新） | 需要 [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 或更新（用到它内置的字体、徽章、游戏盒和等待标记） | **RIPGRID** 和 **RIPFLOW** 内置于 RIPPS2：无需复制 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)，PS2 前端 | 展示你的主题或提问，请到 [psx-place 上的 RIPPS2 帖子](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## 主题
 
 | 主题 | 外观 | 需要的 RIPPS2 |
@@ -76,10 +78,14 @@ RIPPS2 的每种外观都只差一个主题文件夹：一个 <code>conf_theme.c
 
 这里的每个 `conf_theme.cfg` 都以创建标头开头（名称、作者、创建和更新日期、致谢），然后是 **键名词汇表**（[docs/key_glossary.cfg](docs/key_glossary.cfg)：主题能用的每个键，以注释形式），最后是主题本身。把词汇表复制到你自己主题的配置里，方便随时查阅。
 
+<a id="on-the-console"></a>
+
 ### 在主机上
 - 在游戏列表上**按住 SELECT 4.2 秒**切换到下一个主题（短按仍然刷新列表）。
 - **右摇杆**让美术图倾斜：整个信息页作为一个平面、Adapt 的游戏盒和光盘、RIPGRID 中选中的封面。
 - **RIPGRID**（内置）：方向键在网格中移动，一行的边缘会翻页；**圆圈键**切换来源（USB、HDD、ALL GAMES...）。
+
+<a id="make-your-own"></a>
 
 ## 自己做一个
 
@@ -93,6 +99,8 @@ RIPPS2 的每种外观都只差一个主题文件夹：一个 <code>conf_theme.c
 | **颜色** | 主题的颜色以及它自己的 **Colors and More**：配色主题（RIPPS2、Ember、Blood、Ectoplasm、Amethyst、Bone）、分类栏、提示、图标、分类顺序。最终决定权始终在用户手中。 |
 | **图片** | RIPPS2 自带的任何图片（按键图标、徽章、加载指示、飞行标记、PS1 / PS2 标志），只要放入同名 PNG 即可替换。 |
 | **声音** | 一个 `sound/` 文件夹，可包含 15 个事件中的任何一个（开机、光标、确认、进出页面、启动、光盘...），以及用于自带音乐的 `sound/bgm.ogg`。 |
+
+<a id="the-kit"></a>
 
 ## 工具包
 

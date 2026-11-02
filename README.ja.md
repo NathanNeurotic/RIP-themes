@@ -65,6 +65,8 @@ ELF を作り直す必要はありません。ビルドに任せて、テーマ�
 
 > **[テーマをダウンロード](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx。エディション 128、2026/11/01：情報ページの評価の星を RIPFLOW と同じ 143 x 18 に。テーマごとに `conf_theme.cfg` と `SCR43.png` の 2 ファイル、それ以外はすべて RIPPS2 側のもの。リリースは一つ、常に最新） | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 以降が必要（内蔵フォント、バッジ、ケース、待機マークのため） | **RIPGRID** と **RIPFLOW** は RIPPS2 に内蔵：コピー不要 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)、PS2 フロントエンド | 自分のテーマを見せたり、質問したりは [psx-place の RIPPS2 スレッド](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)へ
 
+<a id="the-themes"></a>
+
 ## テーマ一覧
 
 | テーマ | 見た目 | 必要な RIPPS2 |
@@ -76,10 +78,14 @@ ELF を作り直す必要はありません。ビルドに任せて、テーマ�
 
 ここにある `conf_theme.cfg` はどれも、作成ヘッダー（名前、作者、作成日と更新日、クレジット）、続いて **キー用語集**（[docs/key_glossary.cfg](docs/key_glossary.cfg)：テーマが使えるすべてのキーをコメントで）、そしてテーマ本体の順で始まります。用語集を自分のテーマの設定にコピーしておくと便利です。
 
+<a id="on-the-console"></a>
+
 ### 本体での操作
 - ゲームリストで **SELECT を 4.2 秒押し続ける**と次のテーマへ（短く押すと今までどおりリストを更新）。
 - **右スティック**でアートが傾きます：情報ページ全体を一枚の面として、Adapt のケースとディスク、RIPGRID の選択中カバー。
 - **RIPGRID**（内蔵）：方向キーでグリッドを移動、行の端でページ送り。**○ボタン**でソース切り替え（USB、HDD、ALL GAMES...）。
+
+<a id="make-your-own"></a>
 
 ## 自分で作る
 
@@ -93,6 +99,8 @@ ELF を作り直す必要はありません。ビルドに任せて、テーマ�
 | **色** | テーマの色と、独自の **Colors and More**：カラーテーマ（RIPPS2、Ember、Blood、Ectoplasm、Amethyst、Bone）、カテゴリーバー、ヒント、グリフ、カテゴリーの順序。最後に決めるのは常にユーザーです。 |
 | **画像** | RIPPS2 自身の画像（ボタングリフ、バッジ、読み込み表示、飛ぶマーク、PS1 / PS2 ロゴ）は、同じ名前の PNG を入れるだけで置き換えられます。 |
 | **サウンド** | 15 のイベント（起動、カーソル、決定、ページの出入り、起動演出、ディスク...）のどれでも入れられる `sound/` フォルダーと、独自の音楽用の `sound/bgm.ogg`。 |
+
+<a id="the-kit"></a>
 
 ## キット
 

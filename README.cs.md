@@ -65,6 +65,8 @@ Každý vzhled RIPPS2 je jen jednu složku motivu daleko: <code>conf_theme.cfg</
 
 > **[Stáhnout motivy](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; vydání 128, 1. 11. 2026: hvězdičky hodnocení na stránce informací ve velikosti RIPFLOW, 143 x 18; dva soubory na motiv, `conf_theme.cfg` a `SCR43.png`, vše ostatní je z RIPPS2; jedno vydání, vždy nejnovější) | vyžaduje [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) nebo novější (jeho vestavěné písmo, odznaky, obal a značku čekání) | **RIPGRID** a **RIPFLOW** jsou vestavěné v RIPPS2: nic se nekopíruje | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end pro PS2 | ukažte svůj motiv nebo se zeptejte v [tématu RIPPS2 na psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Motivy
 
 | Motiv | Vzhled | Vyžaduje RIPPS2 |
@@ -76,10 +78,14 @@ Instalace: zkopírujte složku `thm_...` do složky `THM` na svém disku (USB, H
 
 Každý `conf_theme.cfg` zde začíná hlavičkou vytvoření (název, autor, data vytvoření a aktualizace, poděkování), pak **slovníček klíčů** ([docs/key_glossary.cfg](docs/key_glossary.cfg): každý klíč, který motiv může použít, jako komentáře), pak motiv. Zkopírujte si slovníček do konfigurace svého motivu, ať ho máte po ruce.
 
+<a id="on-the-console"></a>
+
 ### Na konzoli
 - **Podržte SELECT 4,2 sekundy** na seznamu her pro přechod na další motiv (krátký stisk stále obnoví seznam).
 - **Pravá páčka** naklání obrázky: celou stránku informací jako jednu rovinu, krabičku a disk Adapt, vybraný obal RIPGRID.
 - **RIPGRID** (vestavěný): směrový kříž se pohybuje po mřížce, okraj řádku otočí stránku; **Kolečko** přepíná zdroje (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Vytvořte si vlastní
 
@@ -93,6 +99,8 @@ Každý `conf_theme.cfg` zde začíná hlavičkou vytvoření (název, autor, da
 | **Barva** | Barvy motivu a jeho vlastní **Colors and More**: barevný motiv (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), panel kategorií, nápovědy, glyfy, pořadí kategorií. Poslední slovo má vždy uživatel. |
 | **Obrázky** | Kterýkoli z vlastních obrázků RIPPS2 (glyfy tlačítek, odznaky, ukazatele načítání, létající značka, loga PS1 / PS2) nahrazený přiložením PNG se stejným názvem. |
 | **Zvuk** | Složka `sound/` s kteroukoli z 15 událostí (start, kurzor, potvrzení, příchod a odchod stránky, spuštění, disk...) a `sound/bgm.ogg` pro vlastní hudbu. |
+
+<a id="the-kit"></a>
 
 ## Sada
 

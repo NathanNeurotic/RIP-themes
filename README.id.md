@@ -65,6 +65,8 @@ Tak perlu membangun ulang ELF. Andalkan build-nya, beri ia tema.</p>
 
 > **[Unduh temanya](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisi 128, 01/11/2026: bintang penilaian di halaman info seukuran RIPFLOW, 143 x 18; dua berkas per tema, `conf_theme.cfg` dan `SCR43.png`, sisanya milik RIPPS2 sendiri; satu rilis, selalu yang terbaru) | butuh [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) atau lebih baru (fon bawaan, lencana, kotak, dan tanda tunggunya) | **RIPGRID** dan **RIPFLOW** sudah ada di dalam RIPPS2: tak ada yang perlu disalin | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end PS2 | pamerkan tema Anda atau tanyakan tentang tema di [utas RIPPS2 di psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Tema-temanya
 
 | Tema | Tampilan | Butuh RIPPS2 |
@@ -76,10 +78,14 @@ Pemasangan: salin folder `thm_...` ke folder `THM` di drive Anda (USB, HDD, MMCE
 
 Setiap `conf_theme.cfg` di sini dibuka dengan kepala pembuatannya (nama, pembuat, tanggal dibuat dan diperbarui, ucapan terima kasih), lalu **glosarium kunci** ([docs/key_glossary.cfg](docs/key_glossary.cfg): setiap kunci yang bisa dipakai tema, sebagai komentar), lalu temanya. Salin glosarium ke konfigurasi tema Anda agar selalu siap.
 
+<a id="on-the-console"></a>
+
 ### Di konsol
 - **Tahan SELECT selama 4,2 detik** di daftar gim untuk pindah ke tema berikutnya (tekan singkat tetap menyegarkan daftar).
 - **Stik kanan** memiringkan gambar: seluruh halaman info sebagai satu bidang, kotak dan cakram Adapt, sampul yang dipilih di RIPGRID.
 - **RIPGRID** (bawaan): D-pad bergerak dalam kisi, tepi baris membalik halaman; **Lingkaran** mengganti sumber (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Buat sendiri
 
@@ -93,6 +99,8 @@ Setiap `conf_theme.cfg` di sini dibuka dengan kepala pembuatannya (nama, pembuat
 | **Warna** | Warna tema dan **Colors and More** miliknya: tema warna (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), bilah kategori, petunjuk, glif, urutan kategori. Keputusan akhir selalu di tangan pengguna. |
 | **Gambar** | Gambar RIPPS2 mana pun (glif tombol, lencana, indikator muat, tanda terbang, logo PS1 / PS2) bisa diganti dengan menyertakan PNG bernama sama. |
 | **Suara** | Folder `sound/` dengan salah satu dari 15 peristiwa (boot, kursor, konfirmasi, masuk dan keluar halaman, peluncuran, cakram...) dan `sound/bgm.ogg` untuk musiknya sendiri. |
+
+<a id="the-kit"></a>
 
 ## Perkakas
 

@@ -65,6 +65,8 @@ ELF를 다시 빌드할 필요가 없습니다. 빌드를 믿고, 테마를 입�
 
 > **[테마 다운로드](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 에디션 128, 2026/11/01: 정보 페이지의 평점 별을 RIPFLOW 크기인 143 x 18로; 테마마다 `conf_theme.cfg`와 `SCR43.png` 두 파일, 나머지는 모두 RIPPS2 자체의 것; 릴리스는 하나, 항상 최신) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 이상 필요(내장 글꼴, 배지, 케이스, 대기 표시 때문) | **RIPGRID**와 **RIPFLOW**는 RIPPS2에 내장: 복사할 것 없음 | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 프런트엔드 | 테마를 보여 주거나 질문하려면 [psx-place의 RIPPS2 스레드](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)로
 
+<a id="the-themes"></a>
+
 ## 테마
 
 | 테마 | 모습 | 필요한 RIPPS2 |
@@ -76,10 +78,14 @@ ELF를 다시 빌드할 필요가 없습니다. 빌드를 믿고, 테마를 입�
 
 여기 있는 모든 `conf_theme.cfg`는 생성 헤더(이름, 만든 이, 만든 날짜와 갱신 날짜, 크레딧), 이어서 **키 용어집**([docs/key_glossary.cfg](docs/key_glossary.cfg): 테마가 쓸 수 있는 모든 키를 주석으로), 그다음 테마로 시작합니다. 용어집을 자기 테마 설정에 복사해 두면 편합니다.
 
+<a id="on-the-console"></a>
+
 ### 콘솔에서
 - 게임 목록에서 **SELECT를 4.2초 누르고 있으면** 다음 테마로 넘어갑니다(짧게 누르면 지금처럼 목록을 새로 고칩니다).
 - **오른쪽 스틱**으로 아트가 기울어집니다: 정보 페이지 전체를 한 면으로, Adapt의 케이스와 디스크, RIPGRID의 선택된 표지.
 - **RIPGRID**(내장): 방향키로 격자를 이동하고 줄 끝에서 페이지를 넘깁니다. **동그라미**로 소스를 바꿉니다(USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## 직접 만들기
 
@@ -93,6 +99,8 @@ ELF를 다시 빌드할 필요가 없습니다. 빌드를 믿고, 테마를 입�
 | **색** | 테마의 색과 자체 **Colors and More**: 색 테마(RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), 카테고리 바, 힌트, 글리프, 카테고리 순서. 마지막 결정은 항상 사용자에게 있습니다. |
 | **이미지** | RIPPS2 자체 이미지(버튼 글리프, 배지, 로딩 표시, 날아다니는 마크, PS1 / PS2 로고)는 같은 이름의 PNG를 넣기만 하면 바뀝니다. |
 | **사운드** | 15개 이벤트(부팅, 커서, 확인, 페이지 진입과 이탈, 실행, 디스크...) 중 무엇이든 담는 `sound/` 폴더와 자체 음악용 `sound/bgm.ogg`. |
+
+<a id="the-kit"></a>
 
 ## 키트
 

@@ -65,6 +65,8 @@ Nema ponovne izrade ELF-a. Pouzdajte se u build, dajte mu temu.</p>
 
 > **[Preuzmi teme](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; izdanje 128, 1. 11. 2026.: zvjezdice ocjene na stranici informacija u veličini RIPFLOW-a, 143 x 18; dvije datoteke po temi, `conf_theme.cfg` i `SCR43.png`, sve ostalo je RIPPS2-ovo; jedno izdanje, uvijek najnovije) | treba [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ili noviji (njegov ugrađeni font, značke, kutiju i oznaku čekanja) | **RIPGRID** i **RIPFLOW** ugrađeni su u RIPPS2: ništa za kopirati | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end za PS2 | pokažite svoju temu ili pitajte o nekoj u [RIPPS2 temi na psx-placeu](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Teme
 
 | Tema | Izgled | Treba RIPPS2 |
@@ -76,10 +78,14 @@ Instalacija: kopirajte mapu `thm_...` u mapu `THM` na svom uređaju (USB, HDD, M
 
 Svaki `conf_theme.cfg` ovdje počinje zaglavljem nastanka (ime, autor, datumi nastanka i ažuriranja, zasluge), zatim **pojmovnikom ključeva** ([docs/key_glossary.cfg](docs/key_glossary.cfg): svaki ključ koji tema može koristiti, kao komentari), zatim temom. Kopirajte pojmovnik u konfiguraciju svoje teme da vam bude pri ruci.
 
+<a id="on-the-console"></a>
+
 ### Na konzoli
 - **Držite SELECT 4,2 sekunde** na popisu igara za prelazak na sljedeću temu (kratki pritisak i dalje osvježava popis).
 - **Desna palica** naginje sliku: cijelu stranicu informacija kao jednu ravninu, Adaptovu kutiju i disk, RIPGRID-ov odabrani omot.
 - **RIPGRID** (ugrađen): križ se kreće po mreži, rub reda okreće stranicu; **Krug** izmjenjuje izvore (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Napravite svoju
 
@@ -93,6 +99,8 @@ Svaki `conf_theme.cfg` ovdje počinje zaglavljem nastanka (ime, autor, datumi na
 | **Boja** | Boje teme i njezin vlastiti **Colors and More**: tema boja (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), traka kategorija, savjeti, glifovi, redoslijed kategorija. Posljednju riječ uvijek ima korisnik. |
 | **Slike** | Bilo koja RIPPS2-ova slika (glifovi tipki, značke, pokazatelji učitavanja, leteći znak, logotipi PS1 / PS2) zamijenjena prilaganjem PNG-a istog imena. |
 | **Zvuk** | Mapa `sound/` s bilo kojim od 15 događaja (pokretanje, pokazivač, potvrda, ulaz i izlaz stranice, pokretanje igre, disk...) i `sound/bgm.ogg` za vlastitu glazbu. |
+
+<a id="the-kit"></a>
 
 ## Komplet
 

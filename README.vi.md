@@ -65,6 +65,8 @@ Không phải dựng lại ELF. Tin vào bản dựng, khoác giao diện cho n�
 
 > **[Tải các giao diện](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; phiên bản 128, 01/11/2026: sao đánh giá ở trang thông tin theo cỡ của RIPFLOW, 143 x 18; hai tệp mỗi giao diện, `conf_theme.cfg` và `SCR43.png`, mọi thứ khác là của RIPPS2; chỉ một bản phát hành, luôn là bản mới nhất) | cần [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) trở lên (phông chữ tích hợp, huy hiệu, hộp đĩa và dấu chờ của nó) | **RIPGRID** và **RIPFLOW** có sẵn trong RIPPS2: không cần sao chép | [RIPPS2](https://github.com/akilluminati47/RIPPS2), giao diện mặt trước cho PS2 | khoe giao diện của bạn hoặc hỏi về một giao diện trong [chủ đề RIPPS2 trên psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Các giao diện
 
 | Giao diện | Diện mạo | Cần RIPPS2 |
@@ -76,10 +78,14 @@ Cài đặt: chép một thư mục `thm_...` vào thư mục `THM` trên ổ c�
 
 Mỗi `conf_theme.cfg` ở đây mở đầu bằng phần đầu tạo (tên, người làm, ngày tạo và ngày cập nhật, lời cảm ơn), sau đó là **bảng thuật ngữ khóa** ([docs/key_glossary.cfg](docs/key_glossary.cfg): mọi khóa mà một giao diện có thể dùng, dưới dạng chú thích), rồi đến giao diện. Hãy chép bảng thuật ngữ vào cấu hình giao diện của bạn để luôn có sẵn.
 
+<a id="on-the-console"></a>
+
 ### Trên máy
 - **Giữ SELECT 4,2 giây** trên danh sách trò chơi để chuyển sang giao diện tiếp theo (bấm nhanh vẫn làm mới danh sách).
 - **Cần phải** làm nghiêng hình: cả trang thông tin như một mặt phẳng, hộp và đĩa của Adapt, bìa đã chọn của RIPGRID.
 - **RIPGRID** (có sẵn): phím điều hướng di chuyển trong lưới, mép một hàng sẽ lật trang; **Tròn** chuyển nguồn (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Tự làm giao diện
 
@@ -93,6 +99,8 @@ Mỗi `conf_theme.cfg` ở đây mở đầu bằng phần đầu tạo (tên, n
 | **Màu sắc** | Màu của giao diện và **Colors and More** riêng của nó: chủ đề màu (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), thanh danh mục, gợi ý, glyph, thứ tự danh mục. Người dùng luôn có tiếng nói cuối cùng. |
 | **Hình ảnh** | Bất kỳ hình nào của RIPPS2 (glyph nút, huy hiệu, chỉ báo tải, dấu bay, logo PS1 / PS2) đều thay được bằng cách kèm một PNG cùng tên. |
 | **Âm thanh** | Thư mục `sound/` với bất kỳ sự kiện nào trong 15 sự kiện (khởi động, con trỏ, xác nhận, vào và ra trang, khởi chạy, đĩa...) và `sound/bgm.ogg` cho nhạc riêng. |
+
+<a id="the-kit"></a>
 
 ## Bộ công cụ
 

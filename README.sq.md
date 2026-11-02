@@ -65,6 +65,8 @@ Pa rindërtuar ELF-in. Mbështetu te build-i, jepi një temë.</p>
 
 > **[Shkarko temat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; botimi 128, 01.11.2026: yjet e vlerësimit në faqen e informacionit në madhësinë e RIPFLOW, 143 x 18; dy skedarë për temë, `conf_theme.cfg` dhe `SCR43.png`, gjithçka tjetër është e RIPPS2; një botim, gjithmonë më i riu) | kërkon [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ose më të ri (shkronjën e integruar, distinktivët, kutinë dhe shenjën e pritjes) | **RIPGRID** dhe **RIPFLOW** janë të integruara në RIPPS2: asgjë për të kopjuar | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-i i PS2 | trego temën tënde ose pyet për një në [temën e RIPPS2 në psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Temat
 
 | Tema | Pamja | Kërkon RIPPS2 |
@@ -76,10 +78,14 @@ Instalimi: kopjo një dosje `thm_...` në një dosje `THM` në diskun tënd (USB
 
 Çdo `conf_theme.cfg` këtu nis me kokën e krijimit (emri, autori, datat e krijimit dhe përditësimit, falënderime), pastaj **fjalorthin e çelësave** ([docs/key_glossary.cfg](docs/key_glossary.cfg): çdo çelës që mund të përdorë një temë, si komente), pastaj temën. Kopjoje fjalorthin në konfigurimin e temës sate që ta kesh pranë.
 
+<a id="on-the-console"></a>
+
 ### Në konsolë
 - **Mbaj SELECT për 4,2 sekonda** në listën e lojërave për të kaluar te tema tjetër (një shtypje e shkurtër ende e rifreskon listën).
 - **Leva e djathtë** anon imazhin: gjithë faqen e informacionit si një rrafsh, kutinë dhe diskun e Adapt, kopertinën e zgjedhur të RIPGRID.
 - **RIPGRID** (i integruar): kryqi lëviz nëpër rrjetë, skaji i një rreshti kthen faqen; **Rrethi** ndërron burimet (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Bëje tënden
 
@@ -93,6 +99,8 @@ Instalimi: kopjo një dosje `thm_...` në një dosje `THM` në diskun tënd (USB
 | **Ngjyra** | Ngjyrat e temës dhe **Colors and More** e saj: tema e ngjyrave (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), shiriti i kategorive, këshillat, glifet, rendi i kategorive. Fjalën e fundit e ka gjithmonë përdoruesi. |
 | **Imazhet** | Cilido nga imazhet e RIPPS2 (glifet e butonave, distinktivët, treguesit e ngarkimit, shenja fluturuese, logot PS1 / PS2) zëvendësohet duke përfshirë një PNG me të njëjtin emër. |
 | **Tingulli** | Një dosje `sound/` me cilëndo nga 15 ngjarjet (nisja, kursori, konfirmimi, hyrja dhe dalja e faqes, nisja e lojës, disku...) dhe `sound/bgm.ogg` për muzikën e vet. |
+
+<a id="the-kit"></a>
 
 ## Paketa
 

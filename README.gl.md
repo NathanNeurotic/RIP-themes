@@ -65,6 +65,8 @@ Nada de recompilar o ELF. Confía na compilación, dálle tema.</p>
 
 > **[Descarga os temas](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edición 128, 01/11/2026: as estrelas de valoración da páxina de información ao tamaño de RIPFLOW, 143 x 18; dous ficheiros por tema, `conf_theme.cfg` e `SCR43.png`, o resto é de RIPPS2; unha soa versión, sempre a máis nova) | require [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ou posterior (a súa fonte integrada, insignias, carcasa e marca de espera) | **RIPGRID** e **RIPFLOW** veñen dentro de RIPPS2: nada que copiar | [RIPPS2](https://github.com/akilluminati47/RIPPS2), o front end de PS2 | amosa o teu tema ou pregunta por un no [fío de RIPPS2 en psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+<a id="the-themes"></a>
+
 ## Os temas
 
 | Tema | Aspecto | Require RIPPS2 |
@@ -76,10 +78,14 @@ Instalación: copia un cartafol `thm_...` dentro dun cartafol `THM` na túa unid
 
 Cada `conf_theme.cfg` de aquí comeza coa súa cabeceira de creación (nome, autor, datas de creación e actualización, créditos), logo o **glosario de claves** ([docs/key_glossary.cfg](docs/key_glossary.cfg): cada clave que pode usar un tema, coma comentarios), e logo o tema. Copia o glosario na configuración do teu propio tema para telo a man.
 
+<a id="on-the-console"></a>
+
 ### Na consola
 - **Mantén SELECT 4,2 segundos** na lista de xogos para pasar ao seguinte tema (unha pulsación rápida segue a refrescar a lista).
 - **O stick dereito** inclina a arte: toda a páxina de información coma un só plano, a carcasa e o disco de Adapt, a portada escollida de RIPGRID.
 - **RIPGRID** (integrado): a cruceta móvese pola grella, o bordo dunha fila pasa a páxina; **Círculo** percorre as orixes (USB, HDD, ALL GAMES...).
+
+<a id="make-your-own"></a>
 
 ## Fai o teu
 
@@ -93,6 +99,8 @@ Cada `conf_theme.cfg` de aquí comeza coa súa cabeceira de creación (nome, aut
 | **Cor** | As cores do tema e o seu propio **Colors and More**: tema de cor (RIPPS2, Ember, Blood, Ectoplasm, Amethyst, Bone), barra de categorías, pistas, glifos, orde das categorías. A última palabra tena sempre o usuario. |
 | **Imaxes** | Calquera imaxe propia de RIPPS2 (glifos de botóns, insignias, indicadores de carga, a marca voadora, os logotipos de PS1 / PS2) substituída incluíndo un PNG co mesmo nome. |
 | **Son** | Un cartafol `sound/` con calquera dos 15 eventos (arranque, cursor, confirmar, entrar e saír de páxina, lanzamento, disco...) e `sound/bgm.ogg` para a súa propia música. |
+
+<a id="the-kit"></a>
 
 ## O kit
 
