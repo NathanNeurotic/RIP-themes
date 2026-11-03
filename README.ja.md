@@ -63,7 +63,7 @@ ELF を作り直す必要はありません。ビルドに任せて、テーマ�
 </p>
 <p align="center"><sub>人にもコーディングエージェントにも向けて書かれています：<a href="AGENTS.md">AGENTS.md</a> にルールがあり（<code>CLAUDE.md</code>、<code>GEMINI.md</code>、<code>.github/copilot-instructions.md</code> はそこを指します）、<a href="docs/THEME_KEYS.md">THEME_KEYS.md</a> にエンジンのすべてがあり、ツールはテーマが PS2 に届く前にチェックします。</sub></p>
 
-> **[テーマをダウンロード](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx。エディション 128、2026/11/01：情報ページの評価の星を RIPFLOW と同じ 143 x 18 に。テーマごとに `conf_theme.cfg` と `SCR43.png` の 2 ファイル、それ以外はすべて RIPPS2 側のもの。リリースは一つ、常に最新） | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 以降が必要（内蔵フォント、バッジ、ケース、待機マークのため） | **RIPGRID** と **RIPFLOW** は RIPPS2 に内蔵：コピー不要 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)、PS2 フロントエンド | 自分のテーマを見せたり、質問したりは [psx-place の RIPPS2 スレッド](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)へ
+> **[テーマをダウンロード](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx。エディション 136、2026/11/03：サイドバーではソース名をリストの上にも表示し、カテゴリが上に並ぶときは Pop In のみにに。テーマごとに `conf_theme.cfg` と `SCR43.png` の 2 ファイル、それ以外はすべて RIPPS2 側のもの。リリースは一つ、常に最新） | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 以降が必要（内蔵フォント、バッジ、ケース、待機マークのため） | **RIPGRID** と **RIPFLOW** は RIPPS2 に内蔵：コピー不要 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)、PS2 フロントエンド | 自分のテーマを見せたり、質問したりは [psx-place の RIPPS2 スレッド](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)へ
 
 <a id="the-themes"></a>
 

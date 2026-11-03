@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Hver `conf_theme.cfg` her begynder med sit oprettelseshoved (navn, skaber, oprettelses- og opdateringsdato, krediteringer), så **nøgleordlisten** ([docs/key_glossary.cfg](docs/key_glossary.cfg): hver nøgle et tema kan bruge, som kommentarer), og så temaet. Kopiér ordlisten ind i dit eget temas konfiguration for at have den ved hånden."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Hent temaerne](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; udgave 136, 03-11-2026: kildens navn over listen med sidebjælken, kun Pop In med kategorierne øverst; to filer pr. tema, `conf_theme.cfg` og `SCR43.png`, alt andet er RIPPS2s eget; én udgivelse, altid den nyeste) | kræver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller nyere (dens indbyggede skrift, mærker, æske og ventetegn) | **RIPGRID** og **RIPFLOW** er bygget ind i RIPPS2: intet at kopiere | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | vis dit tema eller spørg om et i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Reglerne: læs dem først. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Vil det indlæses? Nummerering, typer, manglende filer, nøgler på forkert sted, værdier RIPPS2 kender, 8-bit billeder. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Hent temaerne](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; udgave 128, 01-11-2026: infosidens bedømmelsesstjerner i RIPFLOWs størrelse, 143 x 18; to filer pr. tema, `conf_theme.cfg` og `SCR43.png`, alt andet er RIPPS2s eget; én udgivelse, altid den nyeste) | kræver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller nyere (dens indbyggede skrift, mærker, æske og ventetegn) | **RIPGRID** og **RIPFLOW** er bygget ind i RIPPS2: intet at kopiere | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | vis dit tema eller spørg om et i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

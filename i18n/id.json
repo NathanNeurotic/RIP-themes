@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Setiap `conf_theme.cfg` di sini dibuka dengan kepala pembuatannya (nama, pembuat, tanggal dibuat dan diperbarui, ucapan terima kasih), lalu **glosarium kunci** ([docs/key_glossary.cfg](docs/key_glossary.cfg): setiap kunci yang bisa dipakai tema, sebagai komentar), lalu temanya. Salin glosarium ke konfigurasi tema Anda agar selalu siap."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Unduh temanya](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisi 136, 03/11/2026: nama sumber di atas daftar dengan sidebar, hanya Pop In saat kategori di atas; dua berkas per tema, `conf_theme.cfg` dan `SCR43.png`, sisanya milik RIPPS2 sendiri; satu rilis, selalu yang terbaru) | butuh [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) atau lebih baru (fon bawaan, lencana, kotak, dan tanda tunggunya) | **RIPGRID** dan **RIPFLOW** sudah ada di dalam RIPPS2: tak ada yang perlu disalin | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end PS2 | pamerkan tema Anda atau tanyakan tentang tema di [utas RIPPS2 di psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Aturannya: baca dulu. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Bisa dimuat? Penomoran, tipe, berkas yang hilang, kunci yang salah tempat, nilai yang dikenal RIPPS2, gambar 8-bit. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Unduh temanya](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisi 128, 01/11/2026: bintang penilaian di halaman info seukuran RIPFLOW, 143 x 18; dua berkas per tema, `conf_theme.cfg` dan `SCR43.png`, sisanya milik RIPPS2 sendiri; satu rilis, selalu yang terbaru) | butuh [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) atau lebih baru (fon bawaan, lencana, kotak, dan tanda tunggunya) | **RIPGRID** dan **RIPFLOW** sudah ada di dalam RIPPS2: tak ada yang perlu disalin | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end PS2 | pamerkan tema Anda atau tanyakan tentang tema di [utas RIPPS2 di psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Mỗi `conf_theme.cfg` ở đây mở đầu bằng phần đầu tạo (tên, người làm, ngày tạo và ngày cập nhật, lời cảm ơn), sau đó là **bảng thuật ngữ khóa** ([docs/key_glossary.cfg](docs/key_glossary.cfg): mọi khóa mà một giao diện có thể dùng, dưới dạng chú thích), rồi đến giao diện. Hãy chép bảng thuật ngữ vào cấu hình giao diện của bạn để luôn có sẵn."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Tải các giao diện](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; phiên bản 136, 03/11/2026: tên nguồn phía trên danh sách khi có thanh bên, chỉ Pop In khi danh mục ở trên cùng; hai tệp mỗi giao diện, `conf_theme.cfg` và `SCR43.png`, mọi thứ khác là của RIPPS2; chỉ một bản phát hành, luôn là bản mới nhất) | cần [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) trở lên (phông chữ tích hợp, huy hiệu, hộp đĩa và dấu chờ của nó) | **RIPGRID** và **RIPFLOW** có sẵn trong RIPPS2: không cần sao chép | [RIPPS2](https://github.com/akilluminati47/RIPPS2), giao diện mặt trước cho PS2 | khoe giao diện của bạn hoặc hỏi về một giao diện trong [chủ đề RIPPS2 trên psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Các quy tắc: đọc trước tiên. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Có tải được không? Đánh số, kiểu, tệp thiếu, khóa đặt sai chỗ, giá trị RIPPS2 biết, ảnh 8 bit. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Tải các giao diện](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; phiên bản 128, 01/11/2026: sao đánh giá ở trang thông tin theo cỡ của RIPFLOW, 143 x 18; hai tệp mỗi giao diện, `conf_theme.cfg` và `SCR43.png`, mọi thứ khác là của RIPPS2; chỉ một bản phát hành, luôn là bản mới nhất) | cần [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) trở lên (phông chữ tích hợp, huy hiệu, hộp đĩa và dấu chờ của nó) | **RIPGRID** và **RIPFLOW** có sẵn trong RIPPS2: không cần sao chép | [RIPPS2](https://github.com/akilluminati47/RIPPS2), giao diện mặt trước cho PS2 | khoe giao diện của bạn hoặc hỏi về một giao diện trong [chủ đề RIPPS2 trên psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

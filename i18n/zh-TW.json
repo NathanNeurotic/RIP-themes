@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "這裡的每個 `conf_theme.cfg` 都以建立標頭開頭（名稱、作者、建立和更新日期、致謝），接著是 **鍵名詞彙表**（[docs/key_glossary.cfg](docs/key_glossary.cfg)：主題能用的每個鍵，以註解形式），最後是主題本身。把詞彙表複製到你自己主題的設定裡，方便隨時查閱。"
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[下載主題](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx；第 136 版，2026/11/03：有側邊欄時來源名稱也顯示在清單上方，類別在頂部時只彈出顯示；每個主題兩個檔案，`conf_theme.cfg` 和 `SCR43.png`，其餘都是 RIPPS2 自帶；只有一個發行版，永遠是最新） | 需要 [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 或更新（用到它內建的字型、徽章、遊戲盒和等待標記） | **RIPGRID** 和 **RIPFLOW** 內建於 RIPPS2：不必複製 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)，PS2 前端 | 展示你的主題或提問，請到 [psx-place 上的 RIPPS2 討論串](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | 規則：請先讀。 |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | 能載入嗎？編號、類型、缺少的檔案、放錯位置的鍵、RIPPS2 認得的值、8 位元圖片。 |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[下載主題](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx；第 128 版，2026/11/01：資訊頁的評分星星改為 RIPFLOW 的尺寸 143 x 18；每個主題兩個檔案，`conf_theme.cfg` 和 `SCR43.png`，其餘都是 RIPPS2 自帶；只有一個發行版，永遠是最新） | 需要 [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 或更新（用到它內建的字型、徽章、遊戲盒和等待標記） | **RIPGRID** 和 **RIPFLOW** 內建於 RIPPS2：不必複製 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)，PS2 前端 | 展示你的主題或提問，請到 [psx-place 上的 RIPPS2 討論串](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

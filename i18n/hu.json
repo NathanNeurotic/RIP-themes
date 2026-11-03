@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Minden `conf_theme.cfg` itt a létrehozási fejlécével kezdődik (név, készítő, létrehozás és frissítés dátuma, köszönet), aztán jön a **kulcsszótár** ([docs/key_glossary.cfg](docs/key_glossary.cfg): minden kulcs, amit egy téma használhat, megjegyzésként), aztán a téma. Másold a szótárat a saját témád konfigurációjába, hogy kéznél legyen."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Töltsd le a témákat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 136. kiadás, 2026. 11. 03.: a forrás neve a lista fölött az oldalsávval, csak Pop In, ha a kategóriák felül vannak; témánként két fájl, `conf_theme.cfg` és `SCR43.png`, minden más a RIPPS2 saját része; egy kiadás, mindig a legújabb) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) vagy újabb kell (a beépített betűtípusa, jelvényei, tokja és várakozásjele miatt) | a **RIPGRID** és a **RIPFLOW** be van építve a RIPPS2-be: nincs mit másolni | [RIPPS2](https://github.com/akilluminati47/RIPPS2), a PS2 front end | mutasd meg a témádat, vagy kérdezz egyről [a RIPPS2-szálban a psx-place-en](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | A szabályok: először ezt olvasd el. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Betöltődik? Számozás, típusok, hiányzó fájlok, rossz helyen lévő kulcsok, a RIPPS2 által ismert értékek, 8 bites képek. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Töltsd le a témákat](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 128. kiadás, 2026. 11. 01.: az infóoldal értékelőcsillagai RIPFLOW méretben, 143 x 18; témánként két fájl, `conf_theme.cfg` és `SCR43.png`, minden más a RIPPS2 saját része; egy kiadás, mindig a legújabb) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) vagy újabb kell (a beépített betűtípusa, jelvényei, tokja és várakozásjele miatt) | a **RIPGRID** és a **RIPFLOW** be van építve a RIPPS2-be: nincs mit másolni | [RIPPS2](https://github.com/akilluminati47/RIPPS2), a PS2 front end | mutasd meg a témádat, vagy kérdezz egyről [a RIPPS2-szálban a psx-place-en](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

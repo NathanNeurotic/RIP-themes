@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Ogni `conf_theme.cfg` qui si apre con l’intestazione di creazione (nome, autore, date di creazione e aggiornamento, crediti), poi il **glossario delle chiavi** ([docs/key_glossary.cfg](docs/key_glossary.cfg): ogni chiave che un tema può usare, come commenti), poi il tema. Copia il glossario nella configurazione del tuo tema per averlo a portata di mano."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Scarica i temi](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edizione 136, 03/11/2026: il nome della sorgente sopra la lista con la barra laterale, solo Pop In con le categorie in alto; due file per tema, `conf_theme.cfg` e `SCR43.png`, tutto il resto è di RIPPS2; una sola release, sempre la più recente) | richiede [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o successiva (il suo font integrato, i badge, la custodia e il segno di attesa) | **RIPGRID** e **RIPFLOW** sono integrati in RIPPS2: niente da copiare | [RIPPS2](https://github.com/akilluminati47/RIPPS2), il front end per PS2 | mostra il tuo tema o chiedi di uno nel [thread di RIPPS2 su psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Le regole: leggile per prime. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Si caricherà? Numerazione, tipi, file mancanti, chiavi fuori posto, valori che RIPPS2 conosce, immagini a 8 bit. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Scarica i temi](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edizione 128, 01/11/2026: le stelle di valutazione della pagina info alla misura di RIPFLOW, 143 x 18; due file per tema, `conf_theme.cfg` e `SCR43.png`, tutto il resto è di RIPPS2; una sola release, sempre la più recente) | richiede [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o successiva (il suo font integrato, i badge, la custodia e il segno di attesa) | **RIPGRID** e **RIPFLOW** sono integrati in RIPPS2: niente da copiare | [RIPPS2](https://github.com/akilluminati47/RIPPS2), il front end per PS2 | mostra il tuo tema o chiedi di uno nel [thread di RIPPS2 su psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

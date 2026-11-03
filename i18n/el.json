@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Κάθε `conf_theme.cfg` εδώ ανοίγει με την κεφαλίδα δημιουργίας (όνομα, δημιουργός, ημερομηνίες δημιουργίας και ενημέρωσης, ευχαριστίες), μετά το **γλωσσάρι κλειδιών** ([docs/key_glossary.cfg](docs/key_glossary.cfg): κάθε κλειδί που μπορεί να χρησιμοποιήσει ένα θέμα, ως σχόλια), και μετά το θέμα. Αντιγράψτε το γλωσσάρι στη ρύθμιση του δικού σας θέματος για να το έχετε πρόχειρο."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Κατεβάστε τα θέματα](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx· έκδοση 136, 03/11/2026: το όνομα της πηγής πάνω από τη λίστα με την πλαϊνή μπάρα, μόνο Pop In με τις κατηγορίες επάνω· δύο αρχεία ανά θέμα, `conf_theme.cfg` και `SCR43.png`, όλα τα άλλα είναι του RIPPS2· μία κυκλοφορία, πάντα η νεότερη) | χρειάζεται [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ή νεότερο (την ενσωματωμένη γραμματοσειρά του, τα σήματα, τη θήκη και το σημάδι αναμονής) | τα **RIPGRID** και **RIPFLOW** είναι ενσωματωμένα στο RIPPS2: τίποτα για αντιγραφή | [RIPPS2](https://github.com/akilluminati47/RIPPS2), το front end του PS2 | δείξτε το θέμα σας ή ρωτήστε για κάποιο στο [νήμα του RIPPS2 στο psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Οι κανόνες: διαβάστε τους πρώτα. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Θα φορτώσει; Αρίθμηση, τύποι, αρχεία που λείπουν, κλειδιά σε λάθος θέση, τιμές που ξέρει το RIPPS2, εικόνες 8 bit. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Κατεβάστε τα θέματα](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx· έκδοση 128, 01/11/2026: τα αστέρια βαθμολογίας της σελίδας πληροφοριών στο μέγεθος του RIPFLOW, 143 x 18· δύο αρχεία ανά θέμα, `conf_theme.cfg` και `SCR43.png`, όλα τα άλλα είναι του RIPPS2· μία κυκλοφορία, πάντα η νεότερη) | χρειάζεται [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ή νεότερο (την ενσωματωμένη γραμματοσειρά του, τα σήματα, τη θήκη και το σημάδι αναμονής) | τα **RIPGRID** και **RIPFLOW** είναι ενσωματωμένα στο RIPPS2: τίποτα για αντιγραφή | [RIPPS2](https://github.com/akilluminati47/RIPPS2), το front end του PS2 | δείξτε το θέμα σας ή ρωτήστε για κάποιο στο [νήμα του RIPPS2 στο psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

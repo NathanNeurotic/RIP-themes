@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "هر `conf_theme.cfg` این‌جا با سرصفحهٔ ساختش (نام، سازنده، تاریخ ساخت و به‌روزرسانی، سپاس‌ها) شروع می‌شود، سپس **واژه‌نامهٔ کلیدها** ([docs/key_glossary.cfg](docs/key_glossary.cfg): هر کلیدی که پوسته می‌تواند به کار ببرد، به‌صورت توضیح)، و سپس خود پوسته. واژه‌نامه را در پیکربندی پوستهٔ خودتان کپی کنید تا دم دستتان باشد."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[پوسته‌ها را دانلود کنید](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt و Adapt Rx؛ نسخهٔ ۱۳۶، ۰۳/۱۱/۲۰۲۶: نام منبع بالای فهرست با نوار کناری، و فقط Pop In وقتی دسته‌ها در بالا هستند؛ دو فایل برای هر پوسته، `conf_theme.cfg` و `SCR43.png`، بقیه از خود RIPPS2 است؛ یک انتشار، همیشه تازه‌ترین) | به [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) یا تازه‌تر نیاز دارد (قلم درونی، نشان‌ها، جعبه و نشانهٔ انتظارش) | **RIPGRID** و **RIPFLOW** درون RIPPS2 هستند: چیزی برای کپی نیست | [RIPPS2](https://github.com/akilluminati47/RIPPS2)، فرانت‌اند PS2 | پوسته‌تان را نشان دهید یا دربارهٔ یکی بپرسید در [رشتهٔ RIPPS2 در psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | قوانین: اول این را بخوانید. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | بارگذاری می‌شود؟ شماره‌گذاری، نوع‌ها، فایل‌های گم‌شده، کلیدهای نابه‌جا، مقدارهایی که RIPPS2 می‌شناسد، تصویرهای هشت‌بیتی. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[پوسته‌ها را دانلود کنید](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt و Adapt Rx؛ نسخهٔ ۱۲۸، ۰۱/۱۱/۲۰۲۶: ستاره‌های امتیاز صفحهٔ اطلاعات به اندازهٔ RIPFLOW، ‏143 x 18؛ دو فایل برای هر پوسته، `conf_theme.cfg` و `SCR43.png`، بقیه از خود RIPPS2 است؛ یک انتشار، همیشه تازه‌ترین) | به [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) یا تازه‌تر نیاز دارد (قلم درونی، نشان‌ها، جعبه و نشانهٔ انتظارش) | **RIPGRID** و **RIPFLOW** درون RIPPS2 هستند: چیزی برای کپی نیست | [RIPPS2](https://github.com/akilluminati47/RIPPS2)، فرانت‌اند PS2 | پوسته‌تان را نشان دهید یا دربارهٔ یکی بپرسید در [رشتهٔ RIPPS2 در psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

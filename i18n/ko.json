@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "여기 있는 모든 `conf_theme.cfg`는 생성 헤더(이름, 만든 이, 만든 날짜와 갱신 날짜, 크레딧), 이어서 **키 용어집**([docs/key_glossary.cfg](docs/key_glossary.cfg): 테마가 쓸 수 있는 모든 키를 주석으로), 그다음 테마로 시작합니다. 용어집을 자기 테마 설정에 복사해 두면 편합니다."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[테마 다운로드](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 에디션 136, 2026/11/03: 사이드바에서는 소스 이름을 목록 위에도, 카테고리가 위에 있을 때는 Pop In만; 테마마다 `conf_theme.cfg`와 `SCR43.png` 두 파일, 나머지는 모두 RIPPS2 자체의 것; 릴리스는 하나, 항상 최신) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 이상 필요(내장 글꼴, 배지, 케이스, 대기 표시 때문) | **RIPGRID**와 **RIPFLOW**는 RIPPS2에 내장: 복사할 것 없음 | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 프런트엔드 | 테마를 보여 주거나 질문하려면 [psx-place의 RIPPS2 스레드](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)로"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | 규칙: 먼저 읽으세요. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | 불러와질까? 번호, 타입, 빠진 파일, 잘못된 위치의 키, RIPPS2가 아는 값, 8비트 이미지. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[테마 다운로드](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 에디션 128, 2026/11/01: 정보 페이지의 평점 별을 RIPFLOW 크기인 143 x 18로; 테마마다 `conf_theme.cfg`와 `SCR43.png` 두 파일, 나머지는 모두 RIPPS2 자체의 것; 릴리스는 하나, 항상 최신) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 이상 필요(내장 글꼴, 배지, 케이스, 대기 표시 때문) | **RIPGRID**와 **RIPFLOW**는 RIPPS2에 내장: 복사할 것 없음 | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 프런트엔드 | 테마를 보여 주거나 질문하려면 [psx-place의 RIPPS2 스레드](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)로"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

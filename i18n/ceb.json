@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Ang matag `conf_theme.cfg` dinhi magsugod sa header sa paghimo niini (ngalan, naghimo, petsa sa paghimo ug pag-update, pasalamat), dayon ang **glosaryo sa mga key** ([docs/key_glossary.cfg](docs/key_glossary.cfg): matag key nga magamit sa tema, isip mga komento), dayon ang tema. Kopyaha ang glosaryo ngadto sa config sa imong kaugalingong tema aron kanunay nga anaa sa kamot."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 136, 03/11/2026: ang ngalan sa source ibabaw sa lista kung naa ang sidebar, Pop In ra kung ang mga kategorya naa sa ibabaw; duha ka file matag tema, `conf_theme.cfg` ug `SCR43.png`, ang uban iya sa RIPPS2 mismo; usa ra ka release, kanunay ang pinakabag-o) | nagkinahanglan og [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bag-o (ang built-in nga font, mga badge, case ug timaan sa paghulat niini) | ang **RIPGRID** ug **RIPFLOW** naa na sa sulod sa RIPPS2: walay kopyahon | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end sa PS2 | ipakita ang imong tema o pangutana bahin sa usa sa [thread sa RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Ang mga lagda: basaha una. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Mo-load ba? Pag-numero, mga matang, nawala nga file, sayop nga dapit sa key, mga value nga nailhan sa RIPPS2, mga 8-bit nga hulagway. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[I-download ang mga tema](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edisyon 128, 01/11/2026: ang mga bituon sa rating sa info page kadako sa RIPFLOW, 143 x 18; duha ka file matag tema, `conf_theme.cfg` ug `SCR43.png`, ang uban iya sa RIPPS2 mismo; usa ra ka release, kanunay ang pinakabag-o) | nagkinahanglan og [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) o mas bag-o (ang built-in nga font, mga badge, case ug timaan sa paghulat niini) | ang **RIPGRID** ug **RIPFLOW** naa na sa sulod sa RIPPS2: walay kopyahon | [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end sa PS2 | ipakita ang imong tema o pangutana bahin sa usa sa [thread sa RIPPS2 sa psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

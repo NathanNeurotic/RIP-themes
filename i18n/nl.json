@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Elke `conf_theme.cfg` hier begint met zijn aanmaakkop (naam, maker, aanmaak- en wijzigingsdatum, credits), dan de **sleutelwoordenlijst** ([docs/key_glossary.cfg](docs/key_glossary.cfg): elke sleutel die een thema kan gebruiken, als commentaar), dan het thema. Kopieer de woordenlijst naar de configuratie van je eigen thema om hem bij de hand te hebben."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Download de thema’s](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; editie 136, 03-11-2026: de naam van de bron boven de lijst met de zijbalk, alleen Pop In met de categorieën bovenaan; twee bestanden per thema, `conf_theme.cfg` en `SCR43.png`, al het andere is van RIPPS2 zelf; één release, altijd de nieuwste) | vereist [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) of nieuwer (het ingebouwde lettertype, badges, doosje en wachtteken) | **RIPGRID** en **RIPFLOW** zijn ingebouwd in RIPPS2: niets te kopiëren | [RIPPS2](https://github.com/akilluminati47/RIPPS2), de PS2-front end | laat je thema zien of vraag naar een thema in [de RIPPS2-thread op psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | De regels: eerst lezen. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Laadt het? Nummering, typen, ontbrekende bestanden, verkeerd geplaatste sleutels, waarden die RIPPS2 kent, 8-bit afbeeldingen. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Download de thema’s](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; editie 128, 01-11-2026: de beoordelingssterren op de infopagina op RIPFLOW-formaat, 143 x 18; twee bestanden per thema, `conf_theme.cfg` en `SCR43.png`, al het andere is van RIPPS2 zelf; één release, altijd de nieuwste) | vereist [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) of nieuwer (het ingebouwde lettertype, badges, doosje en wachtteken) | **RIPGRID** en **RIPFLOW** zijn ingebouwd in RIPPS2: niets te kopiëren | [RIPPS2](https://github.com/akilluminati47/RIPPS2), de PS2-front end | laat je thema zien of vraag naar een thema in [de RIPPS2-thread op psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

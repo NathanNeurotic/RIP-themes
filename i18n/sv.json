@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Varje `conf_theme.cfg` här börjar med sitt skaparhuvud (namn, skapare, skapelse- och uppdateringsdatum, tack), sedan **nyckelordlistan** ([docs/key_glossary.cfg](docs/key_glossary.cfg): varje nyckel ett tema kan använda, som kommentarer), sedan temat. Kopiera ordlistan till ditt eget temas konfiguration för att ha den till hands."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Ladda ner temana](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; utgåva 136, 2026-11-03: källans namn över listan med sidofältet, bara Pop In med kategorierna överst; två filer per tema, `conf_theme.cfg` och `SCR43.png`, allt annat är RIPPS2:s eget; en utgåva, alltid den nyaste) | kräver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller senare (dess inbyggda typsnitt, märken, fodral och vänttecken) | **RIPGRID** och **RIPFLOW** är inbyggda i RIPPS2: inget att kopiera | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | visa ditt tema eller fråga om ett i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Reglerna: läs dem först. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Kommer det att laddas? Numrering, typer, saknade filer, felplacerade nycklar, värden RIPPS2 känner till, 8-bitarsbilder. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Ladda ner temana](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; utgåva 128, 2026-11-01: infosidans betygsstjärnor i RIPFLOWs storlek, 143 x 18; två filer per tema, `conf_theme.cfg` och `SCR43.png`, allt annat är RIPPS2:s eget; en utgåva, alltid den nyaste) | kräver [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) eller senare (dess inbyggda typsnitt, märken, fodral och vänttecken) | **RIPGRID** och **RIPFLOW** är inbyggda i RIPPS2: inget att kopiera | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden | visa ditt tema eller fråga om ett i [RIPPS2-tråden på psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

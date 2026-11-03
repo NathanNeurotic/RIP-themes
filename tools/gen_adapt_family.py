@@ -22,8 +22,8 @@ import os
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "themes")
 
-EDITION_DATE = "11/01/2026"  # the date the RIPPS2 edition last changed: the theme pack's release date
-EDITION_BUILD = 128          # the RIPPS2 build it was made and checked on
+EDITION_DATE = "11/03/2026"  # the date the RIPPS2 edition last changed: the theme pack's release date
+EDITION_BUILD = 136          # the RIPPS2 build it was made and checked on
 GLOSSARY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "key_glossary.cfg")
 
 RULE = "# " + "=" * 102
@@ -54,6 +54,9 @@ ui_text_color=#C4DAFF
 towers=0
 bg_blur=weak
 source_name=pop
+# RIPPS2 build 136 (the user, 11/03: "have adapt also follow this rule of hidden for categorie names but shown for sidebar"):
+# Pop In alone with the categories across the top; with the sidebar, the name over the list too, in its own font
+source_name_sidebar=pop_name
 # RIPPS2 build 102: the Standard glyph set (L3 and R3 included), and the AUDIO folder's sounds (the ripped map)
 # even where an older Adapt left a sound folder in the theme
 glyph_set=standard

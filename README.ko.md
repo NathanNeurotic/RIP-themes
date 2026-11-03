@@ -63,7 +63,7 @@ ELF를 다시 빌드할 필요가 없습니다. 빌드를 믿고, 테마를 입�
 </p>
 <p align="center"><sub>사람과 코딩 에이전트 모두를 위해 썼습니다: <a href="AGENTS.md">AGENTS.md</a>에 규칙이 있고(<code>CLAUDE.md</code>, <code>GEMINI.md</code>, <code>.github/copilot-instructions.md</code>가 이를 가리킵니다), <a href="docs/THEME_KEYS.md">THEME_KEYS.md</a>에 엔진이 하는 모든 일이 있으며, 도구가 테마를 PS2에 닿기 전에 검사합니다.</sub></p>
 
-> **[테마 다운로드](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 에디션 128, 2026/11/01: 정보 페이지의 평점 별을 RIPFLOW 크기인 143 x 18로; 테마마다 `conf_theme.cfg`와 `SCR43.png` 두 파일, 나머지는 모두 RIPPS2 자체의 것; 릴리스는 하나, 항상 최신) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 이상 필요(내장 글꼴, 배지, 케이스, 대기 표시 때문) | **RIPGRID**와 **RIPFLOW**는 RIPPS2에 내장: 복사할 것 없음 | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 프런트엔드 | 테마를 보여 주거나 질문하려면 [psx-place의 RIPPS2 스레드](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)로
+> **[테마 다운로드](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; 에디션 136, 2026/11/03: 사이드바에서는 소스 이름을 목록 위에도, 카테고리가 위에 있을 때는 Pop In만; 테마마다 `conf_theme.cfg`와 `SCR43.png` 두 파일, 나머지는 모두 RIPPS2 자체의 것; 릴리스는 하나, 항상 최신) | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 이상 필요(내장 글꼴, 배지, 케이스, 대기 표시 때문) | **RIPGRID**와 **RIPFLOW**는 RIPPS2에 내장: 복사할 것 없음 | [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2 프런트엔드 | 테마를 보여 주거나 질문하려면 [psx-place의 RIPPS2 스레드](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)로
 
 <a id="the-themes"></a>
 

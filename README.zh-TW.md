@@ -63,7 +63,7 @@ RIPPS2 的每種外觀都只差一個主題資料夾：一個 <code>conf_theme.c
 </p>
 <p align="center"><sub>同時寫給人與程式設計代理：<a href="AGENTS.md">AGENTS.md</a> 寫著規則（<code>CLAUDE.md</code>、<code>GEMINI.md</code> 和 <code>.github/copilot-instructions.md</code> 都指向它），<a href="docs/THEME_KEYS.md">THEME_KEYS.md</a> 寫著引擎能做的一切，工具會在主題碰到 PS2 之前先檢查它。</sub></p>
 
-> **[下載主題](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx；第 128 版，2026/11/01：資訊頁的評分星星改為 RIPFLOW 的尺寸 143 x 18；每個主題兩個檔案，`conf_theme.cfg` 和 `SCR43.png`，其餘都是 RIPPS2 自帶；只有一個發行版，永遠是最新） | 需要 [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 或更新（用到它內建的字型、徽章、遊戲盒和等待標記） | **RIPGRID** 和 **RIPFLOW** 內建於 RIPPS2：不必複製 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)，PS2 前端 | 展示你的主題或提問，請到 [psx-place 上的 RIPPS2 討論串](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
+> **[下載主題](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx；第 136 版，2026/11/03：有側邊欄時來源名稱也顯示在清單上方，類別在頂部時只彈出顯示；每個主題兩個檔案，`conf_theme.cfg` 和 `SCR43.png`，其餘都是 RIPPS2 自帶；只有一個發行版，永遠是最新） | 需要 [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 或更新（用到它內建的字型、徽章、遊戲盒和等待標記） | **RIPGRID** 和 **RIPFLOW** 內建於 RIPPS2：不必複製 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)，PS2 前端 | 展示你的主題或提問，請到 [psx-place 上的 RIPPS2 討論串](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
 <a id="the-themes"></a>
 

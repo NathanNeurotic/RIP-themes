@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "ここにある `conf_theme.cfg` はどれも、作成ヘッダー（名前、作者、作成日と更新日、クレジット）、続いて **キー用語集**（[docs/key_glossary.cfg](docs/key_glossary.cfg)：テーマが使えるすべてのキーをコメントで）、そしてテーマ本体の順で始まります。用語集を自分のテーマの設定にコピーしておくと便利です。"
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[テーマをダウンロード](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx。エディション 136、2026/11/03：サイドバーではソース名をリストの上にも表示し、カテゴリが上に並ぶときは Pop In のみにに。テーマごとに `conf_theme.cfg` と `SCR43.png` の 2 ファイル、それ以外はすべて RIPPS2 側のもの。リリースは一つ、常に最新） | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 以降が必要（内蔵フォント、バッジ、ケース、待機マークのため） | **RIPGRID** と **RIPFLOW** は RIPPS2 に内蔵：コピー不要 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)、PS2 フロントエンド | 自分のテーマを見せたり、質問したりは [psx-place の RIPPS2 スレッド](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)へ"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | ルール：最初に読んでください。 |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | 読み込めるか？ 番号、型、足りないファイル、場所違いのキー、RIPPS2 が知っている値、8 ビット画像。 |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[テーマをダウンロード](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)**（Adapt、Adapt Rx。エディション 128、2026/11/01：情報ページの評価の星を RIPFLOW と同じ 143 x 18 に。テーマごとに `conf_theme.cfg` と `SCR43.png` の 2 ファイル、それ以外はすべて RIPPS2 側のもの。リリースは一つ、常に最新） | [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) 以降が必要（内蔵フォント、バッジ、ケース、待機マークのため） | **RIPGRID** と **RIPFLOW** は RIPPS2 に内蔵：コピー不要 | [RIPPS2](https://github.com/akilluminati47/RIPPS2)、PS2 フロントエンド | 自分のテーマを見せたり、質問したりは [psx-place の RIPPS2 スレッド](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)へ"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

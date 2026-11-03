@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "يبدأ كل `conf_theme.cfg` هنا بترويسة الإنشاء (الاسم، والصانع، وتاريخا الإنشاء والتحديث، والشكر)، ثم **مسرد المفاتيح** ([docs/key_glossary.cfg](docs/key_glossary.cfg): كل مفتاح يمكن للسمة استخدامه، كتعليقات)، ثم السمة. انسخ المسرد إلى إعدادات سمتك ليبقى في متناول يدك."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[نزّل السمات](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt وAdapt Rx؛ الإصدار 136، ‏03/11/2026: اسم المصدر فوق القائمة مع الشريط الجانبي، وظهور منبثق فقط حين تكون الفئات في الأعلى؛ ملفان لكل سمة، `conf_theme.cfg` و`SCR43.png`، وكل ما عدا ذلك من RIPPS2 نفسه؛ إصدار واحد، دائمًا الأحدث) | يتطلب [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) أو أحدث (خطه المدمج وشاراته وعلبته وعلامة الانتظار) | **RIPGRID** و**RIPFLOW** مدمجتان في RIPPS2: لا شيء لنسخه | [RIPPS2](https://github.com/akilluminati47/RIPPS2)، الواجهة الأمامية لـ PS2 | اعرض سمتك أو اسأل عن إحداها في [موضوع RIPPS2 على psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | القواعد: اقرأها أولًا. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | هل ستُحمَّل؟ الترقيم، والأنواع، والملفات الناقصة، والمفاتيح في غير موضعها، والقيم التي يعرفها RIPPS2، والصور بعمق 8 بت. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[نزّل السمات](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt وAdapt Rx؛ الإصدار 128، ‏01/11/2026: نجوم التقييم في صفحة المعلومات بحجم RIPFLOW، ‏143 x 18؛ ملفان لكل سمة، `conf_theme.cfg` و`SCR43.png`، وكل ما عدا ذلك من RIPPS2 نفسه؛ إصدار واحد، دائمًا الأحدث) | يتطلب [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) أو أحدث (خطه المدمج وشاراته وعلبته وعلامة الانتظار) | **RIPGRID** و**RIPFLOW** مدمجتان في RIPPS2: لا شيء لنسخه | [RIPPS2](https://github.com/akilluminati47/RIPPS2)، الواجهة الأمامية لـ PS2 | اعرض سمتك أو اسأل عن إحداها في [موضوع RIPPS2 على psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

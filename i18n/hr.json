@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Svaki `conf_theme.cfg` ovdje počinje zaglavljem nastanka (ime, autor, datumi nastanka i ažuriranja, zasluge), zatim **pojmovnikom ključeva** ([docs/key_glossary.cfg](docs/key_glossary.cfg): svaki ključ koji tema može koristiti, kao komentari), zatim temom. Kopirajte pojmovnik u konfiguraciju svoje teme da vam bude pri ruci."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Preuzmi teme](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; izdanje 136, 3. 11. 2026.: naziv izvora iznad popisa s bočnom trakom, samo Pop In s kategorijama gore; dvije datoteke po temi, `conf_theme.cfg` i `SCR43.png`, sve ostalo je RIPPS2-ovo; jedno izdanje, uvijek najnovije) | treba [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ili noviji (njegov ugrađeni font, značke, kutiju i oznaku čekanja) | **RIPGRID** i **RIPFLOW** ugrađeni su u RIPPS2: ništa za kopirati | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end za PS2 | pokažite svoju temu ili pitajte o nekoj u [RIPPS2 temi na psx-placeu](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Pravila: pročitajte prvo. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Hoće li se učitati? Numeriranje, tipovi, datoteke koje nedostaju, ključevi na krivom mjestu, vrijednosti koje RIPPS2 zna, 8-bitne slike. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Preuzmi teme](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; izdanje 128, 1. 11. 2026.: zvjezdice ocjene na stranici informacija u veličini RIPFLOW-a, 143 x 18; dvije datoteke po temi, `conf_theme.cfg` i `SCR43.png`, sve ostalo je RIPPS2-ovo; jedno izdanje, uvijek najnovije) | treba [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) ili noviji (njegov ugrađeni font, značke, kutiju i oznaku čekanja) | **RIPGRID** i **RIPFLOW** ugrađeni su u RIPPS2: ništa za kopirati | [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end za PS2 | pokažite svoju temu ili pitajte o nekoj u [RIPPS2 temi na psx-placeu](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",

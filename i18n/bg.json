@@ -55,6 +55,10 @@
   "en": "679a2187fbce",
   "t": "Всеки `conf_theme.cfg` тук започва със заглавката на създаването (име, автор, дати на създаване и обновяване, благодарности), след това **речника на ключовете** ([docs/key_glossary.cfg](docs/key_glossary.cfg): всеки ключ, който тема може да ползва, като коментари), после темата. Копирайте речника в конфигурацията на собствената си тема, за да ви е подръка."
  },
+ "6bf7262dba7d": {
+  "en": "6bf7262dba7d",
+  "t": "> **[Изтеглете темите](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; издание 136, 03.11.2026: името на източника над списъка със страничната лента, само изскачащо при категориите отгоре; два файла на тема, `conf_theme.cfg` и `SCR43.png`, всичко останало е на самия RIPPS2; едно издание, винаги най-новото) | изисква [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) или по-нов (вградения му шрифт, значки, кутия и знак за изчакване) | **RIPGRID** и **RIPFLOW** са вградени в RIPPS2: няма какво да копирате | [RIPPS2](https://github.com/akilluminati47/RIPPS2), фронтендът за PS2 | покажете темата си или питайте за някоя в [темата за RIPPS2 в psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
+ },
  "6c11c02cd8ed": {
   "en": "6c11c02cd8ed",
   "t": "| [AGENTS.md](AGENTS.md) | Правилата: прочетете първо. |"
@@ -98,10 +102,6 @@
  "a291b4bf9674": {
   "en": "a291b4bf9674",
   "t": "| `tools/check_theme.py` | Ще се зареди ли? Номерация, типове, липсващи файлове, ключове не на място, стойности, които RIPPS2 познава, 8-битови изображения. |"
- },
- "b9c2c6d6c8b5": {
-  "en": "b9c2c6d6c8b5",
-  "t": "> **[Изтеглете темите](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; издание 128, 01.11.2026: звездите за оценка на страницата с информация в размера на RIPFLOW, 143 x 18; два файла на тема, `conf_theme.cfg` и `SCR43.png`, всичко останало е на самия RIPPS2; едно издание, винаги най-новото) | изисква [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) или по-нов (вградения му шрифт, значки, кутия и знак за изчакване) | **RIPGRID** и **RIPFLOW** са вградени в RIPPS2: няма какво да копирате | [RIPPS2](https://github.com/akilluminati47/RIPPS2), фронтендът за PS2 | покажете темата си или питайте за някоя в [темата за RIPPS2 в psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)"
  },
  "ba368be6605e": {
   "en": "ba368be6605e",
