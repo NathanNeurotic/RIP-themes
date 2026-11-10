@@ -63,6 +63,54 @@ No ELF to rebuild. Rely on the build, theme it.</p>
 
 > **[Download the themes](https://github.com/akilluminati47/RIPPS2-themes/releases/latest)** (Adapt, Adapt Rx; edition 136, 11/03/2026: the source name over the list with the sidebar, Pop In alone with the categories across the top; two files a theme, `conf_theme.cfg` and `SCR43.png`, everything else RIPPS2's own; one release, always the newest) | needs [RIPPS2 build 115](https://github.com/akilluminati47/RIPPS2/releases/latest) or later (its built-in font, badges, case and busy mark) | **RIPGRID** and **RIPFLOW** are built into RIPPS2: nothing to copy | [RIPPS2](https://github.com/akilluminati47/RIPPS2), the PS2 front end | show your theme or ask about one in [the RIPPS2 thread on psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/)
 
+## Straight to the PS2: the THEMES page (RIPPS2 build 162 and later)
+
+RIPPS2 installs these themes over the network itself, one at a time, with no PC and no zip:
+
+1. **STATUS > Downloads and Updates** shows how many themes you have (`2 themes installed`) before anything goes online.
+2. **CHECK FOR UPDATES** starts the network and asks GitHub what is on this repo's [rolling release](https://github.com/akilluminati47/RIPPS2-themes/releases/tag/rolling).
+3. **THEMES** lists every theme there with its size and a short blurb, each one **Current**, **Update** or **Not installed**,
+   and below them, **Added by hand**: the themes in your `THM` folder that are not on the release (yours, or a RiptOPL theme you
+   copied over), so you can see everything you have in one place.
+4. **Cross** installs that one theme into `THM` on your drive. It comes over HTTPS, is checked against GitHub's SHA-256 digest,
+   and replaces the old folder only once it is whole, so a cut download keeps the theme you had.
+5. Pick it in **Settings > Interface > Theme**.
+
+The release carries each theme as its own `thm_<Name>.tar` plus `themes.txt` (one line a theme: file, folder, name, blurb),
+and `RIPPS2-themes.zip` with them all for copying by hand. A theme on the release is on every RIPPS2's THEMES page the next
+time it checks.
+
+<p align="center">
+<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pillars-quick-menu.gif" width="32%" alt="The pillars rise at boot, the game list comes up, and START opens the menu over them">
+<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pages-status-downloads.gif" width="32%" alt="STATUS, CHECK FOR UPDATES, and Downloads and Updates">
+<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pages-themes.gif" width="32%" alt="The THEMES page: each theme Current or Update, with its size">
+</p>
+
+| | | |
+|---|---|---|
+| <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-adapt.gif" alt="Adapt"> **Adapt**: each game's art under frosted glass, the list on clear glass beside it. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-adapt-rx.gif" alt="Adapt Rx"> **Adapt Rx**: Adapt mirrored, the list on the left and the case on the right. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripps2.gif" alt="RIPPS2"> **RIPPS2** *(built in)*: the game list in glass over the pillars. |
+| <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripflow.gif" alt="RIPFLOW"> **RIPFLOW** *(built in)*: the games as a flow of covers. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripgrid.gif" alt="RIPGRID"> **RIPGRID** *(built in)*: the games as a grid of tiles over the chosen game's art. | |
+
+## Get your theme on the release (and on every RIPPS2's THEMES page)
+
+Theme makers are welcome, RiptOPL theme makers included: a RiptOPL theme already runs on RIPPS2's engine, and
+[THEME_KEYS.md](docs/THEME_KEYS.md) adds what RIPPS2 can do on top.
+
+1. **Fork this repo** and put your theme in `themes/thm_<Name>/`: its `conf_theme.cfg`, images, fonts and optional `sound/`,
+   all in that one folder (the PS2 reads one folder).
+2. **Follow [AGENTS.md](AGENTS.md)**: the creation header at the top of `conf_theme.cfg` (name, maker, created and updated
+   dates, every asset's maker), the key glossary, every PNG 8-bit palette (`python3 tools/png8.py themes/thm_<Name>`).
+3. **Check it**: `python3 tools/check_theme.py themes/thm_<Name>` with no errors, then run it in PCSX2 (System > Start File,
+   RIPPS2.elf) or on a PS2: layout, motion and fades only show there.
+4. **Open a pull request** with the theme's name, a one-line blurb for the THEMES page, the RIPPS2 build you tested on, and a
+   short clip or a few screenshots in the pull request itself (pictures are not committed to the repo).
+5. Once it is tested and merged, it gets its line in `tools/make_release_assets.py`, its `.tar`, `themes.txt` line and GIF go
+   on the rolling release, and RIPPS2's THEMES page offers it to everyone. Its maker is credited in its header and in
+   [themes/README.md](themes/README.md).
+
+Questions or a theme to show first: [Discord](https://discord.gg/Z7m9u5kby) or
+[the RIPPS2 thread on psx-place](https://www.psx-place.com/threads/ripps2-a-ps2-front-end-in-one-elf-launch-disc-storage-memory-files.51316/).
+
 ## The themes
 
 | Theme | Look | Needs RIPPS2 |
