@@ -1,11 +1,14 @@
-IncebtIon, for RIPPS2: RiptOPL's built-in default look, as a theme folder
+IncebtIon: RiptOPL's built-in default look, as a theme folder
 
 Graphics and design: Berion (OPL's inceBtion theme).
 Layout: the RiptOPL project's built-in conf_theme_OPL.cfg (github.com/NathanNeurotic/RiptOPL, misc/), kept as written.
-Port to a theme folder: NathanNeurotic (Ripto), 11/10/2026, from RiptOPL rebuild/main d74f504.
+Port to a theme folder: NathanNeurotic (Ripto), 11/10/2026, from RiptOPL rebuild/main 9bd25cb.
 Ported with Berion's agreement and NathanNeurotic's.
+Font: PoeVeticaNew.ttf is POE Vetica New by Dan P. Lyons, copyright The Powerhouse of Entertainment, Inc. 2016;
+POE Vetica New is a registered trademark of The Powerhouse of Entertainment, Inc. It is the face RiptOPL embeds,
+shipped here unchanged so the theme reads as it does in RiptOPL.
+Sounds: sound/*.adp are RiptOPL's own eight sounds (audio/ in RiptOPL). Music: sound/bgm.ogg is the track RiptOPL's
+release ships beside the ELF (APP_RIPTOPL/bgm.ogg); its maker is not recorded in RiptOPL's history.
 
 Licence: the layout is RiptOPL's, under RiptOPL's Academic Free License 3.0 (AFL-3.0). The images are Berion's
 art as RiptOPL ships it in its IncebtIon edition; credit Berion when you share or change them.
-Not included: RiptOPL's built-in font, POE Vetica New (The Powerhouse of Entertainment, Inc., all rights reserved).
-RIPPS2's own default face is used instead.
