@@ -77,19 +77,19 @@ RIPPS2 installs these themes over the network itself, one at a time, with no PC 
 5. Pick it in **Settings > Interface > Theme**.
 
 The release carries each theme as its own `thm_<Name>.tar` plus `themes.txt` (one line a theme: file, folder, name, blurb),
-and `RIPPS2-themes.zip` with them all for copying by hand. A theme on the release is on every RIPPS2's THEMES page the next
+and nothing else: to install one by hand, unpack its `.tar` into your `THM` folder. A theme on the release is on every RIPPS2's THEMES page the next
 time it checks.
 
 <p align="center">
-<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pillars-quick-menu.gif" width="32%" alt="The pillars rise at boot, the game list comes up, and START opens the menu over them">
-<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pages-status-downloads.gif" width="32%" alt="STATUS, CHECK FOR UPDATES, and Downloads and Updates">
-<img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/pages-themes.gif" width="32%" alt="The THEMES page: each theme Current or Update, with its size">
+<img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/pillars-quick-menu.gif" width="32%" alt="The pillars rise at boot, the game list comes up, and START opens the menu over them">
+<img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/pages-status-downloads.gif" width="32%" alt="STATUS, CHECK FOR UPDATES, and Downloads and Updates">
+<img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/pages-themes.gif" width="32%" alt="The THEMES page: each theme Current or Update, with its size">
 </p>
 
 | | | |
 |---|---|---|
-| <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-adapt.gif" alt="Adapt"> **Adapt**: each game's art under frosted glass, the list on clear glass beside it. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-adapt-rx.gif" alt="Adapt Rx"> **Adapt Rx**: Adapt mirrored, the list on the left and the case on the right. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripps2.gif" alt="RIPPS2"> **RIPPS2** *(built in)*: the game list in glass over the pillars. |
-| <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripflow.gif" alt="RIPFLOW"> **RIPFLOW** *(built in)*: the games as a flow of covers. | <img src="https://github.com/akilluminati47/RIPPS2-themes/releases/download/rolling/theme-ripgrid.gif" alt="RIPGRID"> **RIPGRID** *(built in)*: the games as a grid of tiles over the chosen game's art. | |
+| <img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/theme-adapt.gif" alt="Adapt"> **Adapt**: each game's art under frosted glass, the list on clear glass beside it. | <img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/theme-adapt-rx.gif" alt="Adapt Rx"> **Adapt Rx**: Adapt mirrored, the list on the left and the case on the right. | <img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/theme-ripps2.gif" alt="RIPPS2"> **RIPPS2** *(built in)*: the game list in glass over the pillars. |
+| <img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/theme-ripflow.gif" alt="RIPFLOW"> **RIPFLOW** *(built in)*: the games as a flow of covers. | <img src="https://raw.githubusercontent.com/akilluminati47/RIPPS2/main/media/themes/theme-ripgrid.gif" alt="RIPGRID"> **RIPGRID** *(built in)*: the games as a grid of tiles over the chosen game's art. | |
 
 ## Get your theme on the release (and on every RIPPS2's THEMES page)
 
@@ -104,8 +104,8 @@ Theme makers are welcome, RiptOPL theme makers included: a RiptOPL theme already
    RIPPS2.elf) or on a PS2: layout, motion and fades only show there.
 4. **Open a pull request** with the theme's name, a one-line blurb for the THEMES page, the RIPPS2 build you tested on, and a
    short clip or a few screenshots in the pull request itself (pictures are not committed to the repo).
-5. Once it is tested and merged, it gets its line in `tools/make_release_assets.py`, its `.tar`, `themes.txt` line and GIF go
-   on the rolling release, and RIPPS2's THEMES page offers it to everyone. Its maker is credited in its header and in
+5. Once it is tested and merged, it gets its line in `tools/make_release_assets.py`, its `.tar` and `themes.txt` line go on
+   the rolling release, its GIF goes in RIPPS2's `media/themes`, and RIPPS2's THEMES page offers it to everyone. Its maker is credited in its header and in
    [themes/README.md](themes/README.md).
 
 Questions or a theme to show first: [Discord](https://discord.gg/Z7m9u5kby) or
