@@ -8,3 +8,11 @@
 - **RIPGRID** left this pack: it is built into RIPPS2 (from build 91; pick it in Settings > Interface > Theme).
   Its type, [RIPPS2 Sleek](https://github.com/akilluminati47/RIPPS2-fonts) (OFL-1.1), and the Grunge theme's
   button glyphs it used are credited in RIPPS2.
+- **IncebtIon**, **Korium** and **PSBBN Flow**: RiptOPL's built-in looks as theme folders, ported 11/10/2026 by
+  NathanNeurotic (Ripto) from [RiptOPL](https://github.com/NathanNeurotic/RiptOPL). IncebtIon: graphics and design by
+  **Berion** (OPL's inceBtion). Korium: graphics by **Berion**, theme script (Korium Komblete) by **KrahJohlito** and
+  **Ripto**. PSBBN Flow: the perspective cover fan by **darkladark** ([LUNA](https://github.com/dnunezx/LUNA)'s Collection
+  display), after the [PSBBN Definitive Project](https://github.com/CosmicScale/PSBBN-Definitive-Project)'s Game Collection
+  (CosmicScale); its pictures are RiptOPL's IncebtIon art. Layouts AFL-3.0 (RiptOPL's licence). Each folder's
+  `CREDITS.txt` has the detail. They ship RiptOPL's images, not RiptOPL's font (POE Vetica New is a commercial face):
+  RIPPS2's default face draws their text.

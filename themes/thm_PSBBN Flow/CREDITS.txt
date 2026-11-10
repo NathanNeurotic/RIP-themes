@@ -1,0 +1,15 @@
+PSBBN Flow, for RIPPS2: RiptOPL's PSBBN Flow view, as a theme folder
+
+Perspective cover fan: darkladark (github.com/dnunezx), from LUNA's Collection display (github.com/dnunezx/LUNA),
+contributed to RiptOPL in Open-PS2-Loader PR #733. The fan is drawn by the engine (type=PSBBNFlow), not shipped here.
+The look follows the PSBBN Definitive Project's Game Collection (CosmicScale,
+github.com/CosmicScale/PSBBN-Definitive-Project).
+Layout: the RiptOPL project's built-in theme_psbbn_flow.cfg (github.com/NathanNeurotic/RiptOPL, misc/), kept as
+written except its font1=builtin line, which names RiptOPL's built-in font and does nothing in a folder theme.
+Port to a theme folder: NathanNeurotic (Ripto), 11/10/2026, from RiptOPL rebuild/main d74f504.
+psbbn_bg.png: the background RiptOPL ships for this view. Its maker is not recorded in RiptOPL's history.
+The other pictures (cover, app cover, busy spinner, buttons, favourite marks) are RiptOPL's IncebtIon-edition
+art by Berion.
+
+Licence: the layout is RiptOPL's, under RiptOPL's Academic Free License 3.0 (AFL-3.0); credit darkladark for the
+PSBBN Flow look and Berion for the pictures.

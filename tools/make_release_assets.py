@@ -21,6 +21,12 @@ THEMES = {
                            'beside it, the sources as glyphs in a frosted side bar.'),
     'thm_Adapt Rx': ('Adapt Rx', 'Adapt mirrored: the list on the left, the case and its disc on the right, LAUNCH DISC at the '
                                  'right of the bar.'),
+    'thm_IncebtIon': ('IncebtIon', "RiptOPL's default list look: Berion's inceBtion art, the device icons along the edges, the "
+                                   'cover and info page as RiptOPL draws them.'),
+    'thm_Korium': ('Korium', "RiptOPL's Korium edition: Berion's Korium art, KrahJohlito and Ripto's layout, game art behind a "
+                             'charcoal plate, case and disc for the chosen game.'),
+    'thm_PSBBN Flow': ('PSBBN Flow', "RiptOPL's PSBBN Flow: darkladark's perspective cover fan from LUNA over a nebula, the "
+                                     'PSBBN Definitive Project Game Collection look.'),
 }
 
 

@@ -39,7 +39,8 @@ def builtin_image(name):
 
 TYPES = {"AttributeText", "StaticText", "AttributeImage", "GameImage", "StaticImage", "Background", "MenuIcon",
          "MenuText", "ItemsList", "ItemIcon", "ItemCover", "ItemText", "HintText", "InfoHintText", "LoadingIcon",
-         "BdmIndex", "GameCountText", "Coverflow", "Ripps2PanelGlass", "Grid"}
+         "BdmIndex", "GameCountText", "Coverflow", "Ripps2PanelGlass", "Grid",
+         "PSBBNFlow", "SaveIcon"}  # build 103 (RiptOPL upstream 3cd7f89): PSBBN Flow's perspective fan, the save icon
 FAMILIES = ["main", "info", "appsMain", "appsInfo", "favsMain", "favsInfo", "vcdMain", "vcdInfo", "favsVcdMain",
             "favsVcdInfo", "favsAppsMain", "favsAppsInfo"]
 # main and info are read 0, 1, 2... until a number is missing; every other family replaces the element of

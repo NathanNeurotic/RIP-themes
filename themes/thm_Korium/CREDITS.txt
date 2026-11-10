@@ -1,0 +1,14 @@
+Korium, for RIPPS2: RiptOPL's Korium edition look, as a theme folder
+
+Graphics: Berion. Theme script (Korium Komblete): KrahJohlito and Ripto.
+Layout: the Korium edition's built-in conf_theme_OPL.cfg (github.com/NathanNeurotic/RiptOPL, third_party/korium/),
+kept as written, its own comments included.
+Port to a theme folder: NathanNeurotic (Ripto), 11/10/2026, from RiptOPL rebuild/main d74f504.
+Ported with Berion's agreement and NathanNeurotic's.
+The images were made 8-bit palette PNGs with tools/png8.py, as this kit asks; most convert exactly, the busy
+spinner, disc and button glyphs lose a little (worst channel error 16 of 255, mean under 1).
+
+Licence: the layout is RiptOPL's, under RiptOPL's Academic Free License 3.0 (AFL-3.0). The images are Berion's
+art as RiptOPL ships it in its Korium edition; credit Berion, KrahJohlito and Ripto when you share or change it.
+Not included: RiptOPL's built-in font, POE Vetica New (The Powerhouse of Entertainment, Inc., all rights reserved).
+RIPPS2's own default face is used instead.
